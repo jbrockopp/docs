@@ -1,9 +1,9 @@
 ---
-title: "Getting Started"
-linkTitle: "Getting Started"
-weight: 1
+title: "Overview"
+linkTitle: "Worker"
+weight: 2
 description: >
-  What does your user need to know to try your project?
+  This section contains information on the Vela worker service.
 ---
 
-Documentation Coming Soon!
+The worker does stuff...

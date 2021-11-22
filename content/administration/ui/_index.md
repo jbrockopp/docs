@@ -1,9 +1,9 @@
 ---
-title: "Getting Started"
-linkTitle: "Getting Started"
-weight: 1
+title: "Overview"
+linkTitle: "UI"
+weight: 3
 description: >
-  What does your user need to know to try your project?
+  This section contains information on the Vela UI service.
 ---
 
-Documentation Coming Soon!
+The UI does stuff...

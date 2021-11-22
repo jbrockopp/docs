@@ -1,5 +1,5 @@
 ---
-title: "Administration"
+title: "Overview"
 linkTitle: "Administration"
 layout: administration
 description: >
@@ -11,35 +11,10 @@ menu:
 
 Vela is an on-premises Pipeline Automation (CI/CD) platform...
 
-TODO: add image
+// TODO: what makes sense to add here?
 
-## Database
+![Vela Overview](vela.png)
 
-Vela requires integration with a database system in order to store [data at rest](https://en.wikipedia.org/wiki/Data_at_rest).
+## Services
 
-The following database systems are supported by Vela:
-
-| Name         | Documentation               | Minimum Supported Version |
-| ------------ | --------------------------- | ------------------------- |
-| `SQLite`     | https://www.sqlite.org/     | `TODO`                    |
-| `PostgreSQL` | https://www.postgresql.org/ | `TODO`                    |
-
-## Queue
-
-Vela requires integration with a queue system in order to manage workloads to be executed.
-
-The following queue systems are supported by Vela:
-
-| Name    | Documentation     | Minimum Supported Version |
-| ------- | ----------------- | ------------------------- |
-| `Redis` | https://redis.io/ | `TODO`                    |
-
-## Source Control
-
-Vela requires integration with a source control management (SCM) system in order to retrieve source code.
-
-The following source control management systems are supported by Vela:
-
-| Name     | Documentation             | Minimum Supported Version |
-| -------- | ------------------------- | ------------------------- |
-| `GitHub` | https://github.com/about/ | `TODO`                    |
+There are 3 core services that make up Vela:
