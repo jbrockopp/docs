@@ -11,24 +11,18 @@ This component is responsible for integrating with queue providers for pushing w
 
 The following options are used to configure the component:
 
-| Name            | Environment     | Description                                 |
-| --------------- | --------------- | ------------------------------------------- |
-| `queue.driver`  | `QUEUE_DRIVER`  | type of client to control and operate queue |
-| `queue.config`  | `QUEUE_CONFIG`  | full connection string to queue             |
-| `queue.cluster` | `QUEUE_CLUSTER` | configures the client for a queue cluster   |
-| `queue.routes`  | `QUEUE_ROUTES`  | unique channels for publishing workloads    |
-
-{{% alert color="info" %}}
-All available options support `VELA_*` prefixes for the environment variables. For example:
-
-- `QUEUE_DRIVER` - type of client to control and operate queue
-- `VELA_QUEUE_DRIVER` - type of client to control and operate queue
-  {{% /alert %}}
+| Name                | Description                                       | Required | Default    | Environment Variables                           |
+| ------------------- | ------------------------------------------------- | -------- | ---------- | ----------------------------------------------- |
+| `queue.addr`        | full connection string to the queue               | `true`   | `N/A`      | `QUEUE_ADDR`<br>`VELA_QUEUE_ADDR`               |
+| `queue.cluster`     | configures the client for a queue cluster         | `false`  | `false`    | `QUEUE_CLUSTER`<br>`VELA_QUEUE_CLUSTER`         |
+| `queue.driver`      | type of client to control and operate queue       | `true`   | `N/A`      | `QUEUE_DRIVER`<br>`VELA_QUEUE_DRIVER`           |
+| `queue.pop.timeout` | timeout for requests that pop items off the queue | `true`   | `60s`      | `QUEUE_POP_TIMEOUT`<br>`VELA_QUEUE_POP_TIMEOUT` |
+| `queue.routes`      | unique channels or topics for pushing workloads   | `true`   | `[ vela ]` | `QUEUE_ROUTES`<br>`VELA_QUEUE_ROUTES`           |
 
 ## Drivers
 
 The following drivers are available to configure the component:
 
-| Name    | Description                      | Documentation            |
-| ------- | -------------------------------- | ------------------------ |
-| `redis` | uses a Redis queue for workloads | https://redis.io         |
+| Name    | Description                               | Documentation            |
+| ------- | ----------------------------------------- | ------------------------ |
+| `redis` | uses a Redis queue for managing workloads | https://redis.io         |

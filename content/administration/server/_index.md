@@ -6,7 +6,9 @@ description: >
   This section contains information on the Vela server service.
 ---
 
-The server does stuff...
+Known as the brains of the Vela application, this service is responsible for managing the state of application resources.
+
+Additionally, it processes web requests and pushes workloads to the FIFO queue to be run on a [worker](/docs/administration/worker/).
 
 ## Components
 
