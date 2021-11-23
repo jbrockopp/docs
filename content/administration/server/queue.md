@@ -7,6 +7,8 @@ description: >
 
 This component is responsible for integrating with queue providers for pushing workloads to be run by a [worker](/docs/administration/worker/).
 
+Workloads published to the queue are managed with a [first in, first out (FIFO)](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)) strategy.
+
 ## Configuration
 
 The following options are used to configure the component:

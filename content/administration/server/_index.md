@@ -8,16 +8,16 @@ description: >
 
 Known as the brains of the Vela application, this service is responsible for managing the state of application resources.
 
-Additionally, it processes web requests and pushes workloads to the FIFO queue to be run on a [worker](/docs/administration/worker/).
+Additionally, it processes web requests and pushes workloads to the queue to be run on a [worker](/docs/administration/worker/).
 
 ## Components
 
-The server is made up of several components, responsible for specific tasks, necessary for the platform to operate:
+The server is made up of several components, responsible for specific tasks, necessary for the service to operate:
 
-| Name       | Description                                                                                                     | Documentation                                 |
-| ---------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/) | [Link](/docs/administration/server/compiler/) |
-| `database` | stores application data at rest for the system                                                                  | [Link](/docs/administration/server/database/) |
-| `queue`    | integrates with queue providers for pushing workloads to be run by a [worker](/docs/administration/worker/)     | [Link](/docs/administration/server/queue/)    |
-| `secret`   | stores sensitive application data at rest for the system                                                        | [Link](/docs/administration/server/secret/)   |
-| `source`   | integrates with source control management (SCM) providers                                                       | [Link](/docs/administration/server/source/)   |
+| Name       | Description                                                                                                     |
+| ---------- | --------------------------------------------------------------------------------------------------------------- |
+| `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/) |
+| `database` | stores application data at rest for the system                                                                  |
+| `queue`    | integrates with queue providers for pushing workloads to be run by a [worker](/docs/administration/worker/)     |
+| `secret`   | stores sensitive application data at rest for the system                                                        |
+| `source`   | integrates with source control management (SCM) providers                                                       |
