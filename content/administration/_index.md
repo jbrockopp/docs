@@ -11,12 +11,11 @@ menu:
 
 Vela is an open-source, Pipeline Automation ([CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd)) platform built on [Linux container](https://linuxcontainers.org/) technology.
 
-Using a syntax similar to [Docker Compose](https://docs.docker.com/compose/) to define the configuration,
-Vela uses a syntax similar to Docker Compose to define its configuration. This structure for repeated use, within the application, is called a pipeline and a single execution of a pipeline is referenced as a build.
+A Vela cluster is deployed as an on-premises solution and consists of two core services, the [server](/docs/administration/server/) and the [worker](/docs/administration/worker/). The relationship between these services is considered one-to-many meaning many workers can connect to a single server.
 
-There is no public cloud offering for Vela, so it can only be deployed as an on-premises solution.
+The server is considered the brains of the application while the worker is considered the brawn of the application.
 
-that enables completing tasks within your software development life cycle.
+An optional third service, the [ui](/docs/administration/ui/), can also be deployed but is not required for the Vela platform to operate as intended. This provides a nice, easy-to-use way of performing actions within Vela.
 
 ![Vela Overview](vela.png)
 
