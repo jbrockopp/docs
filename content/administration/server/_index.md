@@ -12,13 +12,25 @@ Additionally, it processes web requests and pushes workloads to the queue to be 
 
 // TODO: add more information
 
+## Prerequisites
+
+This section provides all required dependencies to install and start the server.
+
+### Dependency 1: Docker
+
+[Docker](https://docs.docker.com/) will be used for downloading the server and managing the lifecycle of the application.
+
+You can refer to [Docker's official documentation](https://docs.docker.com/get-docker/) on installing and configuring the service.
+
+// TODO: more dependencies we need to cover?
+
 ## Installation
 
-// TODO: add something here ?
+This section provides an example on installing the server with a subset of possible configuration options.
 
 ### Step 1: Download the Image
 
-The Vela server is provided via a [Docker image](https://docs.docker.com/get-started/overview/#images).
+Download the [Docker image](https://docs.docker.com/get-started/overview/#images) for the Vela server from [DockerHub](https://hub.docker.com/).
 
 You can use the [`docker pull` command](https://docs.docker.com/engine/reference/commandline/pull/) to download the image:
 
@@ -34,7 +46,7 @@ To see the full list of available versions, please refer to [the official regist
 
 ### Step 2: Create an Encryption Key for the Database
 
-Create an Advanced Encryption Standard (AES) key used for encrypting sensitive data at rest.
+Create an Advanced Encryption Standard (AES) key used for encrypting sensitive data at rest in the database.
 
 You can use the [`openssl` command](https://www.openssl.org/) to generate the AES key:
 
@@ -42,9 +54,9 @@ You can use the [`openssl` command](https://www.openssl.org/) to generate the AE
 $ openssl aes-128-cbc -k secret -P -md sha1
 ```
 
-### Step 3: Create a Shared Secret for the Worker(s)
+### Step 3: Create a Shared Secret for the Workers
 
-Create a shared secret used for authenticating communication between workers and the Vela server.
+Create a shared secret used for authenticating communication between workers and the server.
 
 You can use the [`openssl` command](https://www.openssl.org/) to generate the shared secret:
 
@@ -54,7 +66,13 @@ $ openssl rand -hex 16
 
 ### Step 4: Create an OAuth Application
 
-// TODO: add screenshots
+Create a [GitHub OAuth application](https://docs.github.com/developers/apps/building-oauth-apps/creating-an-oauth-app) used for authentication and authorization with GitHub.
+
+![OAuth Application](oauth.png)
+
+{{% alert title="Warning:" color="secondary" %}}
+The `Homepage URL` and the `Authorization callback URL` must contain the `VELA_ADDR` environment variable below.
+{{% /alert %}}
 
 ### Step 5: Start the Server
 
@@ -65,13 +83,14 @@ You can use the [`docker run` command](https://docs.docker.com/engine/reference/
 ```shell
 docker run \
   --detach=true \
-  --env=DATABASE_ENCRYPTION_KEY=<encryption-key> \
-  --env=QUEUE_DRIVER=redis \
-  --env=QUEUE_ADDR=redis://redis:6379 \
-  --env=SCM_CLIENT=<oauth-client-id> \
-  --env=SCM_SECRET=<oauth-client-secret> \
-  --env=VELA_ADDR=http://localhost:8080 \
+  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
+  --env=VELA_QUEUE_DRIVER=redis \
+  --env=VELA_QUEUE_ADDR=redis://redis:6379 \
+  --env=VELA_PORT=443 \
   --env=VELA_SECRET=<shared-secret> \
+  --env=VELA_SCM_CLIENT=<oauth-client-id> \
+  --env=VELA_SCM_SECRET=<oauth-client-secret> \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \

@@ -12,13 +12,25 @@ Additionally, it processes web requests and pulls workloads from the queue to be
 
 // TODO: add more information
 
+## Prerequisites
+
+This section provides all required dependencies to install and start the worker.
+
+### Dependency 1: Docker
+
+[Docker](https://docs.docker.com/) will be used for downloading the worker and managing the lifecycle of the application.
+
+You can refer to [Docker's official documentation](https://docs.docker.com/get-docker/) on installing and configuring the service.
+
+// TODO: more dependencies we need to cover?
+
 ## Installation
 
-// TODO: add something here ?
+This section provides an example on installing the worker with a subset of possible configuration options.
 
 ### Step 1: Download the Image
 
-The Vela worker is provided via a [Docker image](https://docs.docker.com/get-started/#what-is-a-container-image).
+Download the [Docker image](https://docs.docker.com/get-started/overview/#images) for the Vela worker from [DockerHub](https://hub.docker.com/).
 
 You can use the [`docker pull` command](https://docs.docker.com/engine/reference/commandline/pull/) to download the image:
 
@@ -41,10 +53,11 @@ You can use the [`docker run` command](https://docs.docker.com/engine/reference/
 ```shell
 docker run \
   --detach=true \
-  --env=QUEUE_DRIVER=redis \
-  --env=QUEUE_ADDR=redis://redis:6379 \
-  --env=VELA_SERVER_ADDR=http://localhost:8080 \
+  --env=VELA_QUEUE_DRIVER=redis \
+  --env=VELA_QUEUE_ADDR=redis://redis:6379 \
+  --env=VELA_SERVER_ADDR=https://vela.company.com \
   --env=VELA_SERVER_SECRET=<shared-secret> \
+  --env=VELA_WORKER_ADDR=https://vela-worker.company.com \
   --name=worker \
   --publish=80:80 \
   --publish=443:443 \
