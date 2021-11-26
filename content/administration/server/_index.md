@@ -44,7 +44,7 @@ The `latest` tag will ensure you install the most-recent version of the Vela ser
 To see the full list of available versions, please refer to [the official registry](https://hub.docker.com/r/target/vela-server). 
 {{% /alert %}}
 
-### Step 2: Create an Encryption Key for the Database
+### Step 2: Create an Encryption Key
 
 Create an Advanced Encryption Standard (AES) key used for encrypting sensitive data at rest in the database.
 
@@ -54,7 +54,7 @@ You can use the [`openssl` command](https://www.openssl.org/) to generate the AE
 $ openssl aes-128-cbc -k secret -P -md sha1
 ```
 
-### Step 3: Create a Shared Secret for the Workers
+### Step 3: Create a Shared Secret
 
 Create a shared secret used for authenticating communication between workers and the server.
 
