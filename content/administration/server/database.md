@@ -34,7 +34,67 @@ The following options are used to configure the component:
 
 The following drivers are available to configure the component:
 
-| Name       | Description                                         | Documentation              |
-| ---------- | --------------------------------------------------- | -------------------------- |
-| `sqlite3`  | uses a SQLite database for storing data at rest     | https://www.sqlite.org     |
-| `postgres` | uses a PostgreSQL database for storing data at rest | https://www.postgresql.org |
+| Name       | Description                                         | Documentation               |
+| ---------- | --------------------------------------------------- | --------------------------- |
+| `postgres` | uses a PostgreSQL database for storing data at rest | https://www.postgresql.org/ |
+| `sqlite3`  | uses a SQLite database for storing data at rest     | https://www.sqlite.org/     |
+
+### Postgres
+
+From the [PostgreSQL official website](https://www.postgresql.org/):
+
+> PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+
+The below configuration displays an example of starting the Vela server that will connect to a Postgres database:
+
+```diff
+$ docker run \
+  --detach=true \
+  --env=VELA_ADDR=https://vela.company.com \
++ --env=VELA_DATABASE_DRIVER=postgres \
++ --env=VELA_DATABASE_ADDR=postgres://<username>:<password>@<hostname>:<port>/<database> \
+  --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
+  --env=VELA_QUEUE_DRIVER=redis \
+  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
+  --env=VELA_PORT=443 \
+  --env=VELA_SECRET=<shared-secret> \
+  --env=VELA_SCM_CLIENT=<oauth-client-id> \
+  --env=VELA_SCM_SECRET=<oauth-client-secret> \
+  --name=server \
+  --publish=80:80 \
+  --publish=443:443 \
+  --restart=always \
+  target/vela-server:latest
+```
+
+### Sqlite3
+
+From the [Sqlite official website](https://www.sqlite.org/):
+
+> SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day.
+
+The below configuration displays an example of starting the Vela server that will connect to a Sqlite database:
+
+```diff
+$ docker run \
+  --detach=true \
+  --env=VELA_ADDR=https://vela.company.com \
++ --env=VELA_DATABASE_DRIVER=sqlite3 \
++ --env=VELA_DATABASE_ADDR=vela.sqlite \
+  --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
+  --env=VELA_QUEUE_DRIVER=redis \
+  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
+  --env=VELA_PORT=443 \
+  --env=VELA_SECRET=<shared-secret> \
+  --env=VELA_SCM_CLIENT=<oauth-client-id> \
+  --env=VELA_SCM_SECRET=<oauth-client-secret> \
+  --name=server \
+  --publish=80:80 \
+  --publish=443:443 \
+  --restart=always \
+  target/vela-server:latest
+```
+
+{{% alert title="Note:" color="primary" %}}
+This Sqlite configuration is enabled by default and is not necessary to provide in order for Vela to operate.
+{{% /alert %}}

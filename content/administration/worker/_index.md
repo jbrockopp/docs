@@ -62,6 +62,7 @@ $ docker run \
   --publish=80:80 \
   --publish=443:443 \
   --restart=always \
+  --volume=/var/run/docker.sock:/var/run/docker.sock \
   target/vela-worker:latest
 ```
 
