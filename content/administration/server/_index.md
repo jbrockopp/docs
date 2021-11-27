@@ -46,7 +46,7 @@ To see the full list of available versions, please refer to [the official regist
 
 ### Step 2: Create an Encryption Key
 
-Create an Advanced Encryption Standard (AES) key used for encrypting sensitive data at rest in the database.
+Create an [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) key used for encrypting sensitive data at rest in the database.
 
 You can use the [`openssl` command](https://www.openssl.org/) to generate the AES key:
 
@@ -81,12 +81,12 @@ Start the Vela server as a [Docker container](https://docs.docker.com/get-starte
 You can use the [`docker run` command](https://docs.docker.com/engine/reference/commandline/run/) to start the server:
 
 ```shell
-docker run \
+$ docker run \
   --detach=true \
   --env=VELA_ADDR=https://vela.company.com \
   --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
   --env=VELA_QUEUE_DRIVER=redis \
-  --env=VELA_QUEUE_ADDR=redis://redis:6379 \
+  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
   --env=VELA_PORT=443 \
   --env=VELA_SECRET=<shared-secret> \
   --env=VELA_SCM_CLIENT=<oauth-client-id> \
@@ -122,10 +122,10 @@ Please refer to [the worker installation docs](/docs/administration/worker/) for
 
 The server is made up of several components, responsible for specific tasks, necessary for the service to operate:
 
-| Name       | Description                                                                                                     |
-| ---------- | --------------------------------------------------------------------------------------------------------------- |
-| `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/) |
-| `database` | stores application data at rest for the system                                                                  |
-| `queue`    | integrates with queue providers for pushing workloads to be run by a [worker](/docs/administration/worker/)     |
-| `secret`   | stores sensitive application data at rest for the system                                                        |
-| `source`   | integrates with source control management (SCM) providers                                                       |
+| Name       | Description                                                                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/)     |
+| `database` | integrates with a database provider for storing application data at rest                                            |
+| `queue`    | integrates with a queue provider for pushing workloads that will be run by a [worker](/docs/administration/worker/) |
+| `secret`   | integrates with a secret provider for storing sensitive application data at                                         |
+| `source`   | integrates with a source control management (SCM) provider for authentication and authorization                     |

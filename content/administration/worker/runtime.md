@@ -5,7 +5,9 @@ description: >
   This section contains information on the runtime component for the worker.
 ---
 
-This component is responsible for ...
+This component is responsible for integrating with a runtime environment based off the configuration provided.
+
+The runtime environment is used by Vela for executing workload resources and managing their lifecycle.
 
 ## Configuration
 

@@ -7,6 +7,8 @@ description: >
 
 This component is responsible for transforming a [pipeline](/docs/tour/) into an executable representation for the [worker](/docs/administration/worker/).
 
+// TODO: add more information
+
 ## Configuration
 
 The following options are used to configure the component:

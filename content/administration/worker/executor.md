@@ -5,7 +5,9 @@ description: >
   This section contains information on the executor component for the worker.
 ---
 
-This component is responsible for ...
+This component is responsible for coordinating with [the runtime](/docs/administration/worker/runtime/) to manage workload resources.
+
+Throughout the lifecycle of these resources, this component will track and report results back to the [server](/docs/administration/server/).
 
 ## Configuration
 
@@ -20,7 +22,7 @@ The following options are used to configure the component:
 
 The following drivers are available to configure the component:
 
-| Name    | Description                                 | Documentation          |
-| ------- | ------------------------------------------- | ---------------------- |
-| `linux` | uses a Linux executor for running workloads | https://www.linux.org/ |
-| `local` | uses a Local executor for running workloads | `N/A`                  |
+| Name    | Description                                            | Documentation          |
+| ------- | ------------------------------------------------------ | ---------------------- |
+| `linux` | uses a Linux executor for running workloads            | https://www.linux.org/ |
+| `local` | uses a Local executor for running workloads (CLI only) | `N/A`                  |

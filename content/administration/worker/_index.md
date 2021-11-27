@@ -51,10 +51,10 @@ Start the Vela worker as a [Docker container](https://docs.docker.com/get-starte
 You can use the [`docker run` command](https://docs.docker.com/engine/reference/commandline/run/) to start the worker:
 
 ```shell
-docker run \
+$ docker run \
   --detach=true \
   --env=VELA_QUEUE_DRIVER=redis \
-  --env=VELA_QUEUE_ADDR=redis://redis:6379 \
+  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
   --env=VELA_SERVER_ADDR=https://vela.company.com \
   --env=VELA_SERVER_SECRET=<shared-secret> \
   --env=VELA_WORKER_ADDR=https://vela-worker.company.com \
@@ -83,8 +83,8 @@ $ docker logs worker
 
 The worker is made up of several components, responsible for specific tasks, necessary for the service to operate:
 
-| Name       | Description                                                                                       |
-| ---------- | ------------------------------------------------------------------------------------------------- |
-| `executor` | manages workload resources and reports results back to the [server](/docs/administration/server/) |
-| `queue`    | integrates with queue providers for pulling workloads to be ran                                   |
-| `runtime`  | integrates with runtime environments for executing workloads                                      |
+| Name       | Description                                                                                                                      |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `executor` | coordinates with the runtime to manage workload resources and reports results back to the [server](/docs/administration/server/) |
+| `queue`    | integrates with a queue provider for pulling workloads, provided by the [server](/docs/administration/server/), that will be run |
+| `runtime`  | integrates with a runtime environment for executing workload resources                                                           |

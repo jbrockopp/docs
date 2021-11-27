@@ -5,9 +5,15 @@ description: >
   This section contains information on the database component for the Vela server.
 ---
 
-This component is responsible for storing application [data at rest](https://en.wikipedia.org/wiki/Data_at_rest).
+This component is responsible for integrating with a database system based off the configuration provided.
+
+The database system is used by Vela for storing application [data at rest](https://en.wikipedia.org/wiki/Data_at_rest).
 
 This data is an organized collection of information necessary for the platform to operate.
+
+{{% alert title="Note:" color="primary" %}}
+Any sensitive data stored in the database will be encrypted using the [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
+{{% /alert %}}
 
 ## Configuration
 

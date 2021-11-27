@@ -15,7 +15,7 @@ A Vela cluster is deployed as an on-premises solution and consists of two core s
 
 The server is considered the brains of the application while the worker is considered the brawn of the application.
 
-An optional third service, the [ui](/docs/administration/ui/), can also be deployed but is not required for the Vela platform to operate as intended. This provides a nice, easy-to-use way of performing actions within Vela.
+An optional third service, the [ui](/docs/administration/ui/), can also be deployed but is not required for the Vela platform to operate as intended. This service provides a practically designed method for performing operations within Vela that feel intuitive.
 
 ![Vela Overview](vela.png)
 

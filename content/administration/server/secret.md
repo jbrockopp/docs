@@ -5,7 +5,15 @@ description: >
   This section contains information on the secret component for the Vela server.
 ---
 
-This component is responsible for storing sensitive application [data at rest](https://en.wikipedia.org/wiki/Data_at_rest).
+This component is responsible for integrating with a secret system based off the configuration provided.
+
+The secret system is used by Vela for storing sensitive application [data at rest](https://en.wikipedia.org/wiki/Data_at_rest).
+
+By default, Vela will use [the database](/docs/administration/server/database/) to store the sensitive data if no other secret system is configured.
+
+{{% alert title="Note:" color="primary" %}}
+Any sensitive data stored in the database will be encrypted using the [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
+{{% /alert %}}
 
 ## Configuration
 
