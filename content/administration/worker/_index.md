@@ -22,11 +22,17 @@ This section provides all required dependencies to install and start the worker.
 
 You can refer to [Docker's official documentation](https://docs.docker.com/get-docker/) on installing and configuring the service.
 
+### Dependency 2: Redis
+
+[Redis](https://redis.io/) will be used for storing workloads, created by the [server](/docs/administration/server/), that will be run by a worker.
+
+You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
+
 // TODO: more dependencies we need to cover?
 
 ## Installation
 
-This section provides an example on installing the worker with a subset of possible configuration options.
+This section provides an example of installing the worker with a subset of possible configuration options.
 
 ### Step 1: Download the Image
 

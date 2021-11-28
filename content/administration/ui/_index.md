@@ -24,7 +24,7 @@ You can refer to [Docker's official documentation](https://docs.docker.com/get-d
 
 ## Installation
 
-This section provides an example on installing the UI with a subset of possible configuration options.
+This section provides an example of installing the UI with a subset of possible configuration options.
 
 ### Step 1: Download the Image
 
