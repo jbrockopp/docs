@@ -1,8 +1,8 @@
 ---
-title: "Source"
-linkTitle: "Source"
+title: "SCM"
+linkTitle: "SCM"
 description: >
-  This section contains information on the source component for the Vela server.
+  This section contains information on the scm component for the Vela server.
 ---
 
 This component is responsible for integrating with a source control management (SCM) system based off the configuration provided.
@@ -13,15 +13,15 @@ The SCM system is used by Vela for both authentication and authorization of inte
 
 The following options are used to configure the component:
 
-| Name                  | Description                                                     | Required | Default                                                  | Environment Variables                               |
-| --------------------- | --------------------------------------------------------------- | -------- | -------------------------------------------------------- | --------------------------------------------------- |
-| `source.addr`         | fully qualified url for the SCM                                 | `true`   | `https://github.com`                                     | `SOURCE_ADDR`<br>`VELA_SOURCE_ADDR`                 |
-| `source.client`       | client ID from the generated OAuth application on the SCM       | `true`   | `N/A`                                                    | `SOURCE_CLIENT`<br>`VELA_SOURCE_CLIENT`             |
-| `source.context`      | message to set in commit status on the SCM                      | `true`   | `continuous-integration/vela`                            | `SOURCE_CONTEXT`<br>`VELA_SOURCE_CONTEXT`           |
-| `source.driver`       | type of client to control and operate SCM                       | `true`   | `github`                                                 | `SOURCE_DRIVER`<br>`VELA_SOURCE_DRIVER`             |
-| `source.scopes`       | permission scopes to apply for the OAuth credentials on the SCM | `true`   | `[ repo, repo:status, user:email, read:user, read:org ]` | `SOURCE_SCOPES`<br>`VELA_SOURCE_SCOPES`             |
-| `source.secret`       | client secret from the generated OAuth application on the SCM   | `true`   | `N/A`                                                    | `SOURCE_SECRET`<br>`VELA_SOURCE_SECRET`             |
-| `source.webhook.addr` | url for webhooks on the SCM to send requests to                 | `false`  | the address of the Vela server                           | `SOURCE_WEBHOOK_ADDR`<br>`VELA_SOURCE_WEBHOOK_ADDR` |
+| Name               | Description                                                     | Required | Default                                                  | Environment Variables                         |
+| ------------------ | --------------------------------------------------------------- | -------- | -------------------------------------------------------- | --------------------------------------------- |
+| `scm.addr`         | fully qualified url for the SCM                                 | `true`   | `https://github.com`                                     | `SCM_ADDR`<br>`VELA_SCM_ADDR`                 |
+| `scm.client`       | client ID from the generated OAuth application on the SCM       | `true`   | `N/A`                                                    | `SCM_CLIENT`<br>`VELA_SCM_CLIENT`             |
+| `scm.context`      | message to set in commit status on the SCM                      | `true`   | `continuous-integration/vela`                            | `SCM_CONTEXT`<br>`VELA_SCM_CONTEXT`           |
+| `scm.driver`       | type of client to control and operate SCM                       | `true`   | `github`                                                 | `SCM_DRIVER`<br>`VELA_SCM_DRIVER`             |
+| `scm.scopes`       | permission scopes to apply for the OAuth credentials on the SCM | `true`   | `[ repo, repo:status, user:email, read:user, read:org ]` | `SCM_SCOPES`<br>`VELA_SCM_SCOPES`             |
+| `scm.secret`       | client secret from the generated OAuth application on the SCM   | `true`   | `N/A`                                                    | `SCM_SECRET`<br>`VELA_SCM_SECRET`             |
+| `scm.webhook.addr` | url for webhooks on the SCM to send requests to                 | `false`  | the address of the Vela server                           | `SCM_WEBHOOK_ADDR`<br>`VELA_SCM_WEBHOOK_ADDR` |
 
 ## Drivers
 
