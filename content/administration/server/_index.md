@@ -8,9 +8,15 @@ description: >
 
 Known as the brains of the Vela application, this service is responsible for managing the state of application resources.
 
-Additionally, it processes web requests and pushes workloads to the queue to be run on a [worker](/docs/administration/worker/).
+This includes registering new resources in the system (repositories, users etc.) and storing the data from those resources in the database.
 
-// TODO: add more information
+Additionally, the server responds to event-driven requests (a.k.a. webhooks) that are used for creating new workloads be run by a [worker](/docs/administration/worker/).
+
+After a workload is created, it is pushed to the queue which will be retrieved and executed by a worker.
+
+As the workload is run by a worker, it will send requests to the server's API which stores the state of the workloads in the database.
+
+// TODO: more information we should include?
 
 ## Prerequisites
 

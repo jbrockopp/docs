@@ -8,9 +8,15 @@ description: >
 
 Known as the brawn of the Vela application, this service is responsible for managing the state of workload resources.
 
-Additionally, it processes web requests and pulls workloads, provided by the [server](/docs/administration/server/), from the queue to be run.
+This includes pulling workloads, provided by the [server](/docs/administration/server/), from the queue to be run.
 
-// TODO: add more information
+When a new workload is fetched from the queue, the worker will create, update and delete resources throughout the lifecycle of the workload.
+
+During this time, the worker will send API requests to the server to report the status and progress of these resources.
+
+Additionally, the worker has its own API for processing web requests.
+
+// TODO: more information we should include?
 
 ## Prerequisites
 
