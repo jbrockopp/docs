@@ -30,6 +30,10 @@ The following options are used to configure the component:
 | `secret.vault.token`       | token required to access the HashiCorp Vault instance                        | `true`   | `N/A`   | `SECRET_VAULT_TOKEN`<br>`VELA_SECRET_VAULT_TOKEN`             |
 | `secret.vault.version`     | version for the k/v backend for the HashiCorp Vault instance                 | `true`   | `2`     | `SECRET_VAULT_VERSION`<br>`VELA_SECRET_VAULT_VERSION`         |
 
+{{% alert title="Note:" color="primary" %}}
+For more information on these configuration options, please see the [server reference](/docs/administration/server/reference/).
+{{% /alert %}}
+
 ## Drivers
 
 The following drivers are available to configure the component:

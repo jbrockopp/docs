@@ -18,6 +18,10 @@ The following options are used to configure the component:
 | `executor.driver`     | type of client to control and operate executor    | `true`   | `linux`       | `EXECUTOR_DRIVER`<br>`VELA_EXECUTOR_DRIVER`         |
 | `executor.log_method` | method used to publish logs back to the server    | `true`   | `byte-chunks` | `EXECUTOR_LOG_METHOD`<br>`VELA_EXECUTOR_LOG_METHOD` |
 
+{{% alert title="Note:" color="primary" %}}
+For more information on these configuration options, please see the [worker reference](/docs/administration/worker/reference/).
+{{% /alert %}}
+
 ## Drivers
 
 The following drivers are available to configure the component:

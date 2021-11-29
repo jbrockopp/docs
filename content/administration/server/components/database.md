@@ -24,11 +24,15 @@ The following options are used to configure the component:
 | `database.addr`              | full connection string to the database                           | `true`   | `sqlite3`     | `DATABASE_ADDR`<br>`VELA_DATABASE_ADDR`                           |
 | `database.driver`            | type of client to control and operate the database               | `true`   | `vela.sqlite` | `DATABASE_DRIVER`<br>`VELA_DATABASE_DRIVER`                       |
 | `database.compression.level` | level of compression for logs stored in the database             | `true`   | `3`           | `DATABASE_COMPRESSION_LEVEL`<br>`VELA_DATABASE_COMPRESSION_LEVEL` |
-| `database.connection.open`   | maximum number of open connections to the database               | `true`   | `0`           | `DATABASE_CONNECTION_OPEN`<br>`VELA_DATABASE_CONNECTION_OPEN`     |
 | `database.connection.idle`   | maximum number of idle connections to the database               | `true`   | `2`           | `DATABASE_CONNECTION_IDLE`<br>`VELA_DATABASE_CONNECTION_IDLE`     |
 | `database.connection.life`   | duration of time a connection is reusable                        | `true`   | `30m`         | `DATABASE_CONNECTION_LIFE`<br>`VELA_DATABASE_CONNECTION_LIFE`     |
+| `database.connection.open`   | maximum number of open connections to the database               | `true`   | `0`           | `DATABASE_CONNECTION_OPEN`<br>`VELA_DATABASE_CONNECTION_OPEN`     |
 | `database.encryption.key`    | AES-256 key for encrypting/decrypting values in the database     | `true`   | `N/A`         | `DATABASE_ENCRYPTION_KEY`<br>`VELA_DATABASE_ENCRYPTION_KEY`       |
 | `database.skip_creation`     | skips the creation of tables and indexes in the database         | `false`  | `false`       | `DATABASE_SKIP_CREATION`<br>`VELA_DATABASE_SKIP_CREATION`         |
+
+{{% alert title="Note:" color="primary" %}}
+For more information on these configuration options, please see the [server reference](/docs/administration/server/reference/).
+{{% /alert %}}
 
 ## Drivers
 

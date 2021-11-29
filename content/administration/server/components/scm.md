@@ -23,6 +23,10 @@ The following options are used to configure the component:
 | `scm.secret`       | client secret from the generated OAuth application on the SCM   | `true`   | `N/A`                                                    | `SCM_SECRET`<br>`VELA_SCM_SECRET`             |
 | `scm.webhook.addr` | url for webhooks on the SCM to send requests to                 | `false`  | the address of the Vela server                           | `SCM_WEBHOOK_ADDR`<br>`VELA_SCM_WEBHOOK_ADDR` |
 
+{{% alert title="Note:" color="primary" %}}
+For more information on these configuration options, please see the [server reference](/docs/administration/server/reference/).
+{{% /alert %}}
+
 ## Drivers
 
 The following drivers are available to configure the component:

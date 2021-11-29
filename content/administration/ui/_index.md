@@ -60,7 +60,7 @@ $ docker run \
 ```
 
 {{% alert title="Note:" color="primary" %}}
-For a full list of configuration options, please see the [TODO]().
+For a full list of configuration options, please see the [UI reference](/docs/administration/ui/reference/).
 {{% /alert %}}
 
 ### Step 3: Verify the UI Logs

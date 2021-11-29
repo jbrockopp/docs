@@ -21,6 +21,10 @@ The following options are used to configure the component:
 | `runtime.privileged-images` | images allowed to run in privileged mode for the runtime     | `false`  | `[ target/vela-docker ]` | `RUNTIME_PRIVILEGED_IMAGES`<br>`VELA_RUNTIME_PRIVILEGED_IMAGES` |
 | `runtime.volumes`           | path to host volumes to mount into resources for the runtime | `false`  | `N/A`                    | `RUNTIME_VOLUMES`<br>`VELA_RUNTIME_VOLUMES`                     |
 
+{{% alert title="Note:" color="primary" %}}
+For more information on these configuration options, please see the [worker reference](/docs/administration/worker/reference/).
+{{% /alert %}}
+
 ## Drivers
 
 The following drivers are available to configure the component:

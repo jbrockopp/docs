@@ -73,7 +73,7 @@ $ docker run \
 ```
 
 {{% alert title="Note:" color="primary" %}}
-For a full list of configuration options, please see the [TODO]().
+For a full list of configuration options, please see the [worker reference](/docs/administration/worker/reference/).
 {{% /alert %}}
 
 ### Step 3: Verify the Worker Logs

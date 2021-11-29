@@ -36,6 +36,10 @@ The following options are used to configure the component:
 | `modification-secret`  | authenticates communication between compiler and the modification endpoint | `false`  | `N/A`   | `MODIFICATION_SECRET`<br>`VELA_MODIFICATION_SECRET`     |
 | `modification-timeout` | timeout for requests sent to the modification endpoint                     | `false`  | `8s`    | `MODIFICATION_TIMEOUT`<br>`VELA_MODIFICATION_TIMEOUT`   |
 
+{{% alert title="Note:" color="primary" %}}
+For more information on these configuration options, please see the [server reference](/docs/administration/server/reference/).
+{{% /alert %}}
+
 ## Drivers
 
 The following drivers are available to configure the component:

@@ -111,7 +111,7 @@ $ docker run \
 ```
 
 {{% alert title="Note:" color="primary" %}}
-For a full list of configuration options, please see the [TODO]().
+For a full list of configuration options, please see the [server reference](/docs/administration/server/reference/).
 {{% /alert %}}
 
 ### Step 6: Verify the Server Logs
