@@ -5,7 +5,7 @@ description: >
   This section contains information on the secret component for the Vela server.
 ---
 
-This component is responsible for integrating with a secret system based off the configuration provided.
+This component is optional and is responsible for integrating with a secret system based off the configuration provided.
 
 The secret system is used by Vela for storing sensitive application [data at rest](https://en.wikipedia.org/wiki/Data_at_rest).
 

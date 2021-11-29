@@ -7,7 +7,7 @@ description: >
 
 This component is responsible for integrating with a queue system based off the configuration provided.
 
-The queue system is used by Vela for pushing workloads that will be run by a [worker](/docs/administration/worker/).
+The queue system is used by the Vela server for pushing workloads that will be run by a [worker](/docs/administration/worker/).
 
 Workloads published to the queue are managed with a [first in, first out (FIFO)](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)) strategy.
 

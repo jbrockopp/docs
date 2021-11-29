@@ -58,7 +58,7 @@ From the [GitHub official website](https://github.com/about/):
 This GitHub configuration is enabled by default and is not necessary to provide in order for Vela to operate.
 {{% /alert %}}
 
-### GitHub Enterprise
+### GitHub Enterprise Server
 
 From the [GitHub Enterprise official website](https://github.com/enterprise):
 
