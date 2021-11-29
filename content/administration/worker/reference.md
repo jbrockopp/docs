@@ -1,0 +1,47 @@
+---
+title: "Reference"
+linkTitle: "Reference"
+weight: 2
+description: >
+  This section contains a reference of the configuration options for the Vela worker service.
+---
+
+## VELA_BUILD_LIMIT
+
+## VELA_BUILD_TIMEOUT
+
+## VELA_CHECK_IN
+
+## VELA_EXECUTOR_DRIVER
+
+## VELA_EXECUTOR_LOG_METHOD
+
+## VELA_QUEUE_ADDR
+
+## VELA_QUEUE_CLUSTER
+
+## VELA_QUEUE_DRIVER
+
+## VELA_QUEUE_POP_TIMEOUT
+
+## VELA_QUEUE_ROUTES
+
+## VELA_RUNTIME_CONFIG
+
+## VELA_RUNTIME_DRIVER
+
+## VELA_RUNTIME_NAMESPACE
+
+## VELA_RUNTIME_PRIVILEGED_IMAGES
+
+## VELA_RUNTIME_VOLUMES
+
+## VELA_SERVER_ADDR
+
+## VELA_SERVER_SECRET
+
+## VELA_SERVER_CERT
+
+## VELA_SERVER_CERT_KEY
+
+## VELA_WORKER_ADDR

@@ -60,6 +60,12 @@ You can use the [`openssl` command](https://www.openssl.org/) to generate the AE
 $ openssl aes-128-cbc -k secret -P -md sha1
 ```
 
+{{% alert title="Note:" color="primary" %}}
+This command will output multiple key/value pairs for the AES key.
+
+The specific value we need from the output is the line with `key` in it (i.e. `key=<value>`).
+{{% /alert %}}
+
 ### Step 3: Create a Shared Secret
 
 Create a shared secret used for authenticating communication between workers and the server.
