@@ -1,4 +1,5 @@
 ---
+no_list: true
 title: "Overview"
 linkTitle: "Server"
 weight: 1
@@ -8,144 +9,34 @@ description: >
 
 Known as the brains of the Vela application, this service is responsible for managing the state of application resources.
 
-This includes registering new resources in the system (repositories, users etc.) and storing the data from those resources in the database.
+This includes managing resources in the system (repositories, users etc.) and storing resource data in the database.
 
-Additionally, the server responds to event-driven requests (a.k.a. webhooks) that are used for creating new workloads be run by a [worker](/docs/administration/worker/).
+Additionally, the server responds to event-driven requests (webhooks) which creates new workloads be run by a [worker](/docs/administration/worker/).
 
 After a workload is created, it is pushed to the queue which will be retrieved and executed by a worker.
 
-As the workload is run by a worker, it will send requests to the server's API which stores the state of the workloads in the database.
+As a workload is run by a worker, it will send requests to the server's API which stores the state of the workloads in the database.
 
 // TODO: more information we should include?
 
-## Prerequisites
+## Deployment Guides
 
-This section provides all required dependencies to install and start the server.
+Vela supports several deployment strategies to enable the preferences of you and your team.
 
-### Dependency 1: Docker
+This section provides a list of comprehensive guides to install and start the server:
 
-[Docker](https://docker.com/) will be used for downloading the server and managing the lifecycle of the application.
+### Docker
 
-You can refer to [Docker's official documentation](https://docs.docker.com/get-docker/) on installing and configuring the service.
+From the [Docker official website](https://docker.io/):
 
-### Dependency 2: Redis
+> Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker’s comprehensive end to end platform includes UIs, CLIs, APIs and security that are engineered to work together across the entire application delivery lifecycle.
 
-[Redis](https://redis.io/) will be used for storing workloads, created by the server, that will be run by a [worker](/docs/administration/worker/).
+Please refer to [our Docker deployment guide](/docs/administration/server/docker/) to get started.
 
-You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
+### Kubernetes
 
-// TODO: more dependencies we need to cover?
+From the [Kubernetes official website](https://kubernetes.io/):
 
-## Installation
+> Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
 
-This section provides an example of installing the server with a subset of possible configuration options.
-
-### Step 1: Download the Image
-
-Download the [Docker image](https://docs.docker.com/get-started/overview/#images) for the Vela server from [DockerHub](https://hub.docker.com/).
-
-You can use the [`docker pull` command](https://docs.docker.com/engine/reference/commandline/pull/) to download the image:
-
-```shell
-$ docker pull target/vela-server:latest
-```
-
-{{% alert title="Note:" color="primary" %}}
-The `latest` tag will ensure you install the most-recent version of the Vela server.
-
-To see the full list of available versions, please refer to [the official registry](https://hub.docker.com/r/target/vela-server). 
-{{% /alert %}}
-
-### Step 2: Create an Encryption Key
-
-Create an [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) key used for encrypting sensitive data at rest in the database.
-
-You can use the [`openssl` command](https://www.openssl.org/) to generate the AES key:
-
-```shell
-$ openssl aes-128-cbc -k secret -P -md sha1
-```
-
-{{% alert title="Note:" color="primary" %}}
-This command will output multiple key/value pairs for the AES key.
-
-The specific value we need from the output is the line with `key` in it (i.e. `key=<value>`).
-{{% /alert %}}
-
-### Step 3: Create a Shared Secret
-
-Create a shared secret used for authenticating communication between workers and the server.
-
-You can use the [`openssl` command](https://www.openssl.org/) to generate the shared secret:
-
-```shell
-$ openssl rand -hex 16
-```
-
-### Step 4: Create an OAuth Application
-
-Create a [GitHub OAuth application](https://docs.github.com/developers/apps/building-oauth-apps/creating-an-oauth-app) used for authentication and authorization with GitHub.
-
-![OAuth Application](oauth.png)
-
-{{% alert title="Warning:" color="secondary" %}}
-The `Homepage URL` should match the `VELA_ADDR` environment variable below.
-
-The `Authorization callback URL` should match `<VELA_ADDR>/authenticate` from the environment variable below.
-{{% /alert %}}
-
-### Step 5: Start the Server
-
-Start the Vela server as a [Docker container](https://docs.docker.com/get-started/overview/#containers) that is configured via environment variables.
-
-You can use the [`docker run` command](https://docs.docker.com/engine/reference/commandline/run/) to start the server:
-
-```shell
-$ docker run \
-  --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
-  --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
-  --env=VELA_QUEUE_DRIVER=redis \
-  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
-  --env=VELA_PORT=443 \
-  --env=VELA_SECRET=<shared-secret> \
-  --env=VELA_SCM_CLIENT=<oauth-client-id> \
-  --env=VELA_SCM_SECRET=<oauth-client-secret> \
-  --name=server \
-  --publish=80:80 \
-  --publish=443:443 \
-  --restart=always \
-  target/vela-server:latest
-```
-
-{{% alert title="Note:" color="primary" %}}
-For a full list of configuration options, please see the [server reference](/docs/administration/server/reference/).
-{{% /alert %}}
-
-### Step 6: Verify the Server Logs
-
-Ensure the server started up successfully and is running as expected by viewing the logs.
-
-You can use the [`docker logs` command](https://docs.docker.com/engine/reference/commandline/logs/) to inspect the logs:
-
-```shell
-$ docker logs server
-```
-
-### Step 7: Install Workers
-
-After the server is up and running, you need to install workers to run workloads.
-
-Please refer to [the worker installation docs](/docs/administration/worker/) for more information.
-
-## Components
-
-The server is made up of several components, responsible for specific tasks, necessary for the service to operate:
-
-| Name       | Description                                                                                                         |
-| ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/)     |
-| `database` | integrates with a database provider for storing application data at rest                                            |
-| `queue`    | integrates with a queue provider for pushing workloads that will be run by a [worker](/docs/administration/worker/) |
-| `secret`   | integrates with a secret provider for storing sensitive application data at                                         |
-| `source`   | integrates with a source control management (SCM) provider for authentication and authorization                     |
+Please refer to [our Kubernetes deployment guide](/docs/administration/server/kubernetes/) to get started.

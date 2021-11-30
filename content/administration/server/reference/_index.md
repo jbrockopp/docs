@@ -1,10 +1,22 @@
 ---
 title: "Reference"
 linkTitle: "Reference"
-weight: 2
+weight: 4
 description: >
-  This section contains a reference of the configuration options for the Vela server service.
+  This section contains a reference of configuration options for the Vela server service.
 ---
+
+## Components
+
+The server is made up of several components, responsible for specific tasks, necessary for the service to operate:
+
+| Name       | Description                                                                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/)     |
+| `database` | integrates with a database provider for storing application data at rest                                            |
+| `queue`    | integrates with a queue provider for pushing workloads that will be run by a [worker](/docs/administration/worker/) |
+| `secret`   | integrates with a secret provider for storing sensitive application data at                                         |
+| `source`   | integrates with a source control management (SCM) provider for authentication and authorization                     |
 
 ## VELA_ACCESS_TOKEN_DURATION
 
@@ -88,7 +100,7 @@ The possible options to provide for this variable are:
 * `7`
 * `8`
 * `9` - produces compression for the log data the slowest and with the smallest size of data
-{{% /alert %}}
+  {{% /alert %}}
 
 ## VELA_DATABASE_CONNECTION_IDLE
 
@@ -141,7 +153,7 @@ The possible options to provide for this variable are:
 
 * `postgres`
 * `sqlite3`
-{{% /alert %}}
+  {{% /alert %}}
 
 ## VELA_DATABASE_ENCRYPTION_KEY
 
@@ -285,7 +297,7 @@ This variable should match [the `VELA_QUEUE_DRIVER` variable](/docs/administrati
 The possible options to provide for this variable are:
 
 * `redis`
-{{% /alert %}}
+  {{% /alert %}}
 
 ## VELA_QUEUE_POP_TIMEOUT
 
@@ -375,7 +387,7 @@ This variable has a default value of `github`.
 The possible options to provide for this variable are:
 
 * `github`
-{{% /alert %}}
+  {{% /alert %}}
 
 ## VELA_SCM_SCOPES
 

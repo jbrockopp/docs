@@ -10,65 +10,24 @@ This service is responsible for providing a practically designed method for perf
 
 // TODO: add more information
 
-## Prerequisites
+## Deployment Guides
 
-This section provides all required dependencies to install and start the UI.
+Vela supports several deployment strategies to enable the preferences of you and your team.
 
-### Dependency 1: Docker
+This section provides a list of comprehensive guides to install and start the UI:
 
-[Docker](https://docs.docker.com/) will be used for downloading the UI and managing the lifecycle of the application.
+### Docker
 
-You can refer to [Docker's official documentation](https://docs.docker.com/get-docker/) on installing and configuring the service.
+From the [Docker official website](https://docker.io/):
 
-// TODO: more dependencies we need to cover?
+> Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker’s comprehensive end to end platform includes UIs, CLIs, APIs and security that are engineered to work together across the entire application delivery lifecycle.
 
-## Installation
+Please refer to [our Docker deployment guide](/docs/administration/ui/docker/) to get started.
 
-This section provides an example of installing the UI with a subset of possible configuration options.
+### Kubernetes
 
-### Step 1: Download the Image
+From the [Kubernetes official website](https://kubernetes.io/):
 
-Download the [Docker image](https://docs.docker.com/get-started/overview/#images) for the Vela UI from [DockerHub](https://hub.docker.com/).
+> Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
 
-You can use the [`docker pull` command](https://docs.docker.com/engine/reference/commandline/pull/) to download the image:
-
-```shell
-$ docker pull target/vela-ui:latest
-```
-
-{{% alert title="Note:" color="primary" %}}
-The `latest` tag will ensure you install the most-recent version of the Vela server.
-
-To see the full list of available versions, please refer to [the official registry](https://hub.docker.com/r/target/vela-server).
-{{% /alert %}}
-
-### Step 2: Start the UI
-
-Start the Vela UI as a [Docker container](https://docs.docker.com/get-started/overview/#containers) that is configured via environment variables.
-
-You can use the [`docker run` command](https://docs.docker.com/engine/reference/commandline/run/) to start the worker:
-
-```shell
-$ docker run \
-  --detach=true \
-  --env=VELA_API=https://vela.company.com \
-  --name=ui \
-  --publish=80:80 \
-  --publish=443:443 \
-  --restart=always \
-  target/vela-ui:latest
-```
-
-{{% alert title="Note:" color="primary" %}}
-For a full list of configuration options, please see the [UI reference](/docs/administration/ui/reference/).
-{{% /alert %}}
-
-### Step 3: Verify the UI Logs
-
-Ensure the UI started up successfully and is running as expected by inspecting the logs.
-
-You can use the [`docker logs` command](https://docs.docker.com/engine/reference/commandline/logs/) to verify the logs:
-
-```shell
-$ docker logs ui
-```
+Please refer to [our Kubernetes deployment guide](/docs/administration/ui/kubernetes/) to get started.

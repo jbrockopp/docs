@@ -1,9 +1,9 @@
 ---
 title: "Reference"
 linkTitle: "Reference"
-weight: 2
+weight: 4
 description: >
-  This section contains a reference of the configuration options for the Vela UI service.
+  This section contains a reference of configuration options for the Vela UI service.
 ---
 
 ## VELA_API
