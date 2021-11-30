@@ -16,7 +16,7 @@ The server is made up of several components, responsible for specific tasks, nec
 | `compiler` | transforms a [pipeline](/docs/tour/) into an executable workload for the [worker](/docs/administration/worker/)     |
 | `database` | integrates with a database provider for storing application data at rest                                            |
 | `queue`    | integrates with a queue provider for pushing workloads that will be run by a [worker](/docs/administration/worker/) |
-| `secret`   | integrates with a secret provider for storing sensitive application data at                                         |
+| `secret`   | integrates with a secret provider for storing sensitive application data at rest                                    |
 | `source`   | integrates with a source control management (SCM) provider for authentication and authorization                     |
 
 ## VELA_ACCESS_TOKEN_DURATION
@@ -83,7 +83,7 @@ This configuration variable is used by the [database component](/docs/administra
 
 This variable sets the level of compression for workload logs, uploaded by the Vela [worker](/docs/administration/worker/), which are stored in the database.
 
-The variable is required and should be provided as a `integer`.
+The variable is required and should be provided as an `integer`.
 
 {{% alert title="Note:" color="primary" %}}
 This variable has a default value of `3`.
