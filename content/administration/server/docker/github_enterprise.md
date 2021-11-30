@@ -76,7 +76,7 @@ $ openssl rand -hex 16
 
 Create a [GitHub Enterprise OAuth application](https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app) used for authentication and authorization with GitHub.
 
-![OAuth Application](oauth.png)
+![OAuth Application](/docs/administration/server/github_enterprise_oauth.png)
 
 {{% alert title="Warning:" color="secondary" %}}
 The `Homepage URL` should match the `VELA_ADDR` environment variable below.
