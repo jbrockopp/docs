@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Admin</title>
-    <link>https://go-vela.github.io/docs/reference/api/admin/</link>
+    <link>https://jbrockopp.github.io/docs/reference/api/admin/</link>
     <description>Recent content in Admin on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/reference/api/admin/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/reference/api/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Reference: Build</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/build/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/build/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/build/</guid>
       <description>
         
         
@@ -51,7 +51,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -123,10 +123,10 @@
     
     <item>
       <title>Reference: Hook</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/hook/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/hook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/hook/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/hook/</guid>
       <description>
         
         
@@ -159,7 +159,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -205,10 +205,10 @@
     
     <item>
       <title>Reference: Repo</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/repo/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/repo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/repo/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/repo/</guid>
       <description>
         
         
@@ -241,7 +241,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -299,10 +299,10 @@
     
     <item>
       <title>Reference: Secret</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/secret/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/secret/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/secret/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/secret/</guid>
       <description>
         
         
@@ -335,7 +335,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -375,10 +375,10 @@
     
     <item>
       <title>Reference: Service</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/service/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/service/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/service/</guid>
       <description>
         
         
@@ -411,7 +411,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -455,10 +455,10 @@
     
     <item>
       <title>Reference: Step</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/step/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/step/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/step/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/step/</guid>
       <description>
         
         
@@ -491,7 +491,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -541,10 +541,10 @@
     
     <item>
       <title>Reference: User</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/user/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/user/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/user/</guid>
       <description>
         
         
@@ -577,7 +577,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 

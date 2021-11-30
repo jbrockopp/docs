@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Docker</title>
-    <link>https://go-vela.github.io/docs/administration/server/docker/</link>
+    <link>https://jbrockopp.github.io/docs/administration/server/docker/</link>
     <description>Recent content in Docker on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/administration/server/docker/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/administration/server/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Administration: GitHub</title>
-      <link>https://go-vela.github.io/docs/administration/server/docker/github/</link>
+      <link>https://jbrockopp.github.io/docs/administration/server/docker/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/server/docker/github/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/server/docker/github/</guid>
       <description>
         
         
@@ -28,7 +28,7 @@
 &lt;p&gt;&lt;a href=&#34;https://docker.com/&#34;&gt;Docker&lt;/a&gt; will be used for downloading the server and managing the lifecycle of the application.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://docs.docker.com/get-docker/&#34;&gt;Docker&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;h3 id=&#34;dependency-2-redis&#34;&gt;Dependency 2: Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://redis.io/topics/quickstart/&#34;&gt;Redis&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -66,7 +66,7 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ openssl rand -hex &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-4-create-an-oauth-application&#34;&gt;Step 4: Create an OAuth Application&lt;/h3&gt;
 &lt;p&gt;Create a &lt;a href=&#34;https://docs.github.com/developers/apps/building-oauth-apps/creating-an-oauth-app&#34;&gt;GitHub OAuth application&lt;/a&gt; used for authentication and authorization with GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://go-vela.github.io/docs/docs/administration/server/github_oauth.png&#34; alt=&#34;OAuth Application&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jbrockopp.github.io/docs/docs/administration/server/github_oauth.png&#34; alt=&#34;OAuth Application&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
@@ -98,7 +98,7 @@
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
-For a full list of configuration options, please see the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/reference/&#34;&gt;server reference&lt;/a&gt;.
+For a full list of configuration options, please see the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/&#34;&gt;server reference&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;step-6-verify-the-server-logs&#34;&gt;Step 6: Verify the Server Logs&lt;/h3&gt;
@@ -107,17 +107,17 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ docker logs server
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-7-install-workers&#34;&gt;Step 7: Install Workers&lt;/h3&gt;
 &lt;p&gt;After the server is up and running, you need to install workers to run workloads.&lt;/p&gt;
-&lt;p&gt;Please refer to &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;the worker installation docs&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;the worker installation docs&lt;/a&gt; for more information.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Administration: GitHub Enterprise</title>
-      <link>https://go-vela.github.io/docs/administration/server/docker/github_enterprise/</link>
+      <link>https://jbrockopp.github.io/docs/administration/server/docker/github_enterprise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/server/docker/github_enterprise/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/server/docker/github_enterprise/</guid>
       <description>
         
         
@@ -127,7 +127,7 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 &lt;p&gt;&lt;a href=&#34;https://docker.com/&#34;&gt;Docker&lt;/a&gt; will be used for downloading the server and managing the lifecycle of the application.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://docs.docker.com/get-docker/&#34;&gt;Docker&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;h3 id=&#34;dependency-2-redis&#34;&gt;Dependency 2: Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://redis.io/topics/quickstart/&#34;&gt;Redis&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -165,7 +165,7 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ openssl rand -hex &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-4-create-an-oauth-application&#34;&gt;Step 4: Create an OAuth Application&lt;/h3&gt;
 &lt;p&gt;Create a &lt;a href=&#34;https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app&#34;&gt;GitHub Enterprise OAuth application&lt;/a&gt; used for authentication and authorization with GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://go-vela.github.io/docs/docs/administration/server/github_enterprise_oauth.png&#34; alt=&#34;OAuth Application&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jbrockopp.github.io/docs/docs/administration/server/github_enterprise_oauth.png&#34; alt=&#34;OAuth Application&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
@@ -198,7 +198,7 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
-For a full list of configuration options, please see the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/reference/&#34;&gt;server reference&lt;/a&gt;.
+For a full list of configuration options, please see the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/&#34;&gt;server reference&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;step-6-verify-the-server-logs&#34;&gt;Step 6: Verify the Server Logs&lt;/h3&gt;
@@ -207,7 +207,7 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ docker logs server
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-7-install-workers&#34;&gt;Step 7: Install Workers&lt;/h3&gt;
 &lt;p&gt;After the server is up and running, you need to install workers to run workloads.&lt;/p&gt;
-&lt;p&gt;Please refer to &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;the worker installation docs&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;the worker installation docs&lt;/a&gt; for more information.&lt;/p&gt;
 
       </description>
     </item>

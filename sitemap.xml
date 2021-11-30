@@ -3,1257 +3,1257 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/environment/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/environment/</loc>
     <lastmod>2021-09-01T13:18:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/secrets_external/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/secrets_external/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/docker/github/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/docker/github/</loc>
     <lastmod>2021-11-30T11:24:52-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/kubernetes/github/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/kubernetes/github/</loc>
     <lastmod>2021-11-30T11:06:44-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/go_modules/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/go_modules/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/secrets_internal/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/secrets_internal/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/mongo/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/mongo/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/postgres/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/postgres/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/redis/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/redis/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/route/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/route/</loc>
     <lastmod>2021-11-05T08:06:04-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/rust_cargo/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/rust_cargo/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/</loc>
     <lastmod>2021-11-30T11:06:44-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/step/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/step/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/version/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/version/</loc>
     <lastmod>2021-02-01T10:38:05-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/docker/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/docker/</loc>
     <lastmod>2021-11-30T10:49:36-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/ui/docker/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/ui/docker/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/docker/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/docker/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/</loc>
     <lastmod>2021-01-12T13:56:22-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/docker/github_enterprise/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/docker/github_enterprise/</loc>
     <lastmod>2021-11-30T11:24:52-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/kubernetes/github_enterprise/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/kubernetes/github_enterprise/</loc>
     <lastmod>2021-11-30T11:06:44-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/image/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/image/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/java_gradle/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/java_gradle/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/java_maven/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/java_maven/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/metadata/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/metadata/</loc>
     <lastmod>2021-09-01T13:18:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/</loc>
     <lastmod>2021-11-30T11:06:44-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/kubernetes/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/kubernetes/</loc>
     <lastmod>2021-11-30T10:49:36-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/ui/kubernetes/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/ui/kubernetes/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/kubernetes/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/kubernetes/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/examples/node/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/examples/node/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/rulesets/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/rulesets/</loc>
     <lastmod>2021-06-23T09:41:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/ui/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/ui/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/worker/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/worker/</loc>
     <lastmod>2021-02-01T10:38:05-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/environment/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/environment/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/reference/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/reference/</loc>
     <lastmod>2021-11-30T14:09:34-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/ui/reference/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/ui/reference/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/reference/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/reference/</loc>
     <lastmod>2021-11-30T11:06:44-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/templates/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/templates/</loc>
     <lastmod>2021-02-01T10:38:05-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/authentication/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/authentication/</loc>
     <lastmod>2021-01-13T09:29:09-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/install/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/install/</loc>
     <lastmod>2021-01-13T09:29:09-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/plugins/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/plugins/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/services/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/services/</loc>
     <lastmod>2021-10-25T09:07:06-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/cloning/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/cloning/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/steps/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/steps/</loc>
     <lastmod>2021-10-25T09:07:06-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/secrets/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/secrets/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/stages/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/stages/</loc>
     <lastmod>2021-08-03T16:41:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/secrets/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/secrets/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/services/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/services/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/steps/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/steps/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/authentication/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/authentication/</loc>
     <lastmod>2021-02-11T18:41:35-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/stages/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/stages/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/templates/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/templates/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/validate/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/validate/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/version/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/version/</loc>
     <lastmod>2021-02-02T13:43:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/deployment/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/deployment/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/hook/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/hook/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/add/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/secret/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/secret/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/deployment/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/deployment/add/</loc>
     <lastmod>2021-06-03T13:53:04-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/add/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/secret/add/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/secret/add/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/</loc>
     <lastmod>2021-11-29T12:05:27-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/anatomy/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/anatomy/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/</loc>
     <lastmod>2021-01-13T09:29:09-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/artifactory/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/artifactory/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/authenticate/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/authenticate/</loc>
     <lastmod>2021-02-11T18:41:35-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/badge/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/badge/</loc>
     <lastmod>2021-01-12T13:56:22-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/bash/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/bash/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/build/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/build/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/build/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/build/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/build-summary/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/build-summary/</loc>
     <lastmod>2021-11-01T08:38:17-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/docker/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/docker/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/cancel/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/cancel/</loc>
     <lastmod>2021-02-12T00:43:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/build/cancel/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/build/cancel/</loc>
     <lastmod>2021-02-12T00:43:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/captains_log/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/captains_log/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/chown/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/chown/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/chown/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/chown/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/</loc>
     <lastmod>2021-01-13T09:29:09-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/pipeline/compile/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/pipeline/compile/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/reference/compiler/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/reference/compiler/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/completion/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/completion/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/concepts/</loc>
+    <loc>https://jbrockopp.github.io/docs/concepts/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/go/conditional/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/go/conditional/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/conditional/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/conditional/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/config/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/config/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/current/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/current/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/reference/database/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/reference/database/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/deployment/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/deployment/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/deployment/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/deployment/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/docker/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/docker/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/downstream/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/downstream/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/enable_repo/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/enable_repo/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/environment/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/environment/</loc>
     <lastmod>2021-05-17T11:41:49-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/pipeline/exec/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/pipeline/exec/</loc>
     <lastmod>2021-06-02T13:06:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/reference/executor/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/reference/executor/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/pipeline/expand/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/pipeline/expand/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/functions/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/functions/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/completion/generate/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/completion/generate/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/config/generate/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/config/generate/</loc>
     <lastmod>2021-02-11T18:41:35-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/pipeline/generate/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/pipeline/generate/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/deployment/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/deployment/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/hook/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/hook/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/pipeline/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/pipeline/get/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/get/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/secret/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/secret/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/build/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/build/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/deployment/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/deployment/get/</loc>
     <lastmod>2021-06-03T13:53:04-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/hook/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/hook/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/log/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/log/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/secret/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/secret/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/service/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/service/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/step/get/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/step/get/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/git/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/git/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/go/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/go/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/sdk/go/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/sdk/go/</loc>
     <lastmod>2021-01-14T12:57:07-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/go/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/go/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/hook/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/hook/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/hook/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/hook/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/hook/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/hook/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/hugo/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/hugo/</loc>
     <lastmod>2021-10-29T14:25:12-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/influx/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/influx/</loc>
     <lastmod>2021-10-29T09:41:50-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/schema/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/schema/</loc>
     <lastmod>2021-01-12T13:56:22-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/kaniko/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/kaniko/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/kotlin/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/kotlin/</loc>
     <lastmod>2021-09-27T09:14:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/kubernetes/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/kubernetes/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/log/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/log/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/logs/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/logs/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/logs/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/logs/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/logs/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/logs/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/go/loops_maps/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/go/loops_maps/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/loops_map/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/loops_map/</loc>
     <lastmod>2021-02-23T08:27:21-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/go/loops_slice/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/go/loops_slice/</loc>
     <lastmod>2021-06-21T08:35:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/loops_slice/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/loops_slice/</loc>
     <lastmod>2021-02-23T08:27:21-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/makisu/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/makisu/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/deployments/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/deployments/</loc>
     <lastmod>2021-06-03T14:49:02-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/go/mulitline/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/go/mulitline/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/node/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/node/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/concepts/pipeline/secrets/origin/</loc>
+    <loc>https://jbrockopp.github.io/docs/concepts/pipeline/secrets/origin/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/pipeline/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/pipeline/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/pipeline/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/pipeline/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/go/vars_platform/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/go/vars_platform/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/vars_platform/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/vars_platform/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/pull_policies/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/pull_policies/</loc>
     <lastmod>2021-06-03T14:12:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/python/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/python/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/sdk/python/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/sdk/python/</loc>
     <lastmod>2021-01-14T12:57:07-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/reference/queue/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/reference/queue/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/reference/queue/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/reference/queue/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/</loc>
     <lastmod>2021-01-13T09:29:09-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/hook/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/hook/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/secret/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/secret/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/config/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/config/remove/</loc>
     <lastmod>2021-02-11T18:41:35-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/secret/remove/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/secret/remove/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/repair/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/repair/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/repair/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/repair/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/repo/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/repo/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/current/repos/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/current/repos/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/restart/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/restart/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/build/restart/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/build/restart/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/roles/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/roles/</loc>
     <lastmod>2021-01-12T13:56:22-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/ruby/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/ruby/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/worker/reference/runtime/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/worker/reference/runtime/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/s3_cache/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/s3_cache/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/reference/scm/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/reference/scm/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/sdk/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/sdk/</loc>
     <lastmod>2021-01-14T12:57:07-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/search/index.json</loc>
+    <loc>https://jbrockopp.github.io/docs/search/index.json</loc>
     <lastmod>2019-11-09T16:39:52-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/administration/server/reference/secret/</loc>
+    <loc>https://jbrockopp.github.io/docs/administration/server/reference/secret/</loc>
     <lastmod>2021-11-30T10:45:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/secret/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/secret/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/secret/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/secret/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/secret/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/secret/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/secret/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/secret/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/service/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/service/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/service/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/service/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/skipping_build/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/skipping_build/</loc>
     <lastmod>2021-01-12T13:56:22-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/slack/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/slack/</loc>
     <lastmod>2021-11-01T08:38:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/start_build/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/start_build/</loc>
     <lastmod>2021-05-10T10:10:36-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/step/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/step/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/step/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/step/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/environment/substitution/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/environment/substitution/</loc>
     <lastmod>2021-05-17T11:41:49-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/starlark/vars_template/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/starlark/vars_template/</loc>
     <lastmod>2021-01-28T13:57:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/pipeline/templates/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/pipeline/templates/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/</loc>
     <lastmod>2021-09-08T13:57:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/pipeline/terraform/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/pipeline/terraform/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/tour/</loc>
+    <loc>https://jbrockopp.github.io/docs/tour/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/tutorials/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/tutorials/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/tutorials/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/tutorials/</loc>
     <lastmod>2021-06-03T11:57:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/workspace/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/workspace/</loc>
     <lastmod>2021-05-07T08:32:39-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/hook/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/hook/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/update/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/secret/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/secret/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/current/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/current/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/config/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/config/update/</loc>
     <lastmod>2021-02-11T18:41:35-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/update/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/secret/update/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/secret/update/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/</loc>
     <lastmod>2020-02-03T14:46:54-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/admin/user/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/admin/user/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/environment/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/environment/</loc>
     <lastmod>2021-09-01T13:18:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/pipeline/validate/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/pipeline/validate/</loc>
     <lastmod>2021-04-02T09:28:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/pipeline/validate/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/pipeline/validate/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/environment/variables/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/environment/variables/</loc>
     <lastmod>2021-11-12T10:03:22-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/plugins/registry/secret/vault/</loc>
+    <loc>https://jbrockopp.github.io/docs/plugins/registry/secret/vault/</loc>
     <lastmod>2021-01-13T15:05:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/</loc>
+    <loc>https://jbrockopp.github.io/docs/</loc>
     <lastmod>2021-06-04T09:43:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/build/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/build/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/deployment/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/deployment/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/hook/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/hook/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/repo/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/repo/view/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/secret/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/secret/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/service/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/service/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/step/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/step/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/current/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/current/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/api/user/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/api/user/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/build/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/build/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/config/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/config/view/</loc>
     <lastmod>2021-02-11T18:41:35-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/deployment/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/deployment/view/</loc>
     <lastmod>2021-06-03T13:53:04-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/hook/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/hook/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/log/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/log/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/repo/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/repo/view/</loc>
     <lastmod>2021-06-03T11:52:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/secret/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/secret/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/service/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/service/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/cli/step/view/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/cli/step/view/</loc>
     <lastmod>2021-02-01T17:58:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/usage/plugin/</loc>
+    <loc>https://jbrockopp.github.io/docs/usage/plugin/</loc>
     <lastmod>2021-11-17T14:31:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/templates/working_with/</loc>
+    <loc>https://jbrockopp.github.io/docs/templates/working_with/</loc>
     <lastmod>2021-10-22T19:47:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://go-vela.github.io/docs/reference/yaml/</loc>
+    <loc>https://jbrockopp.github.io/docs/reference/yaml/</loc>
     <lastmod>2021-02-01T10:38:05-06:00</lastmod>
   </url>
   

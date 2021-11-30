@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Overview</title>
-    <link>https://go-vela.github.io/docs/administration/ui/</link>
+    <link>https://jbrockopp.github.io/docs/administration/ui/</link>
     <description>Recent content in Overview on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/administration/ui/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/administration/ui/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Administration: Docker</title>
-      <link>https://go-vela.github.io/docs/administration/ui/docker/</link>
+      <link>https://jbrockopp.github.io/docs/administration/ui/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/ui/docker/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/ui/docker/</guid>
       <description>
         
         
@@ -59,7 +59,7 @@
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
-For a full list of configuration options, please see the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/ui/reference/&#34;&gt;UI reference&lt;/a&gt;.
+For a full list of configuration options, please see the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/ui/reference/&#34;&gt;UI reference&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;step-3-verify-the-ui-logs&#34;&gt;Step 3: Verify the UI Logs&lt;/h3&gt;
@@ -72,10 +72,10 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
     
     <item>
       <title>Administration: Kubernetes</title>
-      <link>https://go-vela.github.io/docs/administration/ui/kubernetes/</link>
+      <link>https://jbrockopp.github.io/docs/administration/ui/kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/ui/kubernetes/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/ui/kubernetes/</guid>
       <description>
         
         
@@ -96,21 +96,21 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
     
     <item>
       <title>Administration: Reference</title>
-      <link>https://go-vela.github.io/docs/administration/ui/reference/</link>
+      <link>https://jbrockopp.github.io/docs/administration/ui/reference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/ui/reference/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/ui/reference/</guid>
       <description>
         
         
         &lt;h2 id=&#34;vela_api&#34;&gt;VELA_API&lt;/h2&gt;
-&lt;p&gt;This variable sets a fully qualified URL to the Vela &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt; address.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the Vela &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt; address.&lt;/p&gt;
 &lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
-This variable should match &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; variable&lt;/a&gt; provided to the server.
+This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; variable&lt;/a&gt; provided to the server.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_docs_url&#34;&gt;VELA_DOCS_URL&lt;/h2&gt;

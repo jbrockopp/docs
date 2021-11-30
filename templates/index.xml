@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Templates</title>
-    <link>https://go-vela.github.io/docs/templates/</link>
+    <link>https://jbrockopp.github.io/docs/templates/</link>
     <description>Recent content in Templates on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/templates/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/templates/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Templates: Anatomy</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/anatomy/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/anatomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/anatomy/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/anatomy/</guid>
       <description>
         
         
@@ -84,10 +84,10 @@
     
     <item>
       <title>Templates: Conditionals</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/go/conditional/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/go/conditional/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/go/conditional/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/go/conditional/</guid>
       <description>
         
         
@@ -186,10 +186,10 @@ For information on if/else statements see &lt;a href=&#34;https://golang.org/pkg
     
     <item>
       <title>Templates: Conditionals</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/conditional/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/conditional/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/conditional/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/conditional/</guid>
       <description>
         
         
@@ -292,10 +292,10 @@ For information on if/else statements see &lt;a href=&#34;https://github.com/goo
     
     <item>
       <title>Templates: Functions</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/functions/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/functions/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/functions/</guid>
       <description>
         
         
@@ -378,10 +378,10 @@ twice(&amp;quot;two&amp;quot;)            # &amp;quot;twotwo&amp;quot;
     
     <item>
       <title>Templates: Loops with Maps</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/go/loops_maps/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/go/loops_maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/go/loops_maps/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/go/loops_maps/</guid>
       <description>
         
         
@@ -510,10 +510,10 @@ Go does not guarantee order with maps. If you need the steps to &lt;strong&gt;al
     
     <item>
       <title>Templates: Loops with Maps</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/loops_map/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/loops_map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/loops_map/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/loops_map/</guid>
       <description>
         
         
@@ -652,10 +652,10 @@ Vela does not guarantee order with maps. If you need the steps to &lt;strong&gt;
     
     <item>
       <title>Templates: Loops with Slices</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/go/loops_slice/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/go/loops_slice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/go/loops_slice/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/go/loops_slice/</guid>
       <description>
         
         
@@ -774,10 +774,10 @@ For information on range/else statements see &lt;a href=&#34;https://golang.org/
     
     <item>
       <title>Templates: Loops with Slices</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/loops_slice/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/loops_slice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/loops_slice/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/loops_slice/</guid>
       <description>
         
         
@@ -907,10 +907,10 @@ We recommend reviewing &lt;a href=&#34;https://github.com/bazelbuild/starlark/bl
     
     <item>
       <title>Templates: Multiline</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/go/mulitline/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/go/mulitline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/go/mulitline/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/go/mulitline/</guid>
       <description>
         
         
@@ -1002,10 +1002,10 @@ For information on more types of scalars read the &lt;a href=&#34;https://yaml.o
     
     <item>
       <title>Templates: Platform Vars</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/go/vars_platform/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/go/vars_platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/go/vars_platform/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/go/vars_platform/</guid>
       <description>
         
         
@@ -1068,10 +1068,10 @@ For information on more types of scalars read the &lt;a href=&#34;https://yaml.o
     
     <item>
       <title>Templates: Platform Vars</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/vars_platform/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/vars_platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/vars_platform/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/vars_platform/</guid>
       <description>
         
         
@@ -1135,10 +1135,10 @@ We recommend reviewing &lt;a href=&#34;https://github.com/bazelbuild/starlark/bl
     
     <item>
       <title>Templates: Template Vars</title>
-      <link>https://go-vela.github.io/docs/templates/tutorials/starlark/vars_template/</link>
+      <link>https://jbrockopp.github.io/docs/templates/tutorials/starlark/vars_template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/tutorials/starlark/vars_template/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/tutorials/starlark/vars_template/</guid>
       <description>
         
         
@@ -1218,10 +1218,10 @@ We recommend reviewing &lt;a href=&#34;https://github.com/bazelbuild/starlark/bl
     
     <item>
       <title>Templates: Working with Templates</title>
-      <link>https://go-vela.github.io/docs/templates/working_with/</link>
+      <link>https://jbrockopp.github.io/docs/templates/working_with/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/templates/working_with/</guid>
+      <guid>https://jbrockopp.github.io/docs/templates/working_with/</guid>
       <description>
         
         
@@ -1229,7 +1229,7 @@ We recommend reviewing &lt;a href=&#34;https://github.com/bazelbuild/starlark/bl
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
-It is highly recommended before reviewing the below content to have a solid grasp on Vela&amp;rsquo;s core concepts that are explored while taking the &lt;a href=&#34;https://go-vela.github.io/docs/docs/tour/&#34;&gt;Vela Tour&lt;/a&gt;).
+It is highly recommended before reviewing the below content to have a solid grasp on Vela&amp;rsquo;s core concepts that are explored while taking the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/&#34;&gt;Vela Tour&lt;/a&gt;).
 &lt;/div&gt;
 
 &lt;p&gt;When writing a new template getting feedback can be a very painful process. Vela provides a few core methods to get feedback quickly to ensure the template you&amp;rsquo;re writing expands in the pipeline you expect to run. The main methods for seeing expanded pipelines are:&lt;/p&gt;
@@ -1241,7 +1241,7 @@ It is highly recommended before reviewing the below content to have a solid gras
 &lt;p&gt;This method allows you to evaluate your pipeline that exists within a VCS system. It is most commonly referenced on the build page in the pipeline tab.&lt;/p&gt;
 &lt;p&gt;Additionally, you can also interact with it the Vela CLI or API if you&amp;rsquo;re trying to create more elaborate workflows.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/pipeline/&#34;&gt;API Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/pipeline/&#34;&gt;API Docs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;cli-pipeline-validation&#34;&gt;CLI Pipeline Validation&lt;/h2&gt;
 &lt;p&gt;The CLI workflow that was mentioned above has a variety of methods for local and remote validation. All of them are designed to help you quickly identify areas with your pipeline that need to be improved and should speed up development.&lt;/p&gt;

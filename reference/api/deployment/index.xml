@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Deployment</title>
-    <link>https://go-vela.github.io/docs/reference/api/deployment/</link>
+    <link>https://jbrockopp.github.io/docs/reference/api/deployment/</link>
     <description>Recent content in Deployment on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/reference/api/deployment/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/reference/api/deployment/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Reference: Add</title>
-      <link>https://go-vela.github.io/docs/reference/api/deployment/add/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/deployment/add/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/deployment/add/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/deployment/add/</guid>
       <description>
         
         
@@ -71,7 +71,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -105,10 +105,10 @@
     
     <item>
       <title>Reference: Get</title>
-      <link>https://go-vela.github.io/docs/reference/api/deployment/get/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/deployment/get/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/deployment/get/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/deployment/get/</guid>
       <description>
         
         
@@ -161,7 +161,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -201,10 +201,10 @@
     
     <item>
       <title>Reference: View</title>
-      <link>https://go-vela.github.io/docs/reference/api/deployment/view/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/deployment/view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/deployment/view/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/deployment/view/</guid>
       <description>
         
         
@@ -261,7 +261,7 @@
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 

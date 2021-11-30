@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Tutorials</title>
-    <link>https://go-vela.github.io/docs/plugins/tutorials/</link>
+    <link>https://jbrockopp.github.io/docs/plugins/tutorials/</link>
     <description>Recent content in Tutorials on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/plugins/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/plugins/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Plugins: Bash</title>
-      <link>https://go-vela.github.io/docs/plugins/tutorials/bash/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/tutorials/bash/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/tutorials/bash/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/tutorials/bash/</guid>
       <description>
         
         
@@ -118,10 +118,10 @@ This has the added benefit of enabling others in the community to consume your p
     
     <item>
       <title>Plugins: Go</title>
-      <link>https://go-vela.github.io/docs/plugins/tutorials/go/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/tutorials/go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/tutorials/go/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/tutorials/go/</guid>
       <description>
         
         
@@ -255,10 +255,10 @@ This has the added benefit of enabling others in the community to consume your p
     
     <item>
       <title>Plugins: Kotlin</title>
-      <link>https://go-vela.github.io/docs/plugins/tutorials/kotlin/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/tutorials/kotlin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/tutorials/kotlin/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/tutorials/kotlin/</guid>
       <description>
         
         
@@ -410,10 +410,10 @@ This has the added benefit of enabling others in the community to consume your p
     
     <item>
       <title>Plugins: Node.js</title>
-      <link>https://go-vela.github.io/docs/plugins/tutorials/node/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/tutorials/node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/tutorials/node/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/tutorials/node/</guid>
       <description>
         
         
@@ -531,10 +531,10 @@ This has the added benefit of enabling others in the community to consume your p
     
     <item>
       <title>Plugins: Python</title>
-      <link>https://go-vela.github.io/docs/plugins/tutorials/python/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/tutorials/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/tutorials/python/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/tutorials/python/</guid>
       <description>
         
         
@@ -649,10 +649,10 @@ This has the added benefit of enabling others in the community to consume your p
     
     <item>
       <title>Plugins: Ruby</title>
-      <link>https://go-vela.github.io/docs/plugins/tutorials/ruby/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/tutorials/ruby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/tutorials/ruby/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/tutorials/ruby/</guid>
       <description>
         
         

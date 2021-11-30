@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Pipeline</title>
-    <link>https://go-vela.github.io/docs/plugins/registry/pipeline/</link>
+    <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/</link>
     <description>Recent content in Pipeline on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/plugins/registry/pipeline/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/plugins/registry/pipeline/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Plugins: Artifactory</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/artifactory/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/artifactory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/artifactory/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/artifactory/</guid>
       <description>
         
         
@@ -509,10 +509,10 @@
     
     <item>
       <title>Plugins: Build Summary</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/build-summary/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/build-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/build-summary/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/build-summary/</guid>
       <description>
         
         
@@ -690,10 +690,10 @@
     
     <item>
       <title>Plugins: Captain&#39;s Log</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/captains_log/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/captains_log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/captains_log/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/captains_log/</guid>
       <description>
         
         
@@ -775,7 +775,7 @@ Users should refrain from configuring sensitive information in their pipeline in
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Users can use &lt;a href=&#34;https://go-vela.github.io/docs/docs/tour/secrets/&#34;&gt;Vela secrets&lt;/a&gt; to substitute these sensitive values at runtime:&lt;/p&gt;
+&lt;p&gt;Users can use &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/secrets/&#34;&gt;Vela secrets&lt;/a&gt; to substitute these sensitive values at runtime:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;steps:
   - name: captains-log
     image: target/captains-log:1
@@ -810,10 +810,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Docker</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/docker/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/docker/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/docker/</guid>
       <description>
         
         
@@ -1184,7 +1184,7 @@ Users should refrain from configuring sensitive information in their pipeline in
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;secret&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;set secret file to expose to the build (only if BuildKit enabled) - format (id=mysecret,src=https://go-vela.github.io/docs/local/secret)&lt;/td&gt;
+&lt;td&gt;set secret file to expose to the build (only if BuildKit enabled) - format (id=mysecret,src=https://jbrockopp.github.io/docs/local/secret)&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;N/A&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;PARAMETER_SECRETS&lt;/code&gt;&lt;br&gt;&lt;code&gt;DOCKER_SECRETS&lt;/code&gt;&lt;/td&gt;
@@ -1433,10 +1433,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Downstream</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/downstream/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/downstream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/downstream/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/downstream/</guid>
       <description>
         
         
@@ -1661,10 +1661,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Git</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/git/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/git/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/git/</guid>
       <description>
         
         
@@ -1891,10 +1891,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Hugo</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/hugo/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/hugo/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/hugo/</guid>
       <description>
         
         
@@ -2120,10 +2120,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Influx</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/influx/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/influx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/influx/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/influx/</guid>
       <description>
         
         
@@ -2340,10 +2340,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Kaniko</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/kaniko/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/kaniko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/kaniko/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/kaniko/</guid>
       <description>
         
         
@@ -2693,10 +2693,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Kubernetes</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/kubernetes/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/kubernetes/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/kubernetes/</guid>
       <description>
         
         
@@ -3024,10 +3024,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Makisu</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/makisu/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/makisu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/makisu/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/makisu/</guid>
       <description>
         
         
@@ -3298,10 +3298,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: S3 Cache</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/s3_cache/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/s3_cache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/s3_cache/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/s3_cache/</guid>
       <description>
         
         
@@ -3658,10 +3658,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Slack</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/slack/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/slack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/slack/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/slack/</guid>
       <description>
         
         
@@ -3887,10 +3887,10 @@ Users should refrain from configuring sensitive information in their pipeline in
     
     <item>
       <title>Plugins: Terraform</title>
-      <link>https://go-vela.github.io/docs/plugins/registry/pipeline/terraform/</link>
+      <link>https://jbrockopp.github.io/docs/plugins/registry/pipeline/terraform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/plugins/registry/pipeline/terraform/</guid>
+      <guid>https://jbrockopp.github.io/docs/plugins/registry/pipeline/terraform/</guid>
       <description>
         
         

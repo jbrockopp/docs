@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – API</title>
-    <link>https://go-vela.github.io/docs/reference/api/</link>
+    <link>https://jbrockopp.github.io/docs/reference/api/</link>
     <description>Recent content in API on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/reference/api/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/reference/api/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Reference: Authentication</title>
-      <link>https://go-vela.github.io/docs/reference/api/authentication/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/authentication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/authentication/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/authentication/</guid>
       <description>
         
         
@@ -65,10 +65,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Admin</title>
-      <link>https://go-vela.github.io/docs/reference/api/admin/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/admin/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/admin/</guid>
       <description>
         
         
@@ -78,7 +78,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -88,10 +88,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Build</title>
-      <link>https://go-vela.github.io/docs/reference/api/build/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/build/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/build/</guid>
       <description>
         
         
@@ -101,7 +101,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -111,10 +111,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Deployment</title>
-      <link>https://go-vela.github.io/docs/reference/api/deployment/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/deployment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/deployment/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/deployment/</guid>
       <description>
         
         
@@ -124,7 +124,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -134,10 +134,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Hook</title>
-      <link>https://go-vela.github.io/docs/reference/api/hook/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/hook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/hook/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/hook/</guid>
       <description>
         
         
@@ -147,7 +147,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -157,10 +157,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Pipeline</title>
-      <link>https://go-vela.github.io/docs/reference/api/pipeline/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/pipeline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/pipeline/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/pipeline/</guid>
       <description>
         
         
@@ -170,7 +170,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -180,10 +180,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Repo</title>
-      <link>https://go-vela.github.io/docs/reference/api/repo/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/repo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/repo/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/repo/</guid>
       <description>
         
         
@@ -193,7 +193,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -203,10 +203,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Secret</title>
-      <link>https://go-vela.github.io/docs/reference/api/secret/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/secret/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/secret/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/secret/</guid>
       <description>
         
         
@@ -216,7 +216,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -226,10 +226,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Service</title>
-      <link>https://go-vela.github.io/docs/reference/api/service/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/service/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/service/</guid>
       <description>
         
         
@@ -239,7 +239,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -249,10 +249,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: Step</title>
-      <link>https://go-vela.github.io/docs/reference/api/step/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/step/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/step/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/step/</guid>
       <description>
         
         
@@ -262,7 +262,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -272,10 +272,10 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
     
     <item>
       <title>Reference: User</title>
-      <link>https://go-vela.github.io/docs/reference/api/user/</link>
+      <link>https://jbrockopp.github.io/docs/reference/api/user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/api/user/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/api/user/</guid>
       <description>
         
         
@@ -285,7 +285,7 @@ For more information, you can visit the &lt;a href=&#34;https://jwt.io/introduct
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you already know how to authenticate to the API.&lt;/p&gt;
-&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To authenticate to the API, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/api/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 

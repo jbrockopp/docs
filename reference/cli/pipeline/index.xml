@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Pipeline</title>
-    <link>https://go-vela.github.io/docs/reference/cli/pipeline/</link>
+    <link>https://jbrockopp.github.io/docs/reference/cli/pipeline/</link>
     <description>Recent content in Pipeline on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/reference/cli/pipeline/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/reference/cli/pipeline/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Reference: Exec</title>
-      <link>https://go-vela.github.io/docs/reference/cli/pipeline/exec/</link>
+      <link>https://jbrockopp.github.io/docs/reference/cli/pipeline/exec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/cli/pipeline/exec/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/cli/pipeline/exec/</guid>
       <description>
         
         
@@ -114,8 +114,8 @@ For more information, you can run &lt;code&gt;vela exec pipeline --help&lt;/code
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you have already installed and setup the CLI.&lt;/p&gt;
-&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -180,10 +180,10 @@ sha256:6dbb9cc54074106d46d4ccb330f2a40a682d49dda5f4844962b7dce9fe44aaec
     
     <item>
       <title>Reference: Generate</title>
-      <link>https://go-vela.github.io/docs/reference/cli/pipeline/generate/</link>
+      <link>https://jbrockopp.github.io/docs/reference/cli/pipeline/generate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/cli/pipeline/generate/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/cli/pipeline/generate/</guid>
       <description>
         
         
@@ -237,8 +237,8 @@ For more information, you can run &lt;code&gt;vela generate pipeline --help&lt;/
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you have already installed and setup the CLI.&lt;/p&gt;
-&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -252,10 +252,10 @@ For more information, you can run &lt;code&gt;vela generate pipeline --help&lt;/
     
     <item>
       <title>Reference: Validate</title>
-      <link>https://go-vela.github.io/docs/reference/cli/pipeline/validate/</link>
+      <link>https://jbrockopp.github.io/docs/reference/cli/pipeline/validate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/cli/pipeline/validate/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/cli/pipeline/validate/</guid>
       <description>
         
         
@@ -299,8 +299,8 @@ For more information, please run &lt;code&gt;vela validate pipeline --help&lt;/c
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you have already installed and setup the CLI.&lt;/p&gt;
-&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.
-To setup the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.
+To setup the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 

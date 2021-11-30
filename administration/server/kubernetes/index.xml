@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Kubernetes</title>
-    <link>https://go-vela.github.io/docs/administration/server/kubernetes/</link>
+    <link>https://jbrockopp.github.io/docs/administration/server/kubernetes/</link>
     <description>Recent content in Kubernetes on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/administration/server/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/administration/server/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Administration: GitHub</title>
-      <link>https://go-vela.github.io/docs/administration/server/kubernetes/github/</link>
+      <link>https://jbrockopp.github.io/docs/administration/server/kubernetes/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/server/kubernetes/github/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/server/kubernetes/github/</guid>
       <description>
         
         
@@ -28,7 +28,7 @@
 &lt;p&gt;&lt;a href=&#34;https://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; will be used for downloading the server and managing the lifecycle of the application.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://kubernetes.io/docs/setup/&#34;&gt;Kubernetes&#39; official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;h3 id=&#34;dependency-2-redis&#34;&gt;Dependency 2: Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://redis.io/topics/quickstart/&#34;&gt;Redis&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>Administration: GitHub Enterprise</title>
-      <link>https://go-vela.github.io/docs/administration/server/kubernetes/github_enterprise/</link>
+      <link>https://jbrockopp.github.io/docs/administration/server/kubernetes/github_enterprise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/administration/server/kubernetes/github_enterprise/</guid>
+      <guid>https://jbrockopp.github.io/docs/administration/server/kubernetes/github_enterprise/</guid>
       <description>
         
         
@@ -55,7 +55,7 @@
 &lt;p&gt;&lt;a href=&#34;https://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; will be used for downloading the server and managing the lifecycle of the application.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://kubernetes.io/docs/setup/&#34;&gt;Kubernetes&#39; official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;h3 id=&#34;dependency-2-redis&#34;&gt;Dependency 2: Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://redis.io/topics/quickstart/&#34;&gt;Redis&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
 &lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;

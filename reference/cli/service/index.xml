@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vela – Service</title>
-    <link>https://go-vela.github.io/docs/reference/cli/service/</link>
+    <link>https://jbrockopp.github.io/docs/reference/cli/service/</link>
     <description>Recent content in Service on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://go-vela.github.io/docs/reference/cli/service/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://jbrockopp.github.io/docs/reference/cli/service/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Reference: Get</title>
-      <link>https://go-vela.github.io/docs/reference/cli/service/get/</link>
+      <link>https://jbrockopp.github.io/docs/reference/cli/service/get/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/cli/service/get/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/cli/service/get/</guid>
       <description>
         
         
@@ -84,7 +84,7 @@ For more information, you can run &lt;code&gt;vela get service --help&lt;/code&g
 &lt;li&gt;&lt;code&gt;repo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;output&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For more information, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/config/&#34;&gt;CLI config documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/config/&#34;&gt;CLI config documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -96,8 +96,8 @@ For more information, you can run &lt;code&gt;vela get service --help&lt;/code&g
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you have already installed and setup the CLI.&lt;/p&gt;
-&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -115,10 +115,10 @@ clone           success         2s
     
     <item>
       <title>Reference: View</title>
-      <link>https://go-vela.github.io/docs/reference/cli/service/view/</link>
+      <link>https://jbrockopp.github.io/docs/reference/cli/service/view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-vela.github.io/docs/reference/cli/service/view/</guid>
+      <guid>https://jbrockopp.github.io/docs/reference/cli/service/view/</guid>
       <description>
         
         
@@ -179,7 +179,7 @@ For more information, you can run &lt;code&gt;vela view service --help&lt;/code&
 &lt;li&gt;&lt;code&gt;repo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;output&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For more information, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/config/&#34;&gt;CLI config documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/config/&#34;&gt;CLI config documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -191,8 +191,8 @@ For more information, you can run &lt;code&gt;vela view service --help&lt;/code&
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
 &lt;p&gt;This section assumes you have already installed and setup the CLI.&lt;/p&gt;
-&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://go-vela.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/install/&#34;&gt;installation documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To setup the CLI, please review the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/reference/cli/authentication/&#34;&gt;authentication documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 
