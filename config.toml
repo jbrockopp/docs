@@ -1,4 +1,4 @@
-baseURL = "https://go-vela.github.io/docs/"
+baseURL = "https://jbrockopp.github.io/docs/"
 title = "Vela"
 
 enableRobotsTXT = true
@@ -59,7 +59,7 @@ privacy_policy = "https://github.com/go-vela/server/blob/master/LICENSE"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/go-vela/docs"
+github_repo = "https://github.com/jbrockopp/docs"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
