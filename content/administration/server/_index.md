@@ -11,7 +11,7 @@ Known as the brains of the Vela application, this service is responsible for man
 
 This includes managing resources in the system (repositories, users etc.) and storing resource data in the database.
 
-Additionally, the server responds to event-driven requests (webhooks) which creates new workloads be run by a [worker](/docs/administration/worker/).
+Additionally, the server responds to event-driven requests (webhooks) which creates new workloads to run on a [worker](/docs/administration/worker/).
 
 After a workload is created, it is pushed to the queue which will be retrieved and executed by a worker.
 

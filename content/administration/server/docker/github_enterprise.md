@@ -18,7 +18,7 @@ You can refer to [Docker's official documentation](https://docs.docker.com/get-d
 
 ### Dependency 2: Redis
 
-[Redis](https://redis.io/) will be used for storing workloads, created by the server, that will be run by a [worker](/docs/administration/worker/).
+[Redis](https://redis.io/) will be used for storing workloads, created by the server, that will run on a [worker](/docs/administration/worker/).
 
 You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
 
@@ -74,7 +74,7 @@ $ openssl rand -hex 16
 
 ### Step 4: Create an OAuth Application
 
-Create a [GitHub OAuth application](https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app) used for authentication and authorization with GitHub.
+Create a [GitHub Enterprise OAuth application](https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app) used for authentication and authorization with GitHub.
 
 ![OAuth Application](oauth.png)
 

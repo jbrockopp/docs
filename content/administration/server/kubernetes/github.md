@@ -18,7 +18,7 @@ You can refer to [Kubernetes' official documentation](https://kubernetes.io/docs
 
 ### Dependency 2: Redis
 
-[Redis](https://redis.io/) will be used for storing workloads, created by the server, that will be run by a [worker](/docs/administration/worker/).
+[Redis](https://redis.io/) will be used for storing workloads, created by the server, that will run on a [worker](/docs/administration/worker/).
 
 You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
 
