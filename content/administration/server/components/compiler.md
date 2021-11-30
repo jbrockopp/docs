@@ -5,6 +5,10 @@ description: >
   This section contains information on the compiler component for the Vela server.
 ---
 
+{{% alert title="Note:" color="primary" %}}
+The compiler is embedded directly in the server and can only be accessed through the server.
+{{% /alert %}}
+
 This component is responsible for transforming a [pipeline](/docs/tour/) into an executable representation for the [worker](/docs/administration/worker/).
 
 During the transformation, it will retrieve [templates](/docs/tour/templates/) from one or more registries depending on the pipeline configuration.
@@ -26,15 +30,15 @@ Some examples of what the modification endpoint can do include, but are not limi
 
 The following options are used to configure the component:
 
-| Name                   | Description                                                                | Required | Default | Environment Variables                                   |
-| ---------------------- | -------------------------------------------------------------------------- | -------- | ------- | ------------------------------------------------------- |
-| `github-driver`        | enables using a GitHub Enterprise instance as a registry for templates     | `false`  | `false` | `COMPILER_GITHUB`<br>`VELA_COMPILER_GITHUB`             |
-| `github-url`           | fully qualified url to GitHub Enterprise instance for fetching templates   | `false`  | `N/A`   | `COMPILER_GITHUB_URL`<br>`VELA_COMPILER_GITHUB_URL`     |
-| `github-token`         | token used for authentication when fetching registry templates             | `false`  | `N/A`   | `COMPILER_GITHUB_TOKEN`<br>`VELA_COMPILER_GITHUB_TOKEN` |
-| `modification-addr`    | fully qualified url to endpoint for modifying pipelines                    | `false`  | `N/A`   | `MODIFICATION_ADDR`<br>`VELA_MODIFICATION_ADDR`         |
-| `modification-retries` | number of times to resend failed requests to the modification endpoint     | `false`  | `5`     | `MODIFICATION_RETRIES`<br>`VELA_MODIFICATION_RETRIES`   |
-| `modification-secret`  | authenticates communication between compiler and the modification endpoint | `false`  | `N/A`   | `MODIFICATION_SECRET`<br>`VELA_MODIFICATION_SECRET`     |
-| `modification-timeout` | timeout for requests sent to the modification endpoint                     | `false`  | `8s`    | `MODIFICATION_TIMEOUT`<br>`VELA_MODIFICATION_TIMEOUT`   |
+| Name                   | Description                                                                     | Required | Default | Environment Variables                                   |
+| ---------------------- | ------------------------------------------------------------------------------- | -------- | ------- | ------------------------------------------------------- |
+| `github-driver`        | enables using a GitHub Enterprise Server instance as a registry for templates   | `false`  | `false` | `COMPILER_GITHUB`<br>`VELA_COMPILER_GITHUB`             |
+| `github-url`           | fully qualified url to GitHub Enterprise Server instance for fetching templates | `false`  | `N/A`   | `COMPILER_GITHUB_URL`<br>`VELA_COMPILER_GITHUB_URL`     |
+| `github-token`         | token used for authentication when fetching registry templates                  | `false`  | `N/A`   | `COMPILER_GITHUB_TOKEN`<br>`VELA_COMPILER_GITHUB_TOKEN` |
+| `modification-addr`    | fully qualified url to endpoint for modifying pipelines                         | `false`  | `N/A`   | `MODIFICATION_ADDR`<br>`VELA_MODIFICATION_ADDR`         |
+| `modification-retries` | number of times to resend failed requests to the modification endpoint          | `false`  | `5`     | `MODIFICATION_RETRIES`<br>`VELA_MODIFICATION_RETRIES`   |
+| `modification-secret`  | authenticates communication between compiler and the modification endpoint      | `false`  | `N/A`   | `MODIFICATION_SECRET`<br>`VELA_MODIFICATION_SECRET`     |
+| `modification-timeout` | timeout for requests sent to the modification endpoint                          | `false`  | `8s`    | `MODIFICATION_TIMEOUT`<br>`VELA_MODIFICATION_TIMEOUT`   |
 
 {{% alert title="Note:" color="primary" %}}
 For more information on these configuration options, please see the [server reference](/docs/administration/server/reference/).

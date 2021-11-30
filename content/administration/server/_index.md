@@ -89,7 +89,9 @@ Create a [GitHub OAuth application](https://docs.github.com/developers/apps/buil
 ![OAuth Application](oauth.png)
 
 {{% alert title="Warning:" color="secondary" %}}
-The `Homepage URL` and the `Authorization callback URL` must contain the `VELA_ADDR` environment variable below.
+The `Homepage URL` should match the `VELA_ADDR` environment variable below.
+
+The `Authorization callback URL` should match `<VELA_ADDR>/authenticate` from the environment variable below.
 {{% /alert %}}
 
 ### Step 5: Start the Server
