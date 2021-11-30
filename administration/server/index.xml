@@ -1,0 +1,555 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vela – Overview</title>
+    <link>https://go-vela.github.io/docs/administration/server/</link>
+    <description>Recent content in Overview on Vela</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://go-vela.github.io/docs/administration/server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Administration: Docker</title>
+      <link>https://go-vela.github.io/docs/administration/server/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://go-vela.github.io/docs/administration/server/docker/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;source-control-management-guides&#34;&gt;Source Control Management Guides&lt;/h2&gt;
+&lt;p&gt;Vela supports several Source Control Management (SCM) providers to enable the preferences of you and your team.&lt;/p&gt;
+&lt;p&gt;This section provides a list of comprehensive guides to install and start the server with Docker:&lt;/p&gt;
+&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://github.com/about/&#34;&gt;GitHub official website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub is where the world builds software. Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/docker/github/&#34;&gt;our GitHub guide&lt;/a&gt; to get started.&lt;/p&gt;
+&lt;h3 id=&#34;github-enterprise&#34;&gt;GitHub Enterprise&lt;/h3&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://github.com/enterprise&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/docker/github_enterprise/&#34;&gt;our GitHub Enterprise guide&lt;/a&gt; to get started.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Administration: Kubernetes</title>
+      <link>https://go-vela.github.io/docs/administration/server/kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://go-vela.github.io/docs/administration/server/kubernetes/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;source-control-management-guides&#34;&gt;Source Control Management Guides&lt;/h2&gt;
+&lt;p&gt;Vela supports several Source Control Management (SCM) providers to enable the preferences of you and your team.&lt;/p&gt;
+&lt;p&gt;This section provides a list of comprehensive guides to install and start the server with Kubernetes:&lt;/p&gt;
+&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://github.com/about/&#34;&gt;GitHub official website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub is where the world builds software. Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/kubernetes/github/&#34;&gt;our GitHub guide&lt;/a&gt; to get started.&lt;/p&gt;
+&lt;h3 id=&#34;github-enterprise&#34;&gt;GitHub Enterprise&lt;/h3&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://github.com/enterprise&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/kubernetes/github_enterprise/&#34;&gt;our GitHub Enterprise guide&lt;/a&gt; to get started.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Administration: Reference</title>
+      <link>https://go-vela.github.io/docs/administration/server/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://go-vela.github.io/docs/administration/server/reference/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;components&#34;&gt;Components&lt;/h2&gt;
+&lt;p&gt;The server is made up of several components, responsible for specific tasks, necessary for the service to operate:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;compiler&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;transforms a &lt;a href=&#34;https://go-vela.github.io/docs/docs/tour/&#34;&gt;pipeline&lt;/a&gt; into an executable workload for the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;database&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;integrates with a database provider for storing application data at rest&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;queue&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;integrates with a queue provider for pushing workloads that will be run by a &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;secret&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;integrates with a secret provider for storing sensitive application data at rest&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;source&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;integrates with a source control management (SCM) provider for authentication and authorization&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;vela_access_token_duration&#34;&gt;VELA_ACCESS_TOKEN_DURATION&lt;/h2&gt;
+&lt;p&gt;This variable sets the maximum duration of time a Vela access token for a user is valid on the server.&lt;/p&gt;
+&lt;p&gt;The access token is used for authenticating user&amp;rsquo;s requests to the server.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;15m&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_addr&#34;&gt;VELA_ADDR&lt;/h2&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the Vela &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt; address.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_compiler_github&#34;&gt;VELA_COMPILER_GITHUB&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable enables using a GitHub Enterprise instance as a registry for fetching pipeline &lt;a href=&#34;https://go-vela.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;false&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_compiler_github_token&#34;&gt;VELA_COMPILER_GITHUB_TOKEN&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a &lt;a href=&#34;https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token&#34;&gt;Personal Access Token (PAT)&lt;/a&gt; for fetching pipeline &lt;a href=&#34;https://go-vela.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from the GitHub Enterprise instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_compiler_github_url&#34;&gt;VELA_COMPILER_GITHUB_URL&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the GitHub Enterprise instance used for fetching pipeline &lt;a href=&#34;https://go-vela.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_database_addr&#34;&gt;VELA_DATABASE_ADDR&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the database instance for storing data at rest.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;vela.sqlite&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_database_compression_level&#34;&gt;VELA_DATABASE_COMPRESSION_LEVEL&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the level of compression for workload logs, uploaded by the Vela &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;, which are stored in the database.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+&lt;p&gt;This variable has a default value of &lt;code&gt;3&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The possible options to provide for this variable are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;0&lt;/code&gt; - produces no compression for the log data&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt; - produces compression for the log data the fastest and with the largest size of data&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;5&lt;/code&gt; - produces compression for the log data with an even balance of speed and size of data&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;7&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;8&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;9&lt;/code&gt; - produces compression for the log data the slowest and with the smallest size of data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_database_connection_idle&#34;&gt;VELA_DATABASE_CONNECTION_IDLE&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the maximum number of &lt;a href=&#34;https://pkg.go.dev/database/sql#DB.SetMaxIdleConns&#34;&gt;idle connections&lt;/a&gt; allowed for the database client.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;2&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_database_connection_life&#34;&gt;VELA_DATABASE_CONNECTION_LIFE&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the maximum duration of time &lt;a href=&#34;https://pkg.go.dev/database/sql#DB.SetConnMaxLifetime&#34;&gt;a connection is reusable&lt;/a&gt; for the database client.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;30m&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_database_connection_open&#34;&gt;VELA_DATABASE_CONNECTION_OPEN&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the maximum number of &lt;a href=&#34;https://pkg.go.dev/database/sql#DB.SetMaxOpenConns&#34;&gt;open connections&lt;/a&gt; allowed for the database client.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;0&lt;/code&gt; (meaning no limit is set).
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_database_driver&#34;&gt;VELA_DATABASE_DRIVER&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the driver to use for the database functionality for the server.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+&lt;p&gt;This variable has a default value of &lt;code&gt;sqlite3&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The possible options to provide for this variable are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;postgres&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sqlite3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_database_encryption_key&#34;&gt;VELA_DATABASE_ENCRYPTION_KEY&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the AES key for encrypting/decrypting values for data stored in the database.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as an &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_database_skip_creation&#34;&gt;VELA_DATABASE_SKIP_CREATION&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable enables skipping the creation of tables and indexes in the database system.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;false&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_default_build_timeout&#34;&gt;VELA_DEFAULT_BUILD_TIMEOUT&lt;/h2&gt;
+&lt;p&gt;This variable sets the default maximum duration of time a build is allowed to run on a worker.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;0&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_disable_webhook_validation&#34;&gt;VELA_DISABLE_WEBHOOK_VALIDATION&lt;/h2&gt;
+&lt;p&gt;This variable disables validation of webhooks sent by the SCM to the server.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+&lt;p&gt;This variable should only be used for local development.&lt;/p&gt;
+&lt;p&gt;This variable has a default value of &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_enable_secure_cookie&#34;&gt;VELA_ENABLE_SECURE_COOKIE&lt;/h2&gt;
+&lt;p&gt;This enables using cookies with the secure flag set by the server.&lt;/p&gt;
+&lt;p&gt;The variable is optional and should be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+&lt;p&gt;This variable should only be used for local development.&lt;/p&gt;
+&lt;p&gt;This variable has a default value of &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_modification_addr&#34;&gt;VELA_MODIFICATION_ADDR&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the modification endpoint used for the compiler.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_modification_retries&#34;&gt;VELA_MODIFICATION_RETRIES&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the maximum number of times to resend failed requests to the modification endpoint for the compiler.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;5&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_modification_secret&#34;&gt;VELA_MODIFICATION_SECRET&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a shared secret for authenticating communication between the compiler and the modification endpoint.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_modification_timeout&#34;&gt;VELA_MODIFICATION_TIMEOUT&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the maximum duration of time the compiler will wait before timing out requests sent to the modification endpoint.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;8s&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_port&#34;&gt;VELA_PORT&lt;/h2&gt;
+&lt;p&gt;This variable sets the port the server API responds on for HTTP requests.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;8080&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_queue_addr&#34;&gt;VELA_QUEUE_ADDR&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the queue instance for pushing workloads that will be run by a &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable should match &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/reference/#vela_queue_addr&#34;&gt;the &lt;code&gt;VELA_QUEUE_ADDR&lt;/code&gt; variable&lt;/a&gt; provided to the worker.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_queue_cluster&#34;&gt;VELA_QUEUE_CLUSTER&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable enables the server to connect to a queue cluster rather than a standalone instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable should match &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/reference/#vela_queue_cluster&#34;&gt;the &lt;code&gt;VELA_QUEUE_CLUSTER&lt;/code&gt; variable&lt;/a&gt; provided to the worker.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_queue_driver&#34;&gt;VELA_QUEUE_DRIVER&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the driver to use for the queue functionality for the server.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+&lt;p&gt;This variable should match &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/reference/#vela_queue_driver&#34;&gt;the &lt;code&gt;VELA_QUEUE_DRIVER&lt;/code&gt; variable&lt;/a&gt; provided to the worker.&lt;/p&gt;
+&lt;p&gt;The possible options to provide for this variable are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;redis&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_queue_pop_timeout&#34;&gt;VELA_QUEUE_POP_TIMEOUT&lt;/h2&gt;
+&lt;p&gt;This configuration variable is unused by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the maximum duration of time the worker will wait before timing out requests sent for pushing workloads.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;60s&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_queue_routes&#34;&gt;VELA_QUEUE_ROUTES&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the unique channels or topics to push workloads to.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myRoute1,myRoute2&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;vela&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_refresh_token_duration&#34;&gt;VELA_REFRESH_TOKEN_DURATION&lt;/h2&gt;
+&lt;p&gt;This variable sets the maximum duration of time a Vela refresh token for a user is valid on the server.&lt;/p&gt;
+&lt;p&gt;The refresh token is used for refreshing a user&amp;rsquo;s access token on the server.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;8h&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_repo_allowlist&#34;&gt;VELA_REPO_ALLOWLIST&lt;/h2&gt;
+&lt;p&gt;This variable sets a group of repositories, from the SCM, that can be enabled on the server.&lt;/p&gt;
+&lt;p&gt;The configuration is optional and can be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myRoute1,myRoute2&lt;/code&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;vela_scm_addr&#34;&gt;VELA_SCM_ADDR&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the source control management (SCM) system.&lt;/p&gt;
+&lt;p&gt;The configuration is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;https://github.com&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_scm_client&#34;&gt;VELA_SCM_CLIENT&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the client ID from the OAuth application created on the SCM system.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_scm_context&#34;&gt;VELA_SCM_CONTEXT&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the message to set in the commit status on the SCM system.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;continuous-integration/vela&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_scm_driver&#34;&gt;VELA_SCM_DRIVER&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the driver to use for the SCM functionality for the server.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+&lt;p&gt;This variable has a default value of &lt;code&gt;github&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The possible options to provide for this variable are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;github&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_scm_scopes&#34;&gt;VELA_SCM_SCOPES&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the permission scopes to apply for OAuth credentials captured from the SCM system.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myScope1,myScope2&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;read:org,read:user,repo,repo:status,user:email&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_scm_secret&#34;&gt;VELA_SCM_SECRET&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the client secret from the OAuth application created on the SCM system.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_scm_webhook_addr&#34;&gt;VELA_SCM_WEBHOOK_ADDR&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL on the SCM system to send webhooks to the server.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; variable&lt;/a&gt; provided to the server.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_secret&#34;&gt;VELA_SECRET&lt;/h2&gt;
+&lt;p&gt;This variable sets a shared secret with the Vela &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt; for authenticating communication between workers and the server.&lt;/p&gt;
+&lt;p&gt;The configuration is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable should match &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/worker/reference/#vela_server_secret&#34;&gt;the &lt;code&gt;VELA_SERVER_SECRET&lt;/code&gt; variable&lt;/a&gt; provided to the worker.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_secret_vault&#34;&gt;VELA_SECRET_VAULT&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable enables using HashiCorp Vault as a secret engine.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;false&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_secret_vault_addr&#34;&gt;VELA_SECRET_VAULT_ADDR&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the HashiCorp Vault instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_secret_vault_auth_method&#34;&gt;VELA_SECRET_VAULT_AUTH_METHOD&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the authentication method to obtain a token from the HashiCorp Vault instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_secret_vault_aws_role&#34;&gt;VELA_SECRET_VAULT_AWS_ROLE&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the HashiCorp Vault role to connect to the &lt;code&gt;auth/aws/login&lt;/code&gt; endpoint.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_secret_vault_prefix&#34;&gt;VELA_SECRET_VAULT_PREFIX&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the prefix for k/v secrets in the HashiCorp Vault instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_secret_vault_renewal&#34;&gt;VELA_SECRET_VAULT_RENEWAL&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the frequency to renew the token for the HashiCorp Vault instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;30m&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_secret_vault_token&#34;&gt;VELA_SECRET_VAULT_TOKEN&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the token for accessing the HashiCorp Vault instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_secret_vault_version&#34;&gt;VELA_SECRET_VAULT_VERSION&lt;/h2&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This variable sets the version for the k/v backend for the HashiCorp Vault instance.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;2&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_webui_addr&#34;&gt;VELA_WEBUI_ADDR&lt;/h2&gt;
+&lt;p&gt;This variable sets a fully qualified URL to the Vela &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/ui/&#34;&gt;UI&lt;/a&gt; address.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vela_webui_oauth_callback_path&#34;&gt;VELA_WEBUI_OAUTH_CALLBACK_PATH&lt;/h2&gt;
+&lt;p&gt;This variable sets the endpoint to use for the OAuth callback path for the Vela &lt;a href=&#34;https://go-vela.github.io/docs/docs/administration/ui/&#34;&gt;UI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;/account/authenticate&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_worker_active_interval&#34;&gt;VELA_WORKER_ACTIVE_INTERVAL&lt;/h2&gt;
+&lt;p&gt;This variable sets the interval of time the workers will show as active for the &lt;a href=&#34;TODO&#34;&gt;/metrics endpoint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The variable is optional and can be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;5m&lt;/code&gt;.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
