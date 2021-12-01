@@ -1,5 +1,4 @@
 ---
-no_list: true
 title: "Kubernetes"
 linkTitle: "Kubernetes"
 weight: 3
@@ -7,24 +6,30 @@ description: >
   This section contains information on deploying the Vela server service with Kubernetes.
 ---
 
-## Source Control Management Guides
+## Prerequisites
 
-Vela supports several Source Control Management (SCM) providers to enable the preferences of you and your team.
+This section provides all required dependencies to install and start the server with Kubernetes.
 
-This section provides a list of comprehensive guides to install and start the server with Kubernetes:
+### Dependency 1: Kubernetes
 
-### GitHub
+[Kubernetes](https://kubernetes.io/) will be used for downloading the server and managing the lifecycle of the application.
 
-From the [GitHub official website](https://github.com/about/):
+You can refer to [Kubernetes' official documentation](https://kubernetes.io/docs/setup/) on installing and configuring the service.
 
-> GitHub is where the world builds software. Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.
+### Dependency 2: Redis
 
-Please refer to [our GitHub guide](/docs/administration/server/kubernetes/github/) to get started.
+[Redis](https://redis.io/) will be used for storing workloads, created by the server, that will run on a [worker](/docs/administration/worker/).
 
-### GitHub Enterprise
+You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
 
-From the [GitHub Enterprise official website](https://github.com/enterprise):
+// TODO: more dependencies we need to cover?
 
-> GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.
+## Installation
 
-Please refer to [our GitHub Enterprise guide](/docs/administration/server/kubernetes/github_enterprise/) to get started.
+This section provides an example of installing the server with Kubernetes.
+
+This example only shows a subset of all possible configuration options.
+
+### Step 1: TODO
+
+TODO

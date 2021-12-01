@@ -31,9 +31,9 @@ For more information on these configuration options, please see the [server refe
 
 The following drivers are available to configure the component:
 
-| Name     | Description                                             | Documentation             |
-| -------- | ------------------------------------------------------- | ------------------------- |
-| `github` | uses a GitHub or GitHug Enterprise instance for the SCM | https://github.com/about/ |
+| Name     | Description                                           | Documentation             |
+| -------- | ----------------------------------------------------- | ------------------------- |
+| `github` | uses a GitHub or GitHug Enterprise Server for the SCM | https://github.com/about/ |
 
 ### GitHub
 
@@ -41,30 +41,14 @@ From the [GitHub official website](https://github.com/about/):
 
 > GitHub is where the world builds software. Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.
 
-The below configuration displays an example of starting the Vela server that will connect to a GitHub SCM:
+The below configuration displays an example of creating a [GitHub OAuth application](https://docs.github.com/developers/apps/building-oauth-apps/creating-an-oauth-app):
 
-```diff
-$ docker run \
-  --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
-  --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
-  --env=VELA_QUEUE_DRIVER=redis \
-  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
-  --env=VELA_PORT=443 \
-  --env=VELA_SECRET=<shared-secret> \
-+ --env=VELA_SCM_DRIVER=github
-+ --env=VELA_SCM_ADDR=https://github.com
-  --env=VELA_SCM_CLIENT=<oauth-client-id> \
-  --env=VELA_SCM_SECRET=<oauth-client-secret> \
-  --name=server \
-  --publish=80:80 \
-  --publish=443:443 \
-  --restart=always \
-  target/vela-server:latest
-```
+![OAuth Application](/docs/administration/server/github_oauth.png)
 
-{{% alert title="Note:" color="primary" %}}
-This GitHub configuration is enabled by default and is not necessary to provide in order for Vela to operate.
+{{% alert title="Warning:" color="secondary" %}}
+The `Homepage URL` should match [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) provided to the server.
+
+The `Authorization callback URL` should contain [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) with a `/authenticate` suffix.
 {{% /alert %}}
 
 ### GitHub Enterprise Server
@@ -73,24 +57,12 @@ From the [GitHub Enterprise official website](https://github.com/enterprise):
 
 > GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.
 
-The below configuration displays an example of starting the Vela server that will connect to a GitHub Enterprise SCM:
+The below configuration displays an example of creating a [GitHub Enterprise Server OAuth application](https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app):
 
-```diff
-$ docker run \
-  --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
-  --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
-  --env=VELA_QUEUE_DRIVER=redis \
-  --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
-  --env=VELA_PORT=443 \
-  --env=VELA_SECRET=<shared-secret> \
-+ --env=VELA_SCM_DRIVER=github \
-+ --env=VELA_SCM_ADDR=https://git.company.com \
-  --env=VELA_SCM_CLIENT=<oauth-client-id> \
-  --env=VELA_SCM_SECRET=<oauth-client-secret> \
-  --name=server \
-  --publish=80:80 \
-  --publish=443:443 \
-  --restart=always \
-  target/vela-server:latest
-```
+![OAuth Application](/docs/administration/server/github_enterprise_oauth.png)
+
+{{% alert title="Warning:" color="secondary" %}}
+The `Homepage URL` should match [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) provided to the server.
+
+The `Authorization callback URL` should contain [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) with a `/authenticate` suffix.
+{{% /alert %}}

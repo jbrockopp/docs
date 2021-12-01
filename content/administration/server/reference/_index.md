@@ -41,7 +41,7 @@ The variable is required and should be provided as a `string`.
 
 This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
 
-This variable enables using a GitHub Enterprise instance as a registry for fetching pipeline [templates](/docs/tour/templates/) from.
+This variable enables using a GitHub Enterprise Server as a registry for fetching pipeline [templates](/docs/tour/templates/) from.
 
 The variable is optional and can be provided as a `boolean`.
 
@@ -53,7 +53,7 @@ This variable has a default value of `false`.
 
 This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
 
-This variable sets a [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for fetching pipeline [templates](/docs/tour/templates/) from the GitHub Enterprise instance.
+This variable sets a [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for fetching pipeline [templates](/docs/tour/templates/) from the GitHub Enterprise Server.
 
 The variable is optional and can be provided as a `string`.
 
@@ -61,7 +61,7 @@ The variable is optional and can be provided as a `string`.
 
 This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
 
-This variable sets a fully qualified URL to the GitHub Enterprise instance used for fetching pipeline [templates](/docs/tour/templates/) from.
+This variable sets a fully qualified URL to the GitHub Enterprise Server used for fetching pipeline [templates](/docs/tour/templates/) from.
 
 The variable is optional and can be provided as a `string`.
 
