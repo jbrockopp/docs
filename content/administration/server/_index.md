@@ -11,13 +11,15 @@ Known as the brains of the Vela application, this service is responsible for man
 
 This includes managing resources in the system (repositories, users etc.) and storing resource data in the database.
 
-Additionally, the server responds to event-driven requests (webhooks) which creates new workloads to run on a [worker](/docs/administration/worker/).
+Additionally, the server responds to event-driven requests (webhooks) which creates new builds to run on a [worker](/docs/administration/worker/).
 
-After a workload is created, it is pushed to the queue which will be retrieved and executed by a worker.
+After a build is created, it is pushed to the queue which will be retrieved and executed by a worker.
 
-As a workload is run by a worker, it will send requests to the server's API which stores the state of the workloads in the database.
+As a build is run by a worker, it will send requests to the server's API which stores the state of the build in the database.
 
 // TODO: more information we should include?
+
+![Build Workflow](/docs/administration/server/build_workflow.png)
 
 ## Deployment Guides
 

@@ -7,17 +7,19 @@ description: >
   This section contains information on the Vela worker service.
 ---
 
-Known as the brawn of the Vela application, this service is responsible for managing the state of workload resources.
+Known as the brawn of the Vela application, this service is responsible for managing the state of build resources.
 
-This includes pulling workloads, provided by the [server](/docs/administration/server/), from the queue to be run.
+This includes pulling build, provided by the [server](/docs/administration/server/), from the queue to be run.
 
-When a workload is fetched from the queue, the worker will create and delete resources through the lifecycle of the workload.
+When a build is fetched from the queue, the worker will create and delete resources through the lifecycle of the build.
 
 During this time, the worker will send API requests to the server to report the status and progress of these resources.
 
 Additionally, the worker has its own API for processing web requests.
 
 // TODO: more information we should include?
+
+![Build Workflow](/docs/administration/worker/build_workflow.png)
 
 ## Deployment Guides
 

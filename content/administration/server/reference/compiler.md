@@ -48,9 +48,9 @@ For more information on these configuration options, please see the [server refe
 
 The following drivers are available to configure the component:
 
-| Name     | Description                                            | Documentation                 |
-| -------- | ------------------------------------------------------ | ----------------------------- |
-| `github` | uses a GitHug Enterprise Server as a template registry | https://github.com/enterprise |
+| Name     | Description                                            | Documentation                                                                   |
+| -------- | ------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| `github` | uses a GitHug Enterprise Server as a template registry | https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview |
 
 ### GitHub
 
@@ -64,9 +64,9 @@ This GitHub configuration is enabled by default and is not necessary to provide 
 
 ### GitHub Enterprise Server
 
-From the [GitHub Enterprise official website](https://github.com/enterprise):
+From the [GitHub Enterprise official website](https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview):
 
-> GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.
+> GitHub Enterprise Server is your organization's private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.
 
 The below configuration displays an example of starting the Vela server that will use a GitHub Enterprise Server as a template registry:
 
