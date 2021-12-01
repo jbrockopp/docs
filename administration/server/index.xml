@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vela – Overview</title>
+    <title>Vela – Server Overview</title>
     <link>https://jbrockopp.github.io/docs/administration/server/</link>
-    <description>Recent content in Overview on Vela</description>
+    <description>Recent content in Server Overview on Vela</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	  <atom:link href="https://jbrockopp.github.io/docs/administration/server/index.xml" rel="self" type="application/rss+xml" />
