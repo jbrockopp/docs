@@ -21,7 +21,7 @@ Additionally, the worker has its own API for processing web requests.
 
 ## Deployment Guides
 
-Vela supports several deployment strategies to enable the preferences of you and your team.
+Vela supports a number of deployment strategies to enable the preferences of you and your team.
 
 This section provides a list of comprehensive guides to install and start the worker:
 

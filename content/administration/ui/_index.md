@@ -13,7 +13,7 @@ This service is responsible for providing a practically designed method for perf
 
 ## Deployment Guides
 
-Vela supports several deployment strategies to enable the preferences of you and your team.
+Vela supports a number of deployment strategies to enable the preferences of you and your team.
 
 This section provides a list of comprehensive guides to install and start the UI:
 

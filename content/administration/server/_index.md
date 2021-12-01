@@ -21,7 +21,7 @@ As a build is run by a worker, it will send requests to the server's API which s
 
 ## Deployment Guides
 
-Vela supports several deployment strategies to enable the preferences of you and your team.
+Vela supports a number of deployment strategies to enable the preferences of you and your team.
 
 This section provides a list of comprehensive guides to install and start the server:
 
