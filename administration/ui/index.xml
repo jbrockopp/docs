@@ -27,7 +27,6 @@
 &lt;h3 id=&#34;dependency-1-docker&#34;&gt;Dependency 1: Docker&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.docker.com/&#34;&gt;Docker&lt;/a&gt; will be used for downloading the UI and managing the lifecycle of the application.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://docs.docker.com/get-docker/&#34;&gt;Docker&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
-&lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;This section provides an example of installing the UI with Docker.&lt;/p&gt;
 &lt;p&gt;This example only shows a subset of all possible configuration options.&lt;/p&gt;
@@ -84,7 +83,6 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 &lt;h3 id=&#34;dependency-1-kubernetes&#34;&gt;Dependency 1: Kubernetes&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; will be used for downloading the UI and managing the lifecycle of the application.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://kubernetes.io/docs/setup/&#34;&gt;Kubernetes&#39; official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
-&lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;This section provides an example of installing the UI with Kubernetes.&lt;/p&gt;
 &lt;p&gt;This example only shows a subset of all possible configuration options.&lt;/p&gt;

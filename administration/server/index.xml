@@ -30,7 +30,6 @@
 &lt;h3 id=&#34;dependency-2-redis&#34;&gt;Dependency 2: Redis&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://redis.io/topics/quickstart/&#34;&gt;Redis&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
-&lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;This section provides an example of installing the server with Docker.&lt;/p&gt;
 
@@ -128,7 +127,6 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
 &lt;h3 id=&#34;dependency-2-redis&#34;&gt;Dependency 2: Redis&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://redis.io/&#34;&gt;Redis&lt;/a&gt; will be used for storing workloads, created by the server, that will run on a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can refer to &lt;a href=&#34;https://redis.io/topics/quickstart/&#34;&gt;Redis&amp;rsquo;s official documentation&lt;/a&gt; on installing and configuring the service.&lt;/p&gt;
-&lt;p&gt;// TODO: more dependencies we need to cover?&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;This section provides an example of installing the server with Kubernetes.&lt;/p&gt;
 &lt;p&gt;This example only shows a subset of all possible configuration options.&lt;/p&gt;
