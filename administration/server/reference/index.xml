@@ -126,7 +126,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;github&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;uses a GitHug Enterprise Server as a template registry&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&#34;&gt;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.github.com/en/enterprise-server/admin/overview/system-overview&#34;&gt;https://docs.github.com/en/enterprise-server/admin/overview/system-overview&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -143,7 +143,7 @@ This GitHub configuration is enabled by default and is not necessary to provide 
 &lt;/div&gt;
 
 &lt;h3 id=&#34;github-enterprise-server&#34;&gt;GitHub Enterprise Server&lt;/h3&gt;
-&lt;p&gt;From the &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://docs.github.com/en/enterprise-server/admin/overview/system-overview&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GitHub Enterprise Server is your organization&amp;rsquo;s private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -577,7 +577,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;/div&gt;
 
 &lt;h3 id=&#34;github-enterprise-server&#34;&gt;GitHub Enterprise Server&lt;/h3&gt;
-&lt;p&gt;From the &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://docs.github.com/en/enterprise-server/admin/overview/system-overview&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GitHub Enterprise Server is your organization&amp;rsquo;s private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.&lt;/p&gt;
 &lt;/blockquote&gt;
