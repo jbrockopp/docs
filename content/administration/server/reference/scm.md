@@ -55,7 +55,7 @@ The `Authorization callback URL` should contain [the `VELA_ADDR` environment var
 
 ### GitHub Enterprise Server
 
-From the [GitHub Enterprise official website](https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview):
+From the [GitHub Enterprise official website](https://docs.github.com/en/enterprise-server/admin/overview/system-overview):
 
 > GitHub Enterprise Server is your organization's private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.
 
