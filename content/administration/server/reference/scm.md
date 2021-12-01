@@ -9,6 +9,8 @@ This component is responsible for integrating with a source control management (
 
 The SCM system is used by Vela for both authentication and authorization of interactions performed within the application.
 
+![Authentication Workflow](/docs/administration/server/reference/authentication_workflow.png)
+
 ## Configuration
 
 The following options are used to configure the component:
@@ -53,9 +55,9 @@ The `Authorization callback URL` should contain [the `VELA_ADDR` environment var
 
 ### GitHub Enterprise Server
 
-From the [GitHub Enterprise official website](https://github.com/enterprise):
+From the [GitHub Enterprise official website](https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview):
 
-> GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.
+> GitHub Enterprise Server is your organization's private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.
 
 The below configuration displays an example of creating a [GitHub Enterprise Server OAuth application](https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app):
 
