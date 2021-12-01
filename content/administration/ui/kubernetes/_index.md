@@ -16,8 +16,6 @@ This section provides all required dependencies to install and start the UI with
 
 You can refer to [Kubernetes' official documentation](https://kubernetes.io/docs/setup/) on installing and configuring the service.
 
-// TODO: more dependencies we need to cover?
-
 ## Installation
 
 This section provides an example of installing the UI with Kubernetes.

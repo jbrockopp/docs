@@ -17,13 +17,11 @@ During this time, the worker will send API requests to the server to report the 
 
 Additionally, the worker has its own API for processing web requests.
 
-// TODO: more information we should include?
-
 ![Build Workflow](/docs/administration/worker/build_workflow.png)
 
 ## Deployment Guides
 
-Vela supports several deployment strategies to enable the preferences of you and your team.
+Vela supports a number of deployment strategies to enable the preferences of you and your team.
 
 This section provides a list of comprehensive guides to install and start the worker:
 
