@@ -1,5 +1,6 @@
 ---
-title: "Overview"
+no_list: true
+title: "UI Overview"
 linkTitle: "UI"
 weight: 3
 description: >

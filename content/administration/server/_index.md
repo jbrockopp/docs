@@ -1,6 +1,6 @@
 ---
 no_list: true
-title: "Overview"
+title: "Server Overview"
 linkTitle: "Server"
 weight: 1
 description: >
