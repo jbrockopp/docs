@@ -9,7 +9,7 @@ description: >
 
 This service is responsible for providing a practically designed method for performing operations within Vela that feel intuitive.
 
-// TODO: add more information
+// TODO: add more information (would appreciate some help with this)
 
 ## Deployment Guides
 

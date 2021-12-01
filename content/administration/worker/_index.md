@@ -17,8 +17,6 @@ During this time, the worker will send API requests to the server to report the 
 
 Additionally, the worker has its own API for processing web requests.
 
-// TODO: more information we should include?
-
 ![Build Workflow](/docs/administration/worker/build_workflow.png)
 
 ## Deployment Guides

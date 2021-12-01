@@ -22,8 +22,6 @@ You can refer to [Docker's official documentation](https://docs.docker.com/get-d
 
 You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
 
-// TODO: more dependencies we need to cover?
-
 ## Installation
 
 This section provides an example of installing the server with Docker.

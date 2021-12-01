@@ -17,8 +17,6 @@ After a build is created, it is pushed to the queue which will be retrieved and 
 
 As a build is run by a worker, it will send requests to the server's API which stores the state of the build in the database.
 
-// TODO: more information we should include?
-
 ![Build Workflow](/docs/administration/server/build_workflow.png)
 
 ## Deployment Guides

@@ -16,8 +16,6 @@ This section provides all required dependencies to install and start the UI with
 
 You can refer to [Docker's official documentation](https://docs.docker.com/get-docker/) on installing and configuring the service.
 
-// TODO: more dependencies we need to cover?
-
 ## Installation
 
 This section provides an example of installing the UI with Docker.

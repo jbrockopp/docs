@@ -22,8 +22,6 @@ You can refer to [Kubernetes' official documentation](https://kubernetes.io/docs
 
 You can refer to [Redis's official documentation](https://redis.io/topics/quickstart/) on installing and configuring the service.
 
-// TODO: more dependencies we need to cover?
-
 ## Installation
 
 This section provides an example of installing the server with Kubernetes.
