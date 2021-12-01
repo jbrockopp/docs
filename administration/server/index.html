@@ -738,10 +738,11 @@
 	<div class="lead">This section contains information on the Vela server service.</div>
 	<p>Known as the brains of the Vela application, this service is responsible for managing the state of application resources.</p>
 <p>This includes managing resources in the system (repositories, users etc.) and storing resource data in the database.</p>
-<p>Additionally, the server responds to event-driven requests (webhooks) which creates new workloads to run on a <a href="/docs/administration/worker/">worker</a>.</p>
-<p>After a workload is created, it is pushed to the queue which will be retrieved and executed by a worker.</p>
-<p>As a workload is run by a worker, it will send requests to the server&rsquo;s API which stores the state of the workloads in the database.</p>
+<p>Additionally, the server responds to event-driven requests (webhooks) which creates new builds to run on a <a href="/docs/administration/worker/">worker</a>.</p>
+<p>After a build is created, it is pushed to the queue which will be retrieved and executed by a worker.</p>
+<p>As a build is run by a worker, it will send requests to the server&rsquo;s API which stores the state of the build in the database.</p>
 <p>// TODO: more information we should include?</p>
+<p><img src="/docs/administration/server/build_workflow.png" alt="Build Workflow"></p>
 <h2 id="deployment-guides">Deployment Guides</h2>
 <p>Vela supports several deployment strategies to enable the preferences of you and your team.</p>
 <p>This section provides a list of comprehensive guides to install and start the server:</p>
@@ -768,7 +769,7 @@
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified December 1, 2021: <a  href="https://github.com/jbrockopp/docs/commit/b022e0223c0131697c40ffb4499b2f445bf96456">chore: update service overviews (b022e022)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 1, 2021: <a  href="https://github.com/jbrockopp/docs/commit/044885c1fa2ca764b080fe62748ce29161f4af7d">enhance: add workflow diagrams (044885c1)</a>
 </div>
 </div>
 

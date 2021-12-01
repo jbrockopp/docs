@@ -126,7 +126,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;github&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;uses a GitHug Enterprise Server as a template registry&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/enterprise&#34;&gt;https://github.com/enterprise&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&#34;&gt;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -143,9 +143,9 @@ This GitHub configuration is enabled by default and is not necessary to provide 
 &lt;/div&gt;
 
 &lt;h3 id=&#34;github-enterprise-server&#34;&gt;GitHub Enterprise Server&lt;/h3&gt;
-&lt;p&gt;From the &lt;a href=&#34;https://github.com/enterprise&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.&lt;/p&gt;
+&lt;p&gt;GitHub Enterprise Server is your organization&amp;rsquo;s private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will use a GitHub Enterprise Server as a template registry:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
@@ -470,6 +470,7 @@ For more information on these configuration options, please see the &lt;a href=&
         
         &lt;p&gt;This component is responsible for integrating with a source control management (SCM) system based off the configuration provided.&lt;/p&gt;
 &lt;p&gt;The SCM system is used by Vela for both authentication and authorization of interactions performed within the application.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/authentication_workflow.png&#34; alt=&#34;Authentication Workflow&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
 &lt;p&gt;The following options are used to configure the component:&lt;/p&gt;
 &lt;table&gt;
@@ -576,9 +577,9 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;/div&gt;
 
 &lt;h3 id=&#34;github-enterprise-server&#34;&gt;GitHub Enterprise Server&lt;/h3&gt;
-&lt;p&gt;From the &lt;a href=&#34;https://github.com/enterprise&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.3/admin/overview/system-overview&#34;&gt;GitHub Enterprise official website&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;GitHub Enterprise helps you work seamlessly across your organization on a platform designed for collaboration. Embrace innersource, iterate faster, and ship more frequently using best practices from open source teams.&lt;/p&gt;
+&lt;p&gt;GitHub Enterprise Server is your organization&amp;rsquo;s private copy of GitHub contained within a virtual appliance, hosted on premises or in the cloud, that you configure and control.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The below configuration displays an example of creating a &lt;a href=&#34;https://docs.github.com/enterprise-server@3.3/developers/apps/building-oauth-apps/creating-an-oauth-app&#34;&gt;GitHub Enterprise Server OAuth application&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://jbrockopp.github.io/docs/docs/administration/server/github_enterprise_oauth.png&#34; alt=&#34;OAuth Application&#34;&gt;&lt;/p&gt;
