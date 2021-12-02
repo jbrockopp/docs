@@ -32,6 +32,7 @@ The compiler is embedded directly in the server and can only be accessed through
 &lt;p&gt;This component is responsible for transforming a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/&#34;&gt;pipeline&lt;/a&gt; into an executable representation for the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;During the transformation, it will retrieve &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from one or more registries depending on the pipeline configuration.&lt;/p&gt;
 &lt;p&gt;By default, Vela will use &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; as a registry for fetching templates, but you can configure additional registries as well.&lt;/p&gt;
+&lt;p&gt;However, to fetch templates from a private organization or repository on GitHub, you need to provide a token to the compiler.&lt;/p&gt;
 &lt;p&gt;Additionally, the compiler can send pipelines to an external endpoint, to be modified, based off custom configuration.&lt;/p&gt;
 &lt;p&gt;This modification endpoint can be used to perform any number of customizations to all workloads created by the system.&lt;/p&gt;
 &lt;p&gt;Some examples of what the modification endpoint can do include, but are not limited to:&lt;/p&gt;
@@ -56,14 +57,14 @@ The compiler is embedded directly in the server and can only be accessed through
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;github-driver&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;enables using a GitHub Enterprise Server instance as a registry for templates&lt;/td&gt;
+&lt;td&gt;enables using Github or GitHub Enterprise Server as a registry for templates&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;COMPILER_GITHUB&lt;/code&gt;&lt;br&gt;&lt;code&gt;VELA_COMPILER_GITHUB&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;github-url&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;fully qualified url to GitHub Enterprise Server instance for fetching templates&lt;/td&gt;
+&lt;td&gt;fully qualified url to GitHub or GitHub Enterprise Server for templates&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;N/A&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;COMPILER_GITHUB_URL&lt;/code&gt;&lt;br&gt;&lt;code&gt;VELA_COMPILER_GITHUB_URL&lt;/code&gt;&lt;/td&gt;
@@ -125,7 +126,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;github&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;uses a GitHug Enterprise Server as a template registry&lt;/td&gt;
+&lt;td&gt;uses GitHub or GitHug Enterprise Server as a template registry&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://docs.github.com/en/enterprise-server/admin/overview/system-overview&#34;&gt;https://docs.github.com/en/enterprise-server/admin/overview/system-overview&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -135,11 +136,32 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;blockquote&gt;
 &lt;p&gt;GitHub is where the world builds software. Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.&lt;/p&gt;
 &lt;/blockquote&gt;
-
+&lt;p&gt;The below configuration displays an example of starting the Vela server that will use a GitHub Server as a template registry:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
+  --detach=true \
+  --env=VELA_ADDR=https://vela.company.com \
+&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_GITHUB=true \
+&lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_TOKEN=&amp;lt;github-personal-access-token&amp;gt; \
+&lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_URL=https://github.com \
+&lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;&lt;/span&gt;  --env=VELA_DATABASE_ENCRYPTION_KEY=&amp;lt;encryption-key&amp;gt; \
+  --env=VELA_QUEUE_DRIVER=redis \
+  --env=VELA_QUEUE_ADDR=redis://&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; \
+  --env=VELA_PORT=443 \
+  --env=VELA_SECRET=&amp;lt;shared-secret&amp;gt; \
+  --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
+  --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --name=server \
+  --publish=80:80 \
+  --publish=443:443 \
+  --restart=always \
+  target/vela-server:latest
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
-This GitHub configuration is enabled by default and is not necessary to provide in order for Vela to operate.
+&lt;p&gt;This GitHub configuration is enabled by default and is not necessary to provide in order for Vela to operate.&lt;/p&gt;
+&lt;p&gt;However, this configuration will enable you to fetch templates from a private organization or repository on GitHub.&lt;/p&gt;
+
 &lt;/div&gt;
 
 &lt;h3 id=&#34;github-enterprise-server&#34;&gt;GitHub Enterprise Server&lt;/h3&gt;
