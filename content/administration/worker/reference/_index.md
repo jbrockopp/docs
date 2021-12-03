@@ -51,6 +51,8 @@ This variable has a default value of `15m`.
 
 This configuration variable is used by the [executor component](/docs/administration/worker/components/executor/) for the worker.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets the driver to use for the executor functionality for the worker.
 
 **The variable is required** and should be provided as a `string`.
@@ -85,6 +87,8 @@ The possible options to provide for this variable are:
 
 This configuration variable is used by the [queue component](/docs/administration/worker/components/queue/) for the worker.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets a fully qualified URL to the queue instance for pulling workloads provided by the [server](/docs/administration/server/).
 
 **The variable is required** and should be provided as a `string`.
@@ -108,6 +112,8 @@ This variable should match [the `VELA_QUEUE_CLUSTER` variable](/docs/administrat
 ## VELA_QUEUE_DRIVER
 
 This configuration variable is used by the [queue component](/docs/administration/worker/components/queue/) for the worker.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets the driver to use for the queue functionality for the worker.
 
@@ -149,6 +155,8 @@ This variable has a default value of `vela`.
 
 This configuration variable is used by the [runtime component](/docs/administration/worker/components/runtime/) for the worker.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets a fully qualified system path to a configuration file for the worker.
 
 **The variable is optional** and can be provided as a `string`.
@@ -156,6 +164,8 @@ This variable sets a fully qualified system path to a configuration file for the
 ## VELA_RUNTIME_DRIVER
 
 This configuration variable is used by the [runtime component](/docs/administration/worker/components/runtime/) for the worker.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets the driver to use for the runtime functionality for the worker.
 
@@ -173,6 +183,8 @@ The possible options to provide for this variable are:
 ## VELA_RUNTIME_NAMESPACE
 
 This configuration variable is used by the [runtime component](/docs/administration/worker/components/runtime/) for the worker.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets a namespace (for Kubernetes only) to use for runtime workloads.
 

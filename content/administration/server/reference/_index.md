@@ -41,6 +41,8 @@ This variable sets a fully qualified URL to the Vela [server](/docs/administrati
 
 This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable enables using GitHub or GitHub Enterprise Server as a registry for fetching pipeline [templates](/docs/tour/templates/) from.
 
 By default, Vela will use [GitHub](https://github.com/) as a registry for fetching templates.
@@ -57,6 +59,8 @@ This variable has a default value of `false`.
 
 This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets a [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for fetching pipeline [templates](/docs/tour/templates/) from GitHub or GitHub Enterprise Server.
 
 By default, Vela will use [GitHub](https://github.com/) as a registry for fetching templates.
@@ -69,6 +73,8 @@ However, to fetch templates from a private organization or repository on GitHub,
 
 This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets a fully qualified URL to GitHub or GitHub Enterprise Server used for fetching pipeline [templates](/docs/tour/templates/) from.
 
 By default, Vela will use [GitHub](https://github.com/) as a registry for fetching templates.
@@ -80,6 +86,8 @@ However, to fetch templates from a private organization or repository on GitHub,
 ## VELA_DATABASE_ADDR
 
 This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets a fully qualified URL to the database instance for storing data at rest.
 
@@ -155,6 +163,8 @@ This variable has a default value of `0` (meaning no limit is set).
 
 This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets the driver to use for the database functionality for the server.
 
 **The variable is required** and should be provided as a `string`.
@@ -171,6 +181,8 @@ The possible options to provide for this variable are:
 ## VELA_DATABASE_ENCRYPTION_KEY
 
 This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets the AES key for encrypting/decrypting values for data stored in the database.
 
@@ -276,6 +288,8 @@ This variable has a default value of `8080`.
 
 This configuration variable is used by the [queue component](/docs/administration/server/components/queue/) for the server.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable sets a fully qualified URL to the queue instance for pushing workloads that will be run by a [worker](/docs/administration/worker/).
 
 **The variable is required** and should be provided as a `string`.
@@ -299,6 +313,8 @@ This variable should match [the `VELA_QUEUE_CLUSTER` variable](/docs/administrat
 ## VELA_QUEUE_DRIVER
 
 This configuration variable is used by the [queue component](/docs/administration/server/components/queue/) for the server.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets the driver to use for the queue functionality for the server.
 
@@ -448,6 +464,8 @@ This variable should match [the `VELA_SERVER_SECRET` variable](/docs/administrat
 
 This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
 
+Examples using this configuration variable are provided in the above reference documentation.
+
 This variable enables using HashiCorp Vault as a secret engine.
 
 **The variable is optional** and can be provided as a `boolean`.
@@ -459,6 +477,8 @@ This variable has a default value of `false`.
 ## VELA_SECRET_VAULT_ADDR
 
 This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets a fully qualified URL to the HashiCorp Vault instance.
 
@@ -503,6 +523,8 @@ This variable has a default value of `30m`.
 ## VELA_SECRET_VAULT_TOKEN
 
 This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+
+Examples using this configuration variable are provided in the above reference documentation.
 
 This variable sets the token for accessing the HashiCorp Vault instance.
 
