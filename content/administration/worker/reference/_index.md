@@ -62,7 +62,7 @@ The possible options to provide for this variable are:
 
 * `linux`
 * `local`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_EXECUTOR_LOG_METHOD
 
@@ -79,7 +79,7 @@ The possible options to provide for this variable are:
 
 * `byte-chunks`
 * `time-chunks`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_QUEUE_ADDR
 
@@ -119,7 +119,7 @@ This variable should match [the `VELA_QUEUE_DRIVER` variable](/docs/administrati
 The possible options to provide for this variable are:
 
 * `redis`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_QUEUE_POP_TIMEOUT
 
@@ -168,7 +168,7 @@ The possible options to provide for this variable are:
 
 * `docker`
 * `kubernetes`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_RUNTIME_NAMESPACE
 

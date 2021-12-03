@@ -113,7 +113,7 @@ The possible options to provide for this variable are:
 * `7`
 * `8`
 * `9` - produces compression for the log data the slowest and with the smallest size of data
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_DATABASE_CONNECTION_IDLE
 
@@ -166,7 +166,7 @@ The possible options to provide for this variable are:
 
 * `postgres`
 * `sqlite3`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_DATABASE_ENCRYPTION_KEY
 
@@ -310,7 +310,7 @@ This variable should match [the `VELA_QUEUE_DRIVER` variable](/docs/administrati
 The possible options to provide for this variable are:
 
 * `redis`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_QUEUE_POP_TIMEOUT
 
@@ -400,7 +400,7 @@ This variable has a default value of `github`.
 The possible options to provide for this variable are:
 
 * `github`
-  {{% /alert %}}
+{{% /alert %}}
 
 ## VELA_SCM_SCOPES
 
