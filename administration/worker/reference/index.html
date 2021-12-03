@@ -787,7 +787,7 @@
 </table>
 <h2 id="vela_build_limit">VELA_BUILD_LIMIT</h2>
 <p>This variable sets a number to control the maximum amount of builds that are allowed to run concurrently on the worker.</p>
-<p>The variable is required and should be provided as an <code>integer</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as an <code>integer</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -797,7 +797,7 @@ This variable has a default value of <code>1</code>.
 
 <h2 id="vela_build_timeout">VELA_BUILD_TIMEOUT</h2>
 <p>This variable sets the maximum duration of time a build can run for on the worker before being terminated.</p>
-<p>The variable is required and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -807,7 +807,7 @@ This variable has a default value of <code>30m</code>.
 
 <h2 id="vela_check_in">VELA_CHECK_IN</h2>
 <p>This variable sets the maximum duration of time a worker will wait before registering with the Vela <a href="/docs/administration/server/">server</a>.</p>
-<p>The variable is required and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -817,8 +817,9 @@ This variable has a default value of <code>15m</code>.
 
 <h2 id="vela_executor_driver">VELA_EXECUTOR_DRIVER</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/executor/">executor component</a> for the worker.</p>
+<p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the driver to use for the executor functionality for the worker.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -835,7 +836,7 @@ This variable has a default value of <code>15m</code>.
 <h2 id="vela_executor_log_method">VELA_EXECUTOR_LOG_METHOD</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/executor/">executor component</a> for the worker.</p>
 <p>This variable sets the logging method used by the worker for uploading workload logs to the Vela <a href="/docs/administration/server/">server</a>.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -851,8 +852,9 @@ This variable has a default value of <code>15m</code>.
 
 <h2 id="vela_queue_addr">VELA_QUEUE_ADDR</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/queue/">queue component</a> for the worker.</p>
+<p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a fully qualified URL to the queue instance for pulling workloads provided by the <a href="/docs/administration/server/">server</a>.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -863,7 +865,7 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 <h2 id="vela_queue_cluster">VELA_QUEUE_CLUSTER</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/queue/">queue component</a> for the worker.</p>
 <p>This variable enables the worker to connect to a queue cluster rather than a standalone instance.</p>
-<p>The variable is optional and can be provided as a <code>boolean</code>.</p>
+<p><strong>The variable is optional</strong> and can be provided as a <code>boolean</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -873,8 +875,9 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 
 <h2 id="vela_queue_driver">VELA_QUEUE_DRIVER</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/queue/">queue component</a> for the worker.</p>
+<p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the driver to use for the queue functionality for the worker.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -890,7 +893,7 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 <h2 id="vela_queue_pop_timeout">VELA_QUEUE_POP_TIMEOUT</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/queue/">queue component</a> for the worker.</p>
 <p>This variable sets the maximum duration of time the worker will wait before timing out requests sent for pulling workloads.</p>
-<p>The variable is required and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -901,7 +904,7 @@ This variable has a default value of <code>60s</code>.
 <h2 id="vela_queue_routes">VELA_QUEUE_ROUTES</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/queue/">queue component</a> for the worker.</p>
 <p>This variable sets the unique channels or topics to pull workloads from.</p>
-<p>The variable is required and should be provided as a comma-separated <code>list</code> (i.e. <code>myRoute1,myRoute2</code>).</p>
+<p><strong>The variable is required</strong> and should be provided as a comma-separated <code>list</code> (i.e. <code>myRoute1,myRoute2</code>).</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -911,12 +914,14 @@ This variable has a default value of <code>vela</code>.
 
 <h2 id="vela_runtime_config">VELA_RUNTIME_CONFIG</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/runtime/">runtime component</a> for the worker.</p>
+<p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a fully qualified system path to a configuration file for the worker.</p>
-<p>The variable is optional and can be provided as a <code>string</code>.</p>
+<p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_runtime_driver">VELA_RUNTIME_DRIVER</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/runtime/">runtime component</a> for the worker.</p>
+<p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the driver to use for the runtime functionality for the worker.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -932,12 +937,13 @@ This variable has a default value of <code>vela</code>.
 
 <h2 id="vela_runtime_namespace">VELA_RUNTIME_NAMESPACE</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/runtime/">runtime component</a> for the worker.</p>
+<p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a namespace (for Kubernetes only) to use for runtime workloads.</p>
-<p>The variable is optional and can be provided as a <code>string</code>.</p>
+<p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_runtime_privileged_images">VELA_RUNTIME_PRIVILEGED_IMAGES</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/runtime/">runtime component</a> for the worker.</p>
 <p>This variable sets the <a href="https://docs.docker.com/get-started/overview/#images">Docker image(s)</a> that are allowed to have privileged access on the worker.</p>
-<p>The variable is optional and can be provided as a comma-separated <code>list</code> (i.e. <code>myImage1,myImage2</code>).</p>
+<p><strong>The variable is optional</strong> and can be provided as a comma-separated <code>list</code> (i.e. <code>myImage1,myImage2</code>).</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -948,10 +954,10 @@ This variable has a default value of <code>target/vela-docker</code>.
 <h2 id="vela_runtime_volumes">VELA_RUNTIME_VOLUMES</h2>
 <p>This configuration variable is used by the <a href="/docs/administration/worker/components/runtime/">runtime component</a> for the worker.</p>
 <p>This variable sets the fully qualified system path(s) to file(s) on the host machine that will be mounted into workloads executed on that worker.</p>
-<p>The variable is optional and can be provided as a comma-separated <code>list</code> (i.e. <code>myVolume1,myVolume2</code>).</p>
+<p><strong>The variable is optional</strong> and can be provided as a comma-separated <code>list</code> (i.e. <code>myVolume1,myVolume2</code>).</p>
 <h2 id="vela_server_addr">VELA_SERVER_ADDR</h2>
 <p>This variable sets a fully qualified URL to the Vela <a href="/docs/administration/server/">server</a> address.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -961,7 +967,7 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 
 <h2 id="vela_server_secret">VELA_SERVER_SECRET</h2>
 <p>This variable sets a shared secret for authenticating communication between workers and the server.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -971,13 +977,13 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 
 <h2 id="vela_server_cert">VELA_SERVER_CERT</h2>
 <p>This variable sets a fully qualified system path to the TLS certificate used for HTTPS for the worker.</p>
-<p>The variable is optional and can be provided as a <code>string</code>.</p>
+<p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_server_cert_key">VELA_SERVER_CERT_KEY</h2>
 <p>This variable sets a fully qualified system path to the TLS certificate key used for HTTPS for the worker.</p>
-<p>The variable is optional and can be provided as a <code>string</code>.</p>
+<p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_worker_addr">VELA_WORKER_ADDR</h2>
 <p>This variable sets a fully qualified URL to the Vela <a href="/docs/administration/worker/">worker</a> address.</p>
-<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
         <div class="section-index">
     
@@ -989,7 +995,7 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified November 30, 2021: <a  href="https://github.com/jbrockopp/docs/commit/1c82c7fc2821d3acde818f42883324f5998fb234">chore: fix more typos (1c82c7fc)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 3, 2021: <a  href="https://github.com/jbrockopp/docs/commit/b3d506ba82b72ebae9b0f78ee9cd6cad61d7d4f0">chore: explain example location for component variables (b3d506ba)</a>
 </div>
 </div>
 
