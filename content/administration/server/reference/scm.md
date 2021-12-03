@@ -23,7 +23,7 @@ The following options are used to configure the component:
 | `scm.driver`       | type of client to control and operate SCM                       | `true`   | `github`                                                 | `SCM_DRIVER`<br>`VELA_SCM_DRIVER`             |
 | `scm.scopes`       | permission scopes to apply for the OAuth credentials on the SCM | `true`   | `[ repo, repo:status, user:email, read:user, read:org ]` | `SCM_SCOPES`<br>`VELA_SCM_SCOPES`             |
 | `scm.secret`       | client secret from the generated OAuth application on the SCM   | `true`   | `N/A`                                                    | `SCM_SECRET`<br>`VELA_SCM_SECRET`             |
-| `scm.webhook.addr` | url for webhooks on the SCM to send requests to                 | `false`  | the address of the Vela server                           | `SCM_WEBHOOK_ADDR`<br>`VELA_SCM_WEBHOOK_ADDR` |
+| `scm.webhook.addr` | url for webhooks on the SCM to send requests to                 | `false`  | the address of the Vela server (`$VELA_ADDR`)            | `SCM_WEBHOOK_ADDR`<br>`VELA_SCM_WEBHOOK_ADDR` |
 
 {{% alert title="Note:" color="primary" %}}
 For more information on these configuration options, please see the [server reference](/docs/administration/server/reference/).
@@ -48,7 +48,9 @@ The below configuration displays an example of creating a [GitHub OAuth applicat
 ![OAuth Application](/docs/administration/server/github_oauth.png)
 
 {{% alert title="Warning:" color="secondary" %}}
-The `Homepage URL` should match [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) provided to the server.
+The `Homepage URL` should match [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) provided to the server for clusters without a UI.
+
+Otherwise, the `Homepage URL` should match [the `VELA_WEBUI_ADDR` environment variable](/docs/administration/server/reference/#vela_webui_addr) provided to the server.
 
 The `Authorization callback URL` should contain [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) with a `/authenticate` suffix.
 {{% /alert %}}
@@ -64,7 +66,9 @@ The below configuration displays an example of creating a [GitHub Enterprise Ser
 ![OAuth Application](/docs/administration/server/github_enterprise_oauth.png)
 
 {{% alert title="Warning:" color="secondary" %}}
-The `Homepage URL` should match [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) provided to the server.
+The `Homepage URL` should match [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) provided to the server for clusters without a UI.
+
+Otherwise, the `Homepage URL` should match [the `VELA_WEBUI_ADDR` environment variable](/docs/administration/server/reference/#vela_webui_addr) provided to the server.
 
 The `Authorization callback URL` should contain [the `VELA_ADDR` environment variable](/docs/administration/server/reference/#vela_addr) with a `/authenticate` suffix.
 {{% /alert %}}

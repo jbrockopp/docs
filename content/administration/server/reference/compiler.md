@@ -65,7 +65,7 @@ The below configuration displays an example of starting the Vela server that wil
 ```diff
 $ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
 + --env=VELA_COMPILER_GITHUB=true \
 + --env=VELA_COMPILER_TOKEN=<github-personal-access-token> \
 + --env=VELA_COMPILER_URL=https://github.com \
@@ -76,6 +76,7 @@ $ docker run \
   --env=VELA_SECRET=<shared-secret> \
   --env=VELA_SCM_CLIENT=<oauth-client-id> \
   --env=VELA_SCM_SECRET=<oauth-client-secret> \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
@@ -100,7 +101,7 @@ The below configuration displays an example of starting the Vela server that wil
 ```diff
 $ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
 + --env=VELA_COMPILER_GITHUB=true \
 + --env=VELA_COMPILER_TOKEN=<github-personal-access-token> \
 + --env=VELA_COMPILER_URL=https://git.company.com \
@@ -111,6 +112,7 @@ $ docker run \
   --env=VELA_SECRET=<shared-secret> \
   --env=VELA_SCM_CLIENT=<oauth-client-id> \
   --env=VELA_SCM_SECRET=<oauth-client-secret> \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
