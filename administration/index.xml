@@ -825,6 +825,7 @@ This Docker configuration is enabled by default and is not necessary to provide 
   --env=VELA_QUEUE_ADDR=redis://&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; \
 &lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_RUNTIME_DRIVER=kubernetes \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_RUNTIME_CONFIG=/root/.kube/config \
+&lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_RUNTIME_NAMESPACE=vela \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;&lt;/span&gt;  --env=VELA_SERVER_ADDR=https://vela.company.com \
   --env=VELA_SERVER_SECRET=&amp;lt;shared-secret&amp;gt; \
   --env=VELA_WORKER_ADDR=https://vela-worker.company.com \

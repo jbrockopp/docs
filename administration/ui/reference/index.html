@@ -695,6 +695,7 @@
 
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#node_env">NODE_ENV</a></li>
     <li><a href="#vela_api">VELA_API</a></li>
     <li><a href="#vela_docs_url">VELA_DOCS_URL</a></li>
     <li><a href="#vela_feedback_url">VELA_FEEDBACK_URL</a></li>
@@ -743,7 +744,18 @@
 <div class="td-content">
 	<h1>Reference</h1>
 	<div class="lead">This section contains a reference of configuration options for the Vela UI service.</div>
-	<h2 id="vela_api">VELA_API</h2>
+	<h2 id="node_env">NODE_ENV</h2>
+<p>This variable sets the targeted deployment environment for <a href="https://nodejs.org/">node.js</a>.</p>
+<p>The variable is required and should be provided as a <code>string</code>.</p>
+<p>Setting this variable to <code>development</code> will enable development mode for the service and output verbose logging.</p>
+
+
+<div class="alert alert-primary" role="alert">
+<h4 class="alert-heading">Note:</h4>
+This variable has a default value of <code>production</code>.
+</div>
+
+<h2 id="vela_api">VELA_API</h2>
 <p>This variable sets a fully qualified URL to the Vela <a href="/docs/administration/server/">server</a> address.</p>
 <p>The variable is required and should be provided as a <code>string</code>.</p>
 
@@ -828,7 +840,7 @@ This variable has a default value of <code>https://github.com/go-vela/ui/issues/
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified November 30, 2021: <a  href="https://github.com/jbrockopp/docs/commit/21f3aee73a834e2d7a223c35f68c974790ba3276">chore: add docker/kubernetes sections per feedback (21f3aee7)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 3, 2021: <a  href="https://github.com/jbrockopp/docs/commit/36bcf7bc038f5cf1f5213b8ccb8a1357ffa119bf">chore: address reference PR feedback (36bcf7bc)</a>
 </div>
 </div>
 

@@ -101,7 +101,18 @@ For a full list of configuration options, please see the &lt;a href=&#34;https:/
       <description>
         
         
-        &lt;h2 id=&#34;vela_api&#34;&gt;VELA_API&lt;/h2&gt;
+        &lt;h2 id=&#34;node_env&#34;&gt;NODE_ENV&lt;/h2&gt;
+&lt;p&gt;This variable sets the targeted deployment environment for &lt;a href=&#34;https://nodejs.org/&#34;&gt;node.js&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Setting this variable to &lt;code&gt;development&lt;/code&gt; will enable development mode for the service and output verbose logging.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note:&lt;/h4&gt;
+This variable has a default value of &lt;code&gt;production&lt;/code&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vela_api&#34;&gt;VELA_API&lt;/h2&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the Vela &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt; address.&lt;/p&gt;
 &lt;p&gt;The variable is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
