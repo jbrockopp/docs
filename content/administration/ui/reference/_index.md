@@ -6,6 +6,18 @@ description: >
   This section contains a reference of configuration options for the Vela UI service.
 ---
 
+## NODE_ENV
+
+This variable sets the targeted deployment environment for [node.js](https://nodejs.org/).
+
+The variable is required and should be provided as a `string`.
+
+Setting this variable to `development` will enable development mode for the service and output verbose logging.
+
+{{% alert title="Note:" color="primary" %}}
+This variable has a default value of `production`.
+{{% /alert %}}
+
 ## VELA_API
 
 This variable sets a fully qualified URL to the Vela [server](/docs/administration/server/) address.
