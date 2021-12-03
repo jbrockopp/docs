@@ -139,7 +139,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will use a GitHub Server as a template registry:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
 &lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_GITHUB=true \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_TOKEN=&amp;lt;github-personal-access-token&amp;gt; \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_URL=https://github.com \
@@ -150,6 +150,7 @@ For more information on these configuration options, please see the &lt;a href=&
   --env=VELA_SECRET=&amp;lt;shared-secret&amp;gt; \
   --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
   --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
@@ -172,7 +173,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will use a GitHub Enterprise Server as a template registry:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
 &lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_GITHUB=true \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_TOKEN=&amp;lt;github-personal-access-token&amp;gt; \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_COMPILER_URL=https://git.company.com \
@@ -183,6 +184,7 @@ For more information on these configuration options, please see the &lt;a href=&
   --env=VELA_SECRET=&amp;lt;shared-secret&amp;gt; \
   --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
   --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
@@ -320,7 +322,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will connect to a Postgres database:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
 &lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_DATABASE_DRIVER=postgres \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_DATABASE_ADDR=postgres://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;&lt;/span&gt;  --env=VELA_DATABASE_ENCRYPTION_KEY=&amp;lt;encryption-key&amp;gt; \
@@ -330,6 +332,7 @@ For more information on these configuration options, please see the &lt;a href=&
   --env=VELA_SECRET=&amp;lt;shared-secret&amp;gt; \
   --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
   --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
@@ -343,7 +346,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will connect to a Sqlite database:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
 &lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_DATABASE_DRIVER=sqlite3 \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_DATABASE_ADDR=vela.sqlite \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;&lt;/span&gt;  --env=VELA_DATABASE_ENCRYPTION_KEY=&amp;lt;encryption-key&amp;gt; \
@@ -353,6 +356,7 @@ For more information on these configuration options, please see the &lt;a href=&
   --env=VELA_SECRET=&amp;lt;shared-secret&amp;gt; \
   --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
   --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
@@ -464,7 +468,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will connect to a Redis queue:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
   --env=VELA_DATABASE_ENCRYPTION_KEY=&amp;lt;encryption-key&amp;gt; \
 &lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_QUEUE_DRIVER=redis \
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_QUEUE_ADDR=redis://&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; \
@@ -472,6 +476,7 @@ For more information on these configuration options, please see the &lt;a href=&
   --env=VELA_SECRET=&amp;lt;shared-secret&amp;gt; \
   --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
   --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
@@ -552,7 +557,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;td&gt;&lt;code&gt;scm.webhook.addr&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;url for webhooks on the SCM to send requests to&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;the address of the Vela server&lt;/td&gt;
+&lt;td&gt;the address of the Vela server (&lt;code&gt;$VELA_ADDR&lt;/code&gt;)&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;SCM_WEBHOOK_ADDR&lt;/code&gt;&lt;br&gt;&lt;code&gt;VELA_SCM_WEBHOOK_ADDR&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -593,7 +598,8 @@ For more information on these configuration options, please see the &lt;a href=&
 
 &lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Warning:&lt;/h4&gt;
-&lt;p&gt;The &lt;code&gt;Homepage URL&lt;/code&gt; should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable&lt;/a&gt; provided to the server.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Homepage URL&lt;/code&gt; should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable&lt;/a&gt; provided to the server for clusters without a UI.&lt;/p&gt;
+&lt;p&gt;Otherwise, the &lt;code&gt;Homepage URL&lt;/code&gt; should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_webui_addr&#34;&gt;the &lt;code&gt;VELA_WEBUI_ADDR&lt;/code&gt; environment variable&lt;/a&gt; provided to the server.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;Authorization callback URL&lt;/code&gt; should contain &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable&lt;/a&gt; with a &lt;code&gt;/authenticate&lt;/code&gt; suffix.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -609,7 +615,8 @@ For more information on these configuration options, please see the &lt;a href=&
 
 &lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Warning:&lt;/h4&gt;
-&lt;p&gt;The &lt;code&gt;Homepage URL&lt;/code&gt; should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable&lt;/a&gt; provided to the server.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Homepage URL&lt;/code&gt; should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable&lt;/a&gt; provided to the server for clusters without a UI.&lt;/p&gt;
+&lt;p&gt;Otherwise, the &lt;code&gt;Homepage URL&lt;/code&gt; should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_webui_addr&#34;&gt;the &lt;code&gt;VELA_WEBUI_ADDR&lt;/code&gt; environment variable&lt;/a&gt; provided to the server.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;Authorization callback URL&lt;/code&gt; should contain &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/#vela_addr&#34;&gt;the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable&lt;/a&gt; with a &lt;code&gt;/authenticate&lt;/code&gt; suffix.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -741,7 +748,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;p&gt;The below configuration displays an example of starting the Vela server that will connect to a HashiCorp Vault instance:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;$ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
   --env=VELA_DATABASE_ENCRYPTION_KEY=&amp;lt;encryption-key&amp;gt; \
   --env=VELA_QUEUE_DRIVER=redis \
   --env=VELA_QUEUE_ADDR=redis://&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; \
@@ -752,6 +759,7 @@ For more information on these configuration options, please see the &lt;a href=&
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;+ --env=VELA_SECRET_VAULT_TOKEN=&amp;lt;vault-token&amp;gt;
 &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;&lt;/span&gt;  --env=VELA_SCM_CLIENT=&amp;lt;oauth-client-id&amp;gt; \
   --env=VELA_SCM_SECRET=&amp;lt;oauth-client-secret&amp;gt; \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
