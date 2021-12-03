@@ -10,7 +10,7 @@ participant "Server" as Server
 participant "Queue" as Queue
 
 Developer -> Github : Git operation (i.e. git push) to trigger event
-Github -> Server : POST vela.company.com/webhook with event information
+Github -> Server : POST vela-server.company.com/webhook with event information
 Server -> Server : process webhook information
 Server -> Github : GET Vela build configuration (a.k.a. pipeline)
 Github -> Server : return Vela build configuration

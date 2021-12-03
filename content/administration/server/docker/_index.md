@@ -91,7 +91,7 @@ You can use the [`docker run` command](https://docs.docker.com/engine/reference/
 ```shell
 $ docker run \
   --detach=true \
-  --env=VELA_ADDR=https://vela.company.com \
+  --env=VELA_ADDR=https://vela-server.company.com \
   --env=VELA_DATABASE_ENCRYPTION_KEY=<encryption-key> \
   --env=VELA_QUEUE_DRIVER=redis \
   --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
@@ -99,6 +99,7 @@ $ docker run \
   --env=VELA_SECRET=<shared-secret> \
   --env=VELA_SCM_CLIENT=<oauth-client-id> \
   --env=VELA_SCM_SECRET=<oauth-client-secret> \
+  --env=VELA_WEBUI_ADDR=https://vela.company.com \
   --name=server \
   --publish=80:80 \
   --publish=443:443 \
