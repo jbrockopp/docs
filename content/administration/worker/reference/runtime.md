@@ -48,9 +48,9 @@ $ docker run \
   --env=VELA_QUEUE_DRIVER=redis \
   --env=VELA_QUEUE_ADDR=redis://<password>@<hostname>:<port>/<database> \
 + --env=VELA_RUNTIME_DRIVER=docker \
-  --env=VELA_SERVER_ADDR=https://vela-server.company.com \
+  --env=VELA_SERVER_ADDR=https://vela-server.example.com \
   --env=VELA_SERVER_SECRET=<shared-secret> \
-  --env=VELA_WORKER_ADDR=https://vela-worker.company.com \
+  --env=VELA_WORKER_ADDR=https://vela-worker.example.com \
   --name=worker \
   --publish=80:80 \
   --publish=443:443 \
@@ -79,9 +79,9 @@ $ docker run \
 + --env=VELA_RUNTIME_DRIVER=kubernetes \
 + --env=VELA_RUNTIME_CONFIG=/root/.kube/config \
 + --env=VELA_RUNTIME_NAMESPACE=vela \
-  --env=VELA_SERVER_ADDR=https://vela-server.company.com \
+  --env=VELA_SERVER_ADDR=https://vela-server.example.com \
   --env=VELA_SERVER_SECRET=<shared-secret> \
-  --env=VELA_WORKER_ADDR=https://vela-worker.company.com \
+  --env=VELA_WORKER_ADDR=https://vela-worker.example.com \
   --name=worker \
   --publish=80:80 \
   --publish=443:443 \

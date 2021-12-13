@@ -47,7 +47,7 @@ You can use the [`docker run` command](https://docs.docker.com/engine/reference/
 ```shell
 $ docker run \
   --detach=true \
-  --env=VELA_API=https://vela-server.company.com \
+  --env=VELA_API=https://vela-server.example.com \
   --name=ui \
   --publish=80:80 \
   --publish=443:443 \
