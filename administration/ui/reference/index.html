@@ -695,10 +695,18 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#node_env">NODE_ENV</a></li>
-    <li><a href="#vela_api">VELA_API</a></li>
-    <li><a href="#vela_docs_url">VELA_DOCS_URL</a></li>
-    <li><a href="#vela_feedback_url">VELA_FEEDBACK_URL</a></li>
+    <li><a href="#required">Required</a>
+      <ul>
+        <li><a href="#vela_api">VELA_API</a></li>
+      </ul>
+    </li>
+    <li><a href="#optional">Optional</a>
+      <ul>
+        <li><a href="#node_env">NODE_ENV</a></li>
+        <li><a href="#vela_docs_url">VELA_DOCS_URL</a></li>
+        <li><a href="#vela_feedback_url">VELA_FEEDBACK_URL</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -744,20 +752,11 @@
 <div class="td-content">
 	<h1>Reference</h1>
 	<div class="lead">This section contains a reference of configuration options for the Vela UI service.</div>
-	<h2 id="node_env">NODE_ENV</h2>
-<p>This variable sets the targeted deployment environment for <a href="https://nodejs.org/">node.js</a>.</p>
-<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
-<p>Setting this variable to <code>development</code> will enable development mode for the service and output verbose logging.</p>
-
-
-<div class="alert alert-primary" role="alert">
-<h4 class="alert-heading">Note:</h4>
-This variable has a default value of <code>production</code>.
-</div>
-
-<h2 id="vela_api">VELA_API</h2>
+	<h2 id="required">Required</h2>
+<p>This section contains a list of all variables that must be provided to the UI.</p>
+<h3 id="vela_api">VELA_API</h3>
 <p>This variable sets a fully qualified URL to the Vela <a href="/docs/administration/server/">server</a> address.</p>
-<p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
+<p>The variable should be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -765,9 +764,22 @@ This variable has a default value of <code>production</code>.
 This variable should match <a href="/docs/administration/server/reference/#vela_addr">the <code>VELA_ADDR</code> variable</a> provided to the server.
 </div>
 
-<h2 id="vela_docs_url">VELA_DOCS_URL</h2>
+<h2 id="optional">Optional</h2>
+<p>This section contains a list of all variables that can be provided to the UI.</p>
+<h3 id="node_env">NODE_ENV</h3>
+<p>This variable sets the targeted deployment environment for <a href="https://nodejs.org/">node.js</a>.</p>
+<p>Setting this variable to <code>development</code> will enable development mode for the service and output verbose logging.</p>
+<p>The variable can be provided as a <code>string</code>.</p>
+
+
+<div class="alert alert-primary" role="alert">
+<h4 class="alert-heading">Note:</h4>
+This variable has a default value of <code>production</code>.
+</div>
+
+<h3 id="vela_docs_url">VELA_DOCS_URL</h3>
 <p>This variable sets a fully qualified URL to the documentation website for Vela.</p>
-<p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
+<p>The variable can be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -775,9 +787,9 @@ This variable should match <a href="/docs/administration/server/reference/#vela_
 This variable has a default value of <code>https://go-vela.github.io/docs/</code>.
 </div>
 
-<h2 id="vela_feedback_url">VELA_FEEDBACK_URL</h2>
+<h3 id="vela_feedback_url">VELA_FEEDBACK_URL</h3>
 <p>This variable sets a fully qualified URL to the feedback website for Vela.</p>
-<p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
+<p>The variable can be provided as a <code>string</code>.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -840,7 +852,7 @@ This variable has a default value of <code>https://github.com/go-vela/ui/issues/
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified December 3, 2021: <a  href="https://github.com/jbrockopp/docs/commit/a2f803dcefa690cdc247bb3849e21c03222a25d7">enhance: make require/optional bold (a2f803dc)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 13, 2021: <a  href="https://github.com/jbrockopp/docs/commit/b462a1b7e9f66c5e72c55003eaff5aac03b90690">chore: split reference vars into categories (b462a1b7)</a>
 </div>
 </div>
 
