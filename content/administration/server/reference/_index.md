@@ -39,7 +39,7 @@ This variable sets a fully qualified URL to the Vela [server](/docs/administrati
 
 ## VELA_COMPILER_GITHUB
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -57,7 +57,7 @@ This variable has a default value of `false`.
 
 ## VELA_COMPILER_GITHUB_TOKEN
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -71,7 +71,7 @@ However, to fetch templates from a private organization or repository on GitHub,
 
 ## VELA_COMPILER_GITHUB_URL
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -85,7 +85,7 @@ However, to fetch templates from a private organization or repository on GitHub,
 
 ## VELA_DATABASE_ADDR
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -99,7 +99,7 @@ This variable has a default value of `vela.sqlite`.
 
 ## VELA_DATABASE_COMPRESSION_LEVEL
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 This variable sets the level of compression for workload logs, uploaded by the Vela [worker](/docs/administration/worker/), which are stored in the database.
 
@@ -125,7 +125,7 @@ The possible options to provide for this variable are:
 
 ## VELA_DATABASE_CONNECTION_IDLE
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 This variable sets the maximum number of [idle connections](https://pkg.go.dev/database/sql#DB.SetMaxIdleConns) allowed for the database client.
 
@@ -137,7 +137,7 @@ This variable has a default value of `2`.
 
 ## VELA_DATABASE_CONNECTION_LIFE
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 This variable sets the maximum duration of time [a connection is reusable](https://pkg.go.dev/database/sql#DB.SetConnMaxLifetime) for the database client.
 
@@ -149,7 +149,7 @@ This variable has a default value of `30m`.
 
 ## VELA_DATABASE_CONNECTION_OPEN
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 This variable sets the maximum number of [open connections](https://pkg.go.dev/database/sql#DB.SetMaxOpenConns) allowed for the database client.
 
@@ -161,7 +161,7 @@ This variable has a default value of `0` (meaning no limit is set).
 
 ## VELA_DATABASE_DRIVER
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -180,7 +180,7 @@ The possible options to provide for this variable are:
 
 ## VELA_DATABASE_ENCRYPTION_KEY
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -190,7 +190,7 @@ This variable sets the AES key for encrypting/decrypting values for data stored 
 
 ## VELA_DATABASE_SKIP_CREATION
 
-This configuration variable is used by the [database component](/docs/administration/server/components/database/) for the server.
+This configuration variable is used by the [database component](/docs/administration/server/reference/database/) for the server.
 
 This variable enables skipping the creation of tables and indexes in the database system.
 
@@ -236,7 +236,7 @@ This variable has a default value of `true`.
 
 ## VELA_MODIFICATION_ADDR
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 This variable sets a fully qualified URL to the modification endpoint used for the compiler.
 
@@ -244,7 +244,7 @@ This variable sets a fully qualified URL to the modification endpoint used for t
 
 ## VELA_MODIFICATION_RETRIES
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 This variable sets the maximum number of times to resend failed requests to the modification endpoint for the compiler.
 
@@ -256,7 +256,7 @@ This variable has a default value of `5`.
 
 ## VELA_MODIFICATION_SECRET
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 This variable sets a shared secret for authenticating communication between the compiler and the modification endpoint.
 
@@ -264,7 +264,7 @@ This variable sets a shared secret for authenticating communication between the 
 
 ## VELA_MODIFICATION_TIMEOUT
 
-This configuration variable is used by the [compiler component](/docs/administration/server/components/compiler/) for the server.
+This configuration variable is used by the [compiler component](/docs/administration/server/reference/compiler/) for the server.
 
 This variable sets the maximum duration of time the compiler will wait before timing out requests sent to the modification endpoint.
 
@@ -286,7 +286,7 @@ This variable has a default value of `8080`.
 
 ## VELA_QUEUE_ADDR
 
-This configuration variable is used by the [queue component](/docs/administration/server/components/queue/) for the server.
+This configuration variable is used by the [queue component](/docs/administration/server/reference/queue/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -300,7 +300,7 @@ This variable should match [the `VELA_QUEUE_ADDR` variable](/docs/administration
 
 ## VELA_QUEUE_CLUSTER
 
-This configuration variable is used by the [queue component](/docs/administration/server/components/queue/) for the server.
+This configuration variable is used by the [queue component](/docs/administration/server/reference/queue/) for the server.
 
 This variable enables the server to connect to a queue cluster rather than a standalone instance.
 
@@ -312,7 +312,7 @@ This variable should match [the `VELA_QUEUE_CLUSTER` variable](/docs/administrat
 
 ## VELA_QUEUE_DRIVER
 
-This configuration variable is used by the [queue component](/docs/administration/server/components/queue/) for the server.
+This configuration variable is used by the [queue component](/docs/administration/server/reference/queue/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -330,7 +330,7 @@ The possible options to provide for this variable are:
 
 ## VELA_QUEUE_POP_TIMEOUT
 
-This configuration variable is unused by the [queue component](/docs/administration/server/components/queue/) for the server.
+This configuration variable is unused by the [queue component](/docs/administration/server/reference/queue/) for the server.
 
 This variable sets the maximum duration of time the worker will wait before timing out requests sent for pushing workloads.
 
@@ -342,7 +342,7 @@ This variable has a default value of `60s`.
 
 ## VELA_QUEUE_ROUTES
 
-This configuration variable is used by the [queue component](/docs/administration/server/components/queue/) for the server.
+This configuration variable is used by the [queue component](/docs/administration/server/reference/queue/) for the server.
 
 This variable sets the unique channels or topics to push workloads to.
 
@@ -372,7 +372,7 @@ The configuration is optional and can be provided as a comma-separated `list` (i
 
 ## VELA_SCM_ADDR
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets a fully qualified URL to the source control management (SCM) system.
 
@@ -384,7 +384,7 @@ This variable has a default value of `https://github.com`.
 
 ## VELA_SCM_CLIENT
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets the client ID from the OAuth application created on the SCM system.
 
@@ -392,7 +392,7 @@ This variable sets the client ID from the OAuth application created on the SCM s
 
 ## VELA_SCM_CONTEXT
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets the message to set in the commit status on the SCM system.
 
@@ -404,7 +404,7 @@ This variable has a default value of `continuous-integration/vela`.
 
 ## VELA_SCM_DRIVER
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets the driver to use for the SCM functionality for the server.
 
@@ -420,7 +420,7 @@ The possible options to provide for this variable are:
 
 ## VELA_SCM_SCOPES
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets the permission scopes to apply for OAuth credentials captured from the SCM system.
 
@@ -432,7 +432,7 @@ This variable has a default value of `read:org,read:user,repo,repo:status,user:e
 
 ## VELA_SCM_SECRET
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets the client secret from the OAuth application created on the SCM system.
 
@@ -440,7 +440,7 @@ This variable sets the client secret from the OAuth application created on the S
 
 ## VELA_SCM_WEBHOOK_ADDR
 
-This configuration variable is used by the [SCM component](/docs/administration/server/components/scm/) for the server.
+This configuration variable is used by the [SCM component](/docs/administration/server/reference/scm/) for the server.
 
 This variable sets a fully qualified URL on the SCM system to send webhooks to the server.
 
@@ -462,7 +462,7 @@ This variable should match [the `VELA_SERVER_SECRET` variable](/docs/administrat
 
 ## VELA_SECRET_VAULT
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -476,7 +476,7 @@ This variable has a default value of `false`.
 
 ## VELA_SECRET_VAULT_ADDR
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -486,7 +486,7 @@ This variable sets a fully qualified URL to the HashiCorp Vault instance.
 
 ## VELA_SECRET_VAULT_AUTH_METHOD
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 This variable sets the authentication method to obtain a token from the HashiCorp Vault instance.
 
@@ -494,7 +494,7 @@ This variable sets the authentication method to obtain a token from the HashiCor
 
 ## VELA_SECRET_VAULT_AWS_ROLE
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 This variable sets the HashiCorp Vault role to connect to the `auth/aws/login` endpoint.
 
@@ -502,7 +502,7 @@ This variable sets the HashiCorp Vault role to connect to the `auth/aws/login` e
 
 ## VELA_SECRET_VAULT_PREFIX
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 This variable sets the prefix for k/v secrets in the HashiCorp Vault instance.
 
@@ -510,7 +510,7 @@ This variable sets the prefix for k/v secrets in the HashiCorp Vault instance.
 
 ## VELA_SECRET_VAULT_RENEWAL
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 This variable sets the frequency to renew the token for the HashiCorp Vault instance.
 
@@ -522,7 +522,7 @@ This variable has a default value of `30m`.
 
 ## VELA_SECRET_VAULT_TOKEN
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 Examples using this configuration variable are provided in the above reference documentation.
 
@@ -532,7 +532,7 @@ This variable sets the token for accessing the HashiCorp Vault instance.
 
 ## VELA_SECRET_VAULT_VERSION
 
-This configuration variable is used by the [secret component](/docs/administration/server/components/secret/) for the server.
+This configuration variable is used by the [secret component](/docs/administration/server/reference/secret/) for the server.
 
 This variable sets the version for the k/v backend for the HashiCorp Vault instance.
 
