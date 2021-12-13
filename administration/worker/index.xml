@@ -53,9 +53,9 @@
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --detach&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;true&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_QUEUE_DRIVER&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;redis &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_QUEUE_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;redis://&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_SERVER_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-server.company.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_SERVER_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-server.example.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_SERVER_SECRET&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;lt;shared-secret&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_WORKER_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-worker.company.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_WORKER_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-worker.example.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --name&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;worker &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --publish&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;80:80 &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --publish&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;443:443 &lt;span style=&#34;color:#4e9a06&#34;&gt;\
@@ -167,7 +167,7 @@ This variable has a default value of &lt;code&gt;15m&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_executor_driver&#34;&gt;VELA_EXECUTOR_DRIVER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/executor/&#34;&gt;executor component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/executor/&#34;&gt;executor component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the driver to use for the executor functionality for the worker.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -185,7 +185,7 @@ This variable has a default value of &lt;code&gt;15m&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_executor_log_method&#34;&gt;VELA_EXECUTOR_LOG_METHOD&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/executor/&#34;&gt;executor component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/executor/&#34;&gt;executor component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;This variable sets the logging method used by the worker for uploading workload logs to the Vela &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
@@ -202,7 +202,7 @@ This variable has a default value of &lt;code&gt;15m&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_addr&#34;&gt;VELA_QUEUE_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the queue instance for pulling workloads provided by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -214,7 +214,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_cluster&#34;&gt;VELA_QUEUE_CLUSTER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;This variable enables the worker to connect to a queue cluster rather than a standalone instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
 
@@ -225,7 +225,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_driver&#34;&gt;VELA_QUEUE_DRIVER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the driver to use for the queue functionality for the worker.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -242,7 +242,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_pop_timeout&#34;&gt;VELA_QUEUE_POP_TIMEOUT&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum duration of time the worker will wait before timing out requests sent for pulling workloads.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
 
@@ -253,7 +253,7 @@ This variable has a default value of &lt;code&gt;60s&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_routes&#34;&gt;VELA_QUEUE_ROUTES&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;This variable sets the unique channels or topics to pull workloads from.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myRoute1,myRoute2&lt;/code&gt;).&lt;/p&gt;
 
@@ -264,12 +264,12 @@ This variable has a default value of &lt;code&gt;vela&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_runtime_config&#34;&gt;VELA_RUNTIME_CONFIG&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified system path to a configuration file for the worker.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_runtime_driver&#34;&gt;VELA_RUNTIME_DRIVER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the driver to use for the runtime functionality for the worker.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -287,12 +287,12 @@ This variable has a default value of &lt;code&gt;vela&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_runtime_namespace&#34;&gt;VELA_RUNTIME_NAMESPACE&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a namespace (for Kubernetes only) to use for runtime workloads.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_runtime_privileged_images&#34;&gt;VELA_RUNTIME_PRIVILEGED_IMAGES&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;This variable sets the &lt;a href=&#34;https://docs.docker.com/get-started/overview/#images&#34;&gt;Docker image(s)&lt;/a&gt; that are allowed to have privileged access on the worker.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myImage1,myImage2&lt;/code&gt;).&lt;/p&gt;
 
@@ -303,7 +303,7 @@ This variable has a default value of &lt;code&gt;target/vela-docker&lt;/code&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_runtime_volumes&#34;&gt;VELA_RUNTIME_VOLUMES&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/components/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/reference/runtime/&#34;&gt;runtime component&lt;/a&gt; for the worker.&lt;/p&gt;
 &lt;p&gt;This variable sets the fully qualified system path(s) to file(s) on the host machine that will be mounted into workloads executed on that worker.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myVolume1,myVolume2&lt;/code&gt;).&lt;/p&gt;
 &lt;h2 id=&#34;vela_server_addr&#34;&gt;VELA_SERVER_ADDR&lt;/h2&gt;

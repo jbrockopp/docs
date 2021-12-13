@@ -835,7 +835,7 @@ This variable has a default value of <code>15m</code>.
 <p>This variable sets a fully qualified URL to the Vela <a href="/docs/administration/server/">server</a> address.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 <h2 id="vela_compiler_github">VELA_COMPILER_GITHUB</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable enables using GitHub or GitHub Enterprise Server as a registry for fetching pipeline <a href="/docs/tour/templates/">templates</a> from.</p>
 <p>By default, Vela will use <a href="https://github.com/">GitHub</a> as a registry for fetching templates.</p>
@@ -849,21 +849,21 @@ This variable has a default value of <code>false</code>.
 </div>
 
 <h2 id="vela_compiler_github_token">VELA_COMPILER_GITHUB_TOKEN</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">Personal Access Token (PAT)</a> for fetching pipeline <a href="/docs/tour/templates/">templates</a> from GitHub or GitHub Enterprise Server.</p>
 <p>By default, Vela will use <a href="https://github.com/">GitHub</a> as a registry for fetching templates.</p>
 <p>However, to fetch templates from a private organization or repository on GitHub, you need to provide this configuration.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_compiler_github_url">VELA_COMPILER_GITHUB_URL</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a fully qualified URL to GitHub or GitHub Enterprise Server used for fetching pipeline <a href="/docs/tour/templates/">templates</a> from.</p>
 <p>By default, Vela will use <a href="https://github.com/">GitHub</a> as a registry for fetching templates.</p>
 <p>However, to fetch templates from a private organization or repository on GitHub, you need to provide this configuration.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_database_addr">VELA_DATABASE_ADDR</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a fully qualified URL to the database instance for storing data at rest.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
@@ -875,7 +875,7 @@ This variable has a default value of <code>vela.sqlite</code>.
 </div>
 
 <h2 id="vela_database_compression_level">VELA_DATABASE_COMPRESSION_LEVEL</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>This variable sets the level of compression for workload logs, uploaded by the Vela <a href="/docs/administration/worker/">worker</a>, which are stored in the database.</p>
 <p><strong>The variable is required</strong> and should be provided as an <code>integer</code>.</p>
 
@@ -901,7 +901,7 @@ This variable has a default value of <code>vela.sqlite</code>.
 </div>
 
 <h2 id="vela_database_connection_idle">VELA_DATABASE_CONNECTION_IDLE</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>This variable sets the maximum number of <a href="https://pkg.go.dev/database/sql#DB.SetMaxIdleConns">idle connections</a> allowed for the database client.</p>
 <p><strong>The variable is required</strong> and should be provided as an <code>integer</code>.</p>
 
@@ -912,7 +912,7 @@ This variable has a default value of <code>2</code>.
 </div>
 
 <h2 id="vela_database_connection_life">VELA_DATABASE_CONNECTION_LIFE</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>This variable sets the maximum duration of time <a href="https://pkg.go.dev/database/sql#DB.SetConnMaxLifetime">a connection is reusable</a> for the database client.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
@@ -923,7 +923,7 @@ This variable has a default value of <code>30m</code>.
 </div>
 
 <h2 id="vela_database_connection_open">VELA_DATABASE_CONNECTION_OPEN</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>This variable sets the maximum number of <a href="https://pkg.go.dev/database/sql#DB.SetMaxOpenConns">open connections</a> allowed for the database client.</p>
 <p><strong>The variable is required</strong> and should be provided as an <code>integer</code>.</p>
 
@@ -934,7 +934,7 @@ This variable has a default value of <code>0</code> (meaning no limit is set).
 </div>
 
 <h2 id="vela_database_driver">VELA_DATABASE_DRIVER</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the driver to use for the database functionality for the server.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
@@ -952,12 +952,12 @@ This variable has a default value of <code>0</code> (meaning no limit is set).
 </div>
 
 <h2 id="vela_database_encryption_key">VELA_DATABASE_ENCRYPTION_KEY</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the AES key for encrypting/decrypting values for data stored in the database.</p>
 <p><strong>The variable is required</strong> and should be provided as an <code>string</code>.</p>
 <h2 id="vela_database_skip_creation">VELA_DATABASE_SKIP_CREATION</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/database/">database component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/database/">database component</a> for the server.</p>
 <p>This variable enables skipping the creation of tables and indexes in the database system.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>boolean</code>.</p>
 
@@ -1002,11 +1002,11 @@ This variable has a default value of <code>0</code>.
 </div>
 
 <h2 id="vela_modification_addr">VELA_MODIFICATION_ADDR</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>This variable sets a fully qualified URL to the modification endpoint used for the compiler.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_modification_retries">VELA_MODIFICATION_RETRIES</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>This variable sets the maximum number of times to resend failed requests to the modification endpoint for the compiler.</p>
 <p><strong>The variable is optional</strong> and can be provided as an <code>integer</code>.</p>
 
@@ -1017,11 +1017,11 @@ This variable has a default value of <code>5</code>.
 </div>
 
 <h2 id="vela_modification_secret">VELA_MODIFICATION_SECRET</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>This variable sets a shared secret for authenticating communication between the compiler and the modification endpoint.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_modification_timeout">VELA_MODIFICATION_TIMEOUT</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/compiler/">compiler component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/compiler/">compiler component</a> for the server.</p>
 <p>This variable sets the maximum duration of time the compiler will wait before timing out requests sent to the modification endpoint.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
@@ -1042,7 +1042,7 @@ This variable has a default value of <code>8080</code>.
 </div>
 
 <h2 id="vela_queue_addr">VELA_QUEUE_ADDR</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/queue/">queue component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/queue/">queue component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a fully qualified URL to the queue instance for pushing workloads that will be run by a <a href="/docs/administration/worker/">worker</a>.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
@@ -1054,7 +1054,7 @@ This variable should match <a href="/docs/administration/worker/reference/#vela_
 </div>
 
 <h2 id="vela_queue_cluster">VELA_QUEUE_CLUSTER</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/queue/">queue component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/queue/">queue component</a> for the server.</p>
 <p>This variable enables the server to connect to a queue cluster rather than a standalone instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>boolean</code>.</p>
 
@@ -1065,7 +1065,7 @@ This variable should match <a href="/docs/administration/worker/reference/#vela_
 </div>
 
 <h2 id="vela_queue_driver">VELA_QUEUE_DRIVER</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/queue/">queue component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/queue/">queue component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the driver to use for the queue functionality for the server.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
@@ -1082,7 +1082,7 @@ This variable should match <a href="/docs/administration/worker/reference/#vela_
 </div>
 
 <h2 id="vela_queue_pop_timeout">VELA_QUEUE_POP_TIMEOUT</h2>
-<p>This configuration variable is unused by the <a href="/docs/administration/server/components/queue/">queue component</a> for the server.</p>
+<p>This configuration variable is unused by the <a href="/docs/administration/server/reference/queue/">queue component</a> for the server.</p>
 <p>This variable sets the maximum duration of time the worker will wait before timing out requests sent for pushing workloads.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
@@ -1093,7 +1093,7 @@ This variable has a default value of <code>60s</code>.
 </div>
 
 <h2 id="vela_queue_routes">VELA_QUEUE_ROUTES</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/queue/">queue component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/queue/">queue component</a> for the server.</p>
 <p>This variable sets the unique channels or topics to push workloads to.</p>
 <p><strong>The variable is required</strong> and should be provided as a comma-separated <code>list</code> (i.e. <code>myRoute1,myRoute2</code>).</p>
 
@@ -1118,7 +1118,7 @@ This variable has a default value of <code>8h</code>.
 <p>This variable sets a group of repositories, from the SCM, that can be enabled on the server.</p>
 <p>The configuration is optional and can be provided as a comma-separated <code>list</code> (i.e. <code>myOrg1/myRepo1,myOrg1/myRepo2,myOrg2/*</code>).</p>
 <h2 id="vela_scm_addr">VELA_SCM_ADDR</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets a fully qualified URL to the source control management (SCM) system.</p>
 <p>The configuration is required and should be provided as a <code>string</code>.</p>
 
@@ -1129,11 +1129,11 @@ This variable has a default value of <code>https://github.com</code>.
 </div>
 
 <h2 id="vela_scm_client">VELA_SCM_CLIENT</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets the client ID from the OAuth application created on the SCM system.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 <h2 id="vela_scm_context">VELA_SCM_CONTEXT</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets the message to set in the commit status on the SCM system.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
@@ -1144,7 +1144,7 @@ This variable has a default value of <code>continuous-integration/vela</code>.
 </div>
 
 <h2 id="vela_scm_driver">VELA_SCM_DRIVER</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets the driver to use for the SCM functionality for the server.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 
@@ -1160,7 +1160,7 @@ This variable has a default value of <code>continuous-integration/vela</code>.
 </div>
 
 <h2 id="vela_scm_scopes">VELA_SCM_SCOPES</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets the permission scopes to apply for OAuth credentials captured from the SCM system.</p>
 <p><strong>The variable is required</strong> and should be provided as a comma-separated <code>list</code> (i.e. <code>myScope1,myScope2</code>).</p>
 
@@ -1171,11 +1171,11 @@ This variable has a default value of <code>read:org,read:user,repo,repo:status,u
 </div>
 
 <h2 id="vela_scm_secret">VELA_SCM_SECRET</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets the client secret from the OAuth application created on the SCM system.</p>
 <p><strong>The variable is required</strong> and should be provided as a <code>string</code>.</p>
 <h2 id="vela_scm_webhook_addr">VELA_SCM_WEBHOOK_ADDR</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/scm/">SCM component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/scm/">SCM component</a> for the server.</p>
 <p>This variable sets a fully qualified URL on the SCM system to send webhooks to the server.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 
@@ -1196,7 +1196,7 @@ This variable should match <a href="/docs/administration/worker/reference/#vela_
 </div>
 
 <h2 id="vela_secret_vault">VELA_SECRET_VAULT</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable enables using HashiCorp Vault as a secret engine.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>boolean</code>.</p>
@@ -1208,24 +1208,24 @@ This variable has a default value of <code>false</code>.
 </div>
 
 <h2 id="vela_secret_vault_addr">VELA_SECRET_VAULT_ADDR</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets a fully qualified URL to the HashiCorp Vault instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_secret_vault_auth_method">VELA_SECRET_VAULT_AUTH_METHOD</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>This variable sets the authentication method to obtain a token from the HashiCorp Vault instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_secret_vault_aws_role">VELA_SECRET_VAULT_AWS_ROLE</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>This variable sets the HashiCorp Vault role to connect to the <code>auth/aws/login</code> endpoint.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_secret_vault_prefix">VELA_SECRET_VAULT_PREFIX</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>This variable sets the prefix for k/v secrets in the HashiCorp Vault instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_secret_vault_renewal">VELA_SECRET_VAULT_RENEWAL</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>This variable sets the frequency to renew the token for the HashiCorp Vault instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>duration</code> (i.e. <code>5s</code>, <code>10m</code>).</p>
 
@@ -1236,12 +1236,12 @@ This variable has a default value of <code>30m</code>.
 </div>
 
 <h2 id="vela_secret_vault_token">VELA_SECRET_VAULT_TOKEN</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>Examples using this configuration variable are provided in the above reference documentation.</p>
 <p>This variable sets the token for accessing the HashiCorp Vault instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 <h2 id="vela_secret_vault_version">VELA_SECRET_VAULT_VERSION</h2>
-<p>This configuration variable is used by the <a href="/docs/administration/server/components/secret/">secret component</a> for the server.</p>
+<p>This configuration variable is used by the <a href="/docs/administration/server/reference/secret/">secret component</a> for the server.</p>
 <p>This variable sets the version for the k/v backend for the HashiCorp Vault instance.</p>
 <p><strong>The variable is optional</strong> and can be provided as a <code>string</code>.</p>
 
@@ -1285,7 +1285,7 @@ This variable has a default value of <code>5m</code>.
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified December 3, 2021: <a  href="https://github.com/jbrockopp/docs/commit/b3d506ba82b72ebae9b0f78ee9cd6cad61d7d4f0">chore: explain example location for component variables (b3d506ba)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 13, 2021: <a  href="https://github.com/jbrockopp/docs/commit/c456012745bd95bd005a1e6aaa4594c89a9377ed">chore: address broken links per feedback (c4560127)</a>
 </div>
 </div>
 

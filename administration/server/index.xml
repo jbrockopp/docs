@@ -79,7 +79,7 @@ This example only shows a subset of all possible configuration options.
 &lt;p&gt;You can use the &lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/run/&#34;&gt;&lt;code&gt;docker run&lt;/code&gt; command&lt;/a&gt; to start the server:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ docker run &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --detach&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;true&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-server.company.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-server.example.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_DATABASE_ENCRYPTION_KEY&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;lt;encryption-key&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_QUEUE_DRIVER&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;redis &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_QUEUE_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;redis://&amp;lt;password&amp;gt;@&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;database&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
@@ -87,7 +87,7 @@ This example only shows a subset of all possible configuration options.
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_SECRET&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;lt;shared-secret&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_SCM_CLIENT&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;lt;oauth-client-id&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_SCM_SECRET&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&amp;lt;oauth-client-secret&amp;gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;\
-&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_WEBUI_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela.company.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
+&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --env&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VELA_WEBUI_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela.example.com &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --name&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;server &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --publish&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;80:80 &lt;span style=&#34;color:#4e9a06&#34;&gt;\
 &lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&lt;/span&gt;  --publish&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;443:443 &lt;span style=&#34;color:#4e9a06&#34;&gt;\
@@ -193,7 +193,7 @@ This variable has a default value of &lt;code&gt;15m&lt;/code&gt;.
 &lt;p&gt;This variable sets a fully qualified URL to the Vela &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/&#34;&gt;server&lt;/a&gt; address.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_compiler_github&#34;&gt;VELA_COMPILER_GITHUB&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable enables using GitHub or GitHub Enterprise Server as a registry for fetching pipeline &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from.&lt;/p&gt;
 &lt;p&gt;By default, Vela will use &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; as a registry for fetching templates.&lt;/p&gt;
@@ -207,21 +207,21 @@ This variable has a default value of &lt;code&gt;false&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_compiler_github_token&#34;&gt;VELA_COMPILER_GITHUB_TOKEN&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a &lt;a href=&#34;https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token&#34;&gt;Personal Access Token (PAT)&lt;/a&gt; for fetching pipeline &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from GitHub or GitHub Enterprise Server.&lt;/p&gt;
 &lt;p&gt;By default, Vela will use &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; as a registry for fetching templates.&lt;/p&gt;
 &lt;p&gt;However, to fetch templates from a private organization or repository on GitHub, you need to provide this configuration.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_compiler_github_url&#34;&gt;VELA_COMPILER_GITHUB_URL&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to GitHub or GitHub Enterprise Server used for fetching pipeline &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/tour/templates/&#34;&gt;templates&lt;/a&gt; from.&lt;/p&gt;
 &lt;p&gt;By default, Vela will use &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; as a registry for fetching templates.&lt;/p&gt;
 &lt;p&gt;However, to fetch templates from a private organization or repository on GitHub, you need to provide this configuration.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_database_addr&#34;&gt;VELA_DATABASE_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the database instance for storing data at rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -233,7 +233,7 @@ This variable has a default value of &lt;code&gt;vela.sqlite&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_database_compression_level&#34;&gt;VELA_DATABASE_COMPRESSION_LEVEL&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the level of compression for workload logs, uploaded by the Vela &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;, which are stored in the database.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
 
@@ -259,7 +259,7 @@ This variable has a default value of &lt;code&gt;vela.sqlite&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_database_connection_idle&#34;&gt;VELA_DATABASE_CONNECTION_IDLE&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum number of &lt;a href=&#34;https://pkg.go.dev/database/sql#DB.SetMaxIdleConns&#34;&gt;idle connections&lt;/a&gt; allowed for the database client.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
 
@@ -270,7 +270,7 @@ This variable has a default value of &lt;code&gt;2&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_database_connection_life&#34;&gt;VELA_DATABASE_CONNECTION_LIFE&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum duration of time &lt;a href=&#34;https://pkg.go.dev/database/sql#DB.SetConnMaxLifetime&#34;&gt;a connection is reusable&lt;/a&gt; for the database client.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
 
@@ -281,7 +281,7 @@ This variable has a default value of &lt;code&gt;30m&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_database_connection_open&#34;&gt;VELA_DATABASE_CONNECTION_OPEN&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum number of &lt;a href=&#34;https://pkg.go.dev/database/sql#DB.SetMaxOpenConns&#34;&gt;open connections&lt;/a&gt; allowed for the database client.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
 
@@ -292,7 +292,7 @@ This variable has a default value of &lt;code&gt;0&lt;/code&gt; (meaning no limi
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_database_driver&#34;&gt;VELA_DATABASE_DRIVER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the driver to use for the database functionality for the server.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -310,12 +310,12 @@ This variable has a default value of &lt;code&gt;0&lt;/code&gt; (meaning no limi
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_database_encryption_key&#34;&gt;VELA_DATABASE_ENCRYPTION_KEY&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the AES key for encrypting/decrypting values for data stored in the database.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as an &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_database_skip_creation&#34;&gt;VELA_DATABASE_SKIP_CREATION&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/database/&#34;&gt;database component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable enables skipping the creation of tables and indexes in the database system.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
 
@@ -360,11 +360,11 @@ This variable has a default value of &lt;code&gt;0&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_modification_addr&#34;&gt;VELA_MODIFICATION_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the modification endpoint used for the compiler.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_modification_retries&#34;&gt;VELA_MODIFICATION_RETRIES&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum number of times to resend failed requests to the modification endpoint for the compiler.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as an &lt;code&gt;integer&lt;/code&gt;.&lt;/p&gt;
 
@@ -375,11 +375,11 @@ This variable has a default value of &lt;code&gt;5&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_modification_secret&#34;&gt;VELA_MODIFICATION_SECRET&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets a shared secret for authenticating communication between the compiler and the modification endpoint.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_modification_timeout&#34;&gt;VELA_MODIFICATION_TIMEOUT&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/compiler/&#34;&gt;compiler component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum duration of time the compiler will wait before timing out requests sent to the modification endpoint.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
 
@@ -400,7 +400,7 @@ This variable has a default value of &lt;code&gt;8080&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_addr&#34;&gt;VELA_QUEUE_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the queue instance for pushing workloads that will be run by a &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/worker/&#34;&gt;worker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -412,7 +412,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_cluster&#34;&gt;VELA_QUEUE_CLUSTER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable enables the server to connect to a queue cluster rather than a standalone instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
 
@@ -423,7 +423,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_driver&#34;&gt;VELA_QUEUE_DRIVER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the driver to use for the queue functionality for the server.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
@@ -440,7 +440,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_pop_timeout&#34;&gt;VELA_QUEUE_POP_TIMEOUT&lt;/h2&gt;
-&lt;p&gt;This configuration variable is unused by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is unused by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the maximum duration of time the worker will wait before timing out requests sent for pushing workloads.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
 
@@ -451,7 +451,7 @@ This variable has a default value of &lt;code&gt;60s&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_queue_routes&#34;&gt;VELA_QUEUE_ROUTES&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/queue/&#34;&gt;queue component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the unique channels or topics to push workloads to.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myRoute1,myRoute2&lt;/code&gt;).&lt;/p&gt;
 
@@ -476,7 +476,7 @@ This variable has a default value of &lt;code&gt;8h&lt;/code&gt;.
 &lt;p&gt;This variable sets a group of repositories, from the SCM, that can be enabled on the server.&lt;/p&gt;
 &lt;p&gt;The configuration is optional and can be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myOrg1/myRepo1,myOrg1/myRepo2,myOrg2/*&lt;/code&gt;).&lt;/p&gt;
 &lt;h2 id=&#34;vela_scm_addr&#34;&gt;VELA_SCM_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the source control management (SCM) system.&lt;/p&gt;
 &lt;p&gt;The configuration is required and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
@@ -487,11 +487,11 @@ This variable has a default value of &lt;code&gt;https://github.com&lt;/code&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_scm_client&#34;&gt;VELA_SCM_CLIENT&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the client ID from the OAuth application created on the SCM system.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_scm_context&#34;&gt;VELA_SCM_CONTEXT&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the message to set in the commit status on the SCM system.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
@@ -502,7 +502,7 @@ This variable has a default value of &lt;code&gt;continuous-integration/vela&lt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_scm_driver&#34;&gt;VELA_SCM_DRIVER&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the driver to use for the SCM functionality for the server.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
@@ -518,7 +518,7 @@ This variable has a default value of &lt;code&gt;continuous-integration/vela&lt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_scm_scopes&#34;&gt;VELA_SCM_SCOPES&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the permission scopes to apply for OAuth credentials captured from the SCM system.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a comma-separated &lt;code&gt;list&lt;/code&gt; (i.e. &lt;code&gt;myScope1,myScope2&lt;/code&gt;).&lt;/p&gt;
 
@@ -529,11 +529,11 @@ This variable has a default value of &lt;code&gt;read:org,read:user,repo,repo:st
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_scm_secret&#34;&gt;VELA_SCM_SECRET&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the client secret from the OAuth application created on the SCM system.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is required&lt;/strong&gt; and should be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_scm_webhook_addr&#34;&gt;VELA_SCM_WEBHOOK_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/scm/&#34;&gt;SCM component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL on the SCM system to send webhooks to the server.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
@@ -554,7 +554,7 @@ This variable should match &lt;a href=&#34;https://jbrockopp.github.io/docs/docs
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_secret_vault&#34;&gt;VELA_SECRET_VAULT&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable enables using HashiCorp Vault as a secret engine.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;boolean&lt;/code&gt;.&lt;/p&gt;
@@ -566,24 +566,24 @@ This variable has a default value of &lt;code&gt;false&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_secret_vault_addr&#34;&gt;VELA_SECRET_VAULT_ADDR&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets a fully qualified URL to the HashiCorp Vault instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_secret_vault_auth_method&#34;&gt;VELA_SECRET_VAULT_AUTH_METHOD&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the authentication method to obtain a token from the HashiCorp Vault instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_secret_vault_aws_role&#34;&gt;VELA_SECRET_VAULT_AWS_ROLE&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the HashiCorp Vault role to connect to the &lt;code&gt;auth/aws/login&lt;/code&gt; endpoint.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_secret_vault_prefix&#34;&gt;VELA_SECRET_VAULT_PREFIX&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the prefix for k/v secrets in the HashiCorp Vault instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_secret_vault_renewal&#34;&gt;VELA_SECRET_VAULT_RENEWAL&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the frequency to renew the token for the HashiCorp Vault instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;duration&lt;/code&gt; (i.e. &lt;code&gt;5s&lt;/code&gt;, &lt;code&gt;10m&lt;/code&gt;).&lt;/p&gt;
 
@@ -594,12 +594,12 @@ This variable has a default value of &lt;code&gt;30m&lt;/code&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;vela_secret_vault_token&#34;&gt;VELA_SECRET_VAULT_TOKEN&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;Examples using this configuration variable are provided in the above reference documentation.&lt;/p&gt;
 &lt;p&gt;This variable sets the token for accessing the HashiCorp Vault instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;vela_secret_vault_version&#34;&gt;VELA_SECRET_VAULT_VERSION&lt;/h2&gt;
-&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/components/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
+&lt;p&gt;This configuration variable is used by the &lt;a href=&#34;https://jbrockopp.github.io/docs/docs/administration/server/reference/secret/&#34;&gt;secret component&lt;/a&gt; for the server.&lt;/p&gt;
 &lt;p&gt;This variable sets the version for the k/v backend for the HashiCorp Vault instance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The variable is optional&lt;/strong&gt; and can be provided as a &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
 
