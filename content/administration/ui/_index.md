@@ -7,9 +7,13 @@ description: >
   This section contains information on the Vela UI service.
 ---
 
-This service is responsible for providing a practically designed method for performing operations within Vela that feel intuitive.
+Known as the user interface for the Vela application, often referred to as the Vela UI, this service provides a means for utilizing and interacting with the Vela platform.
 
-// TODO: add more information (would appreciate some help with this)
+The Vela UI aims to provide users with an easy-to-use toolbox that supplies most of the functionality necessary for managing, investigating, and successfully troubleshooting Vela pipelines.
+
+This array of functionality includes viewing and managing resources in the system, enabling repositories, compiling pipelines, viewing logs etc. Most of these actions are performed through interacting with the server API on the user's behalf.
+
+The UI also offers a quick glance into additional pipeline information, including any errors that might be interfering with the success of your pipeline, such as webhook processing issues returned by the SCM or user pipeline syntax mistakes. The purpose of the UI is to make managing and debugging Vela pipelines not only possible, but approachable.
 
 ## Deployment Guides
 
